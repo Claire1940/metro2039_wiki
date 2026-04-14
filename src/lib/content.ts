@@ -1,7 +1,8 @@
 import fs from 'fs'
 import path from 'path'
+import matter from 'gray-matter'
 import { CONTENT_TYPES as CONFIG_CONTENT_TYPES } from '@/config/navigation'
-import type { Locale } from '@/i18n/routing'
+import { routing, type Locale } from '@/i18n/routing'
 
 /**
  * 将文件名转换为 URL-safe slug
@@ -75,6 +76,15 @@ export interface ContentData {
   frontmatter: ContentFrontmatter
 }
 
+function readContentFrontmatter(filePath: string): ContentFrontmatter | null {
+  if (!fs.existsSync(filePath)) return null
+
+  const source = fs.readFileSync(filePath, 'utf8')
+  const { data } = matter(source)
+
+  return data as ContentFrontmatter
+}
+
 /**
  * 辅助函数：递归获取目录下所有 MDX 文件的 slug
  */
@@ -121,28 +131,37 @@ export async function getAllContent(
 
   // 使用 import 获取每个文件的 metadata
   for (const slug of slugs) {
-    try {
-      // 先尝试当前语言（反查真实文件名以处理含特殊字符的文件名）
-      const realSlug = findFileBySlug(contentDir, slug) || slug
-      const mod = await import(`../../content/${language}/${contentType}/${realSlug}.mdx`)
+    // 先尝试当前语言（反查真实文件名以处理含特殊字符的文件名）
+    const realSlug = findFileBySlug(contentDir, slug) || slug
+    const localizedFilePath = path.join(
+      process.cwd(),
+      'content',
+      language,
+      contentType,
+      `${realSlug}.mdx`,
+    )
+    const localizedFrontmatter = readContentFrontmatter(localizedFilePath)
+
+    if (localizedFrontmatter) {
       items.push({
         slug,
-        frontmatter: mod.metadata as ContentFrontmatter,
+        frontmatter: localizedFrontmatter,
       })
-    } catch {
-      // Fallback 到英文
-      if (language !== 'en') {
-        try {
-          const enContentDir = path.join(process.cwd(), 'content', 'en', contentType)
-          const enRealSlug = findFileBySlug(enContentDir, slug) || slug
-          const mod = await import(`../../content/en/${contentType}/${enRealSlug}.mdx`)
-          items.push({
-            slug,
-            frontmatter: mod.metadata as ContentFrontmatter,
-          })
-        } catch {
-          // 跳过无法加载的文件
-        }
+      continue
+    }
+
+    // Fallback 到英文
+    if (language !== 'en') {
+      const enContentDir = path.join(process.cwd(), 'content', 'en', contentType)
+      const enRealSlug = findFileBySlug(enContentDir, slug) || slug
+      const enFilePath = path.join(process.cwd(), 'content', 'en', contentType, `${enRealSlug}.mdx`)
+      const enFrontmatter = readContentFrontmatter(enFilePath)
+
+      if (enFrontmatter) {
+        items.push({
+          slug,
+          frontmatter: enFrontmatter,
+        })
       }
     }
   }
@@ -214,7 +233,7 @@ export function isValidContentType(type: string): type is ContentType {
  * 验证语言是否有效
  */
 export function isValidLanguage(lang: string): lang is Language {
-  const validLanguages: Language[] = ['en', 'ru', 'pt', 'de', 'es', 'ja', 'tr', 'fr']
+  const validLanguages: Language[] = [...routing.locales]
   return validLanguages.includes(lang as Language)
 }
 

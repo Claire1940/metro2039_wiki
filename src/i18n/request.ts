@@ -4,23 +4,19 @@ import deepMerge from 'deepmerge'
 
 // 静态导入所有翻译文件
 import enMessages from '@/locales/en.json'
-import ruMessages from '@/locales/ru.json'
-import ptMessages from '@/locales/pt.json'
 import deMessages from '@/locales/de.json'
-import esMessages from '@/locales/es.json'
-import jaMessages from '@/locales/ja.json'
-import trMessages from '@/locales/tr.json'
+import plMessages from '@/locales/pl.json'
 import frMessages from '@/locales/fr.json'
 
-const messages: Record<string, any> = {
+function createEmptyLocaleMessages(_messages: Record<string, unknown>) {
+	return {}
+}
+
+const messages: Record<Locale, any> = {
 	en: enMessages,
-	ru: ruMessages,
-	pt: ptMessages,
-	de: deMessages,
-	es: esMessages,
-	ja: jaMessages,
-	tr: trMessages,
-	fr: frMessages,
+	de: createEmptyLocaleMessages(deMessages as Record<string, unknown>),
+	pl: createEmptyLocaleMessages(plMessages as Record<string, unknown>),
+	fr: createEmptyLocaleMessages(frMessages as Record<string, unknown>),
 }
 
 export default getRequestConfig(async ({ requestLocale }) => {
@@ -31,16 +27,18 @@ export default getRequestConfig(async ({ requestLocale }) => {
 		locale = routing.defaultLocale
 	}
 
-	if (locale === 'en') {
-		return { locale, messages: enMessages }
+	const resolvedLocale = locale as Locale
+
+	if (resolvedLocale === 'en') {
+		return { locale: resolvedLocale, messages: enMessages }
 	}
 
 	// 加载目标语言的翻译，并与英文深度合并（作为 fallback）
-	const localeMessages = messages[locale] || enMessages
+	const localeMessages = messages[resolvedLocale] || enMessages
 	const mergedMessages = deepMerge(enMessages, localeMessages, {
 		// 数组替换而不是合并（避免重复）
 		arrayMerge: (_destinationArray, sourceArray) => sourceArray,
 	})
 
-	return { locale, messages: mergedMessages }
+	return { locale: resolvedLocale, messages: mergedMessages }
 })
