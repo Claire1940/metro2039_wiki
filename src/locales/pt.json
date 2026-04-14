@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "Guias",
-    "crafting": "Criação",
-    "items": "Itens",
-    "biomes": "Biomas",
-    "building": "Construção",
-    "support": "Suporte"
+    "guide": "Guide",
+    "release": "Release",
+    "platforms": "Platforms",
+    "leaks": "Leaks",
+    "story": "Story",
+    "series": "Series",
+    "developer": "Developer"
   },
   "common": {
     "home": "Início",

@@ -10,7 +10,15 @@
       "twitterDescription": "Metro 2039 Wiki follows the official trailer, reveal schedule, story direction, factions, characters, and platform rollout in one fast hub."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "release": "Release",
+    "platforms": "Platforms",
+    "leaks": "Leaks",
+    "story": "Story",
+    "series": "Series",
+    "developer": "Developer"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -931,125 +939,145 @@
     "disclaimer": "Unofficial fan-made resource website. All trademarks and game assets belong to their respective owners."
   },
   "pages": {
-    "guides": {
-      "title": "Metro 2039 News",
-      "description": "Official announcement tracking, first-look recaps, and Metro 2039 news coverage in one stream.",
-      "metaTitle": "Metro 2039 News - Announcement Tracking & Official Updates",
-      "metaDescription": "Follow Metro 2039 news with official reveal coverage, teaser updates, first-look recaps, and timeline reporting.",
-      "categoryLabel": "OFFICIAL NEWS",
-      "whatIs": "What is Metro 2039 News?",
-      "whatIsDescription": "Metro 2039 News collects official announcements, developer statements, reveal beats, and community-facing updates into one fast category page.",
-      "why": "Why read Metro 2039 News?",
+    "guide": {
+      "title": "Metro 2039 Guide",
+      "description": "Essential Metro 2039 explainers, reveal watch tips, and quick-start reading paths for new followers.",
+      "metaTitle": "Metro 2039 Guide - Essential Explainers & Start Here Hub",
+      "metaDescription": "Read the Metro 2039 Guide hub for explainers, reveal context, and practical start-here articles for new and returning fans.",
+      "categoryLabel": "START HERE",
+      "whatIs": "What is the Metro 2039 Guide page?",
+      "whatIsDescription": "Metro 2039 Guide is the orientation hub that answers core questions, explains current reveal context, and links the fastest path into deeper coverage.",
+      "why": "Why read the Metro 2039 Guide page?",
       "whySteps": {
-        "step1Title": "Track Every Official Beat",
-        "step1Description": "Follow the reveal cycle without bouncing between multiple channels",
-        "step2Title": "Stay Current Fast",
-        "step2Description": "Use recap articles to scan Metro 2039 updates in minutes",
-        "step3Title": "Keep the Timeline Straight",
-        "step3Description": "See how each new post fits into the broader Metro 2039 rollout"
+        "step1Title": "Understand The Basics Fast",
+        "step1Description": "Get the key Metro 2039 context in minutes before digging into detailed topics.",
+        "step2Title": "Follow The Right Reading Order",
+        "step2Description": "Move from broad explainers to release, story, and platform details without extra searching.",
+        "step3Title": "Stay Ready For New Updates",
+        "step3Description": "Use guide coverage as a baseline so each new Metro 2039 announcement is easier to parse."
       },
       "featured": "Featured & Essential",
-      "all": "All Metro 2039 News"
+      "all": "All Metro 2039 Guide Articles"
     },
-    "crafting": {
-      "title": "Metro 2039 Trailer",
-      "description": "Teaser links, first-look watch hubs, and Metro 2039 video breakdown coverage.",
-      "metaTitle": "Metro 2039 Trailer - Teaser, First Look & Video Hub",
-      "metaDescription": "Watch the Metro 2039 teaser, first-look reveal stream, and follow every official trailer drop from one video hub.",
-      "categoryLabel": "VIDEO HUB",
-      "whatIs": "What is the Metro 2039 Trailer page?",
-      "whatIsDescription": "The Metro 2039 Trailer page groups official teaser links, premiere coverage, and video breakdowns so readers can move from watch links to analysis without extra searching.",
-      "why": "Why check Metro 2039 Trailer coverage?",
+    "release": {
+      "title": "Metro 2039 Release",
+      "description": "Track Metro 2039 reveal timing, date signals, event windows, and milestone changes from official channels.",
+      "metaTitle": "Metro 2039 Release - Date Tracker, Reveal Time & Milestones",
+      "metaDescription": "Follow Metro 2039 Release updates with reveal timing, date tracking, event windows, and launch milestone coverage in one timeline.",
+      "categoryLabel": "RELEASE TRACKER",
+      "whatIs": "What is the Metro 2039 Release page?",
+      "whatIsDescription": "Metro 2039 Release consolidates timing-related coverage, including reveal slots, announcement windows, and launch-sequence updates.",
+      "why": "Why use the Metro 2039 Release page?",
       "whySteps": {
-        "step1Title": "Watch Official Videos",
-        "step1Description": "Go straight to the teaser and the next official stream",
-        "step2Title": "Track Reveal Beats",
-        "step2Description": "See how each video fits into Metro 2039's launch timeline",
-        "step3Title": "Catch Key Details",
-        "step3Description": "Use breakdown pages to spot story and gameplay signals quickly"
+        "step1Title": "Track Every Timing Signal",
+        "step1Description": "See date and time changes in one place instead of checking multiple feeds.",
+        "step2Title": "Match Events To Announcements",
+        "step2Description": "Connect showcases, first-look segments, and official posts to the Metro 2039 timeline.",
+        "step3Title": "Plan Around Milestones",
+        "step3Description": "Use release coverage to know when to check trailers, platform pages, and follow-up news."
       },
       "featured": "Featured & Essential",
-      "all": "All Metro 2039 Trailer Coverage"
+      "all": "All Metro 2039 Release Articles"
     },
-    "items": {
-      "title": "Metro 2039 Characters",
-      "description": "Character guides for Artyom, Anna, Spartan Rangers, and the wider Metro cast feeding into Metro 2039.",
-      "metaTitle": "Metro 2039 Characters - Artyom, Anna & Series Cast Guide",
-      "metaDescription": "Track Metro 2039 characters, returning heroes, Spartan context, and the cast connections that matter before the next mainline game.",
-      "categoryLabel": "CHARACTER GUIDES",
-      "whatIs": "What is Metro 2039 Characters?",
-      "whatIsDescription": "Metro 2039 Characters covers protagonists, allies, faction figures, and the legacy cast that readers need before the next chapter arrives.",
-      "why": "Why read Metro 2039 character guides?",
-      "whySteps": {
-        "step1Title": "Reconnect With the Cast",
-        "step1Description": "Refresh who matters before the next mainline story starts",
-        "step2Title": "Link Characters and Factions",
-        "step2Description": "Understand how people and power blocs shape Metro's world",
-        "step3Title": "Read the Story Better",
-        "step3Description": "Carry relationships and character arcs into Metro 2039 coverage"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Metro 2039 Character Guides"
-    },
-    "biomes": {
-      "title": "Metro 2039 Setting",
-      "description": "World guides covering the Moscow Metro, the surface, hazards, and the rules that define Metro 2039.",
-      "metaTitle": "Metro 2039 Setting - Moscow Metro, Surface & Survival Rules",
-      "metaDescription": "Understand the Metro 2039 setting with guides to the tunnels, the surface world, hazards, and the core survival logic of the series.",
-      "categoryLabel": "WORLD SETTING",
-      "whatIs": "What is Metro 2039 Setting?",
-      "whatIsDescription": "Metro 2039 Setting explains how the tunnels, stations, surface ruins, filters, and survival systems fit together inside Metro's world.",
-      "why": "Why explore the Metro 2039 setting?",
-      "whySteps": {
-        "step1Title": "Learn How the World Works",
-        "step1Description": "Understand stations, tunnels, masks, radiation, and travel",
-        "step2Title": "Connect Story and Survival",
-        "step2Description": "See how Metro's setting shapes every major narrative conflict",
-        "step3Title": "Read New Coverage Faster",
-        "step3Description": "Use setting context to absorb Metro 2039 reveals without friction"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Metro 2039 Setting Guides"
-    },
-    "building": {
-      "title": "Metro 2039 Timeline",
-      "description": "Franchise chronology covering the major Metro milestones from Metro 2033 to Metro 2039.",
-      "metaTitle": "Metro 2039 Timeline - Series Order, Milestones & Lead-In",
-      "metaDescription": "Track the Metro series timeline from Metro 2033 through Metro Exodus and into the Metro 2039 reveal era.",
-      "categoryLabel": "SERIES TIMELINE",
-      "whatIs": "What is the Metro 2039 Timeline?",
-      "whatIsDescription": "The Metro 2039 Timeline maps the franchise's core games, expansions, and reveal milestones so readers can understand the larger series flow quickly.",
-      "why": "Why use the Metro 2039 Timeline?",
-      "whySteps": {
-        "step1Title": "See the Big Picture",
-        "step1Description": "Connect every major Metro release on one page",
-        "step2Title": "Plan Your Catch-Up",
-        "step2Description": "Use the timeline to decide what to play or read next",
-        "step3Title": "Track the New Era",
-        "step3Description": "Place Metro 2039 inside the wider series chronology"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Metro 2039 Timeline Articles"
-    },
-    "support": {
+    "platforms": {
       "title": "Metro 2039 Platforms",
-      "description": "Platform status, storefront tracking, localization coverage, and Metro 2039 availability guides.",
-      "metaTitle": "Metro 2039 Platforms - PC, Console & Store Status Guide",
-      "metaDescription": "Track Metro 2039 platforms, storefront status, localization coverage, and availability updates across PC and consoles.",
+      "description": "Platform availability coverage for Metro 2039 across Xbox, PlayStation, PC storefronts, and language rollout notes.",
+      "metaTitle": "Metro 2039 Platforms - Xbox, PlayStation, Steam & Availability",
+      "metaDescription": "Explore Metro 2039 Platforms coverage for hardware targets, storefront status, and region or language rollout details.",
       "categoryLabel": "PLATFORM STATUS",
       "whatIs": "What is Metro 2039 Platforms?",
-      "whatIsDescription": "Metro 2039 Platforms groups hardware targets, platform rollout, store-page status, preorder tracking, and language coverage into one reference section.",
+      "whatIsDescription": "Metro 2039 Platforms is the category for where the game appears, which stores are active, and how availability differs by ecosystem.",
       "why": "Why check Metro 2039 Platforms?",
       "whySteps": {
-        "step1Title": "Track Availability",
-        "step1Description": "See which Metro 2039 platforms are active in the current rollout",
-        "step2Title": "Watch Store Changes",
-        "step2Description": "Keep up with official page updates, wishlists, and purchase status",
-        "step3Title": "Plan Your Version",
-        "step3Description": "Use localization and platform notes to decide where Metro 2039 fits best"
+        "step1Title": "Confirm Where To Play",
+        "step1Description": "See current platform support and storefront activity without jumping between pages.",
+        "step2Title": "Track Storefront Changes",
+        "step2Description": "Monitor listing updates, wishlist signals, and regional availability movement over time.",
+        "step3Title": "Choose Your Best Version",
+        "step3Description": "Compare platform context early so Metro 2039 setup decisions are straightforward."
       },
       "featured": "Featured & Essential",
       "all": "All Metro 2039 Platform Articles"
+    },
+    "leaks": {
+      "title": "Metro 2039 Leaks",
+      "description": "Metro 2039 leak watch pages for screenshot chatter, gameplay report tracking, and rumor-cycle timelines.",
+      "metaTitle": "Metro 2039 Leaks - Screenshot Chatter & Gameplay Report Watch",
+      "metaDescription": "Follow Metro 2039 Leaks coverage with rumor-cycle tracking, screenshot chatter summaries, and gameplay report timelines.",
+      "categoryLabel": "LEAK WATCH",
+      "whatIs": "What is Metro 2039 Leaks?",
+      "whatIsDescription": "Metro 2039 Leaks collects chatter-driven topics such as gameplay reports, screenshot rounds, and discussion spikes tied to reveal cycles.",
+      "why": "Why read Metro 2039 Leaks coverage?",
+      "whySteps": {
+        "step1Title": "Track Rumor Momentum",
+        "step1Description": "See which leak topics are gaining attention before major official beats.",
+        "step2Title": "Organize Fragmented Reports",
+        "step2Description": "Use one timeline to follow related screenshot and gameplay chatter across cycles.",
+        "step3Title": "Connect To Official News",
+        "step3Description": "Compare leak-phase narratives with later Metro 2039 announcement coverage."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Metro 2039 Leak Articles"
+    },
+    "story": {
+      "title": "Metro 2039 Story",
+      "description": "Story coverage for Metro 2039 with character arcs, setting clues, and narrative direction tied to the Metro universe.",
+      "metaTitle": "Metro 2039 Story - Characters, Setting Clues & Narrative Direction",
+      "metaDescription": "Read Metro 2039 Story coverage for lore context, character arcs, world-state clues, and narrative direction before launch.",
+      "categoryLabel": "STORY COVERAGE",
+      "whatIs": "What is Metro 2039 Story?",
+      "whatIsDescription": "Metro 2039 Story focuses on narrative threads: protagonist context, cast relationships, world tension, and plot signals from official material.",
+      "why": "Why follow Metro 2039 Story?",
+      "whySteps": {
+        "step1Title": "Reconnect With Metro Lore",
+        "step1Description": "Refresh core world-state context so new Metro 2039 story beats land clearly.",
+        "step2Title": "Track Character Direction",
+        "step2Description": "Follow how Artyom, allies, and rivals are positioned across reveal materials.",
+        "step3Title": "Read Narrative Signals Better",
+        "step3Description": "Use story context to interpret trailers, interviews, and event recaps faster."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Metro 2039 Story Articles"
+    },
+    "series": {
+      "title": "Metro 2039 Series",
+      "description": "Series-wide Metro coverage connecting Metro 2039 with Metro 2033, Last Light, Exodus, and related book context.",
+      "metaTitle": "Metro 2039 Series - Timeline Links Across Games & Books",
+      "metaDescription": "Explore Metro 2039 Series coverage to connect older Metro games, book references, and franchise timeline context.",
+      "categoryLabel": "SERIES CONTEXT",
+      "whatIs": "What is Metro 2039 Series?",
+      "whatIsDescription": "Metro 2039 Series bridges the new title with earlier games and novel-era references, giving readers a full-franchise context layer.",
+      "why": "Why use Metro 2039 Series coverage?",
+      "whySteps": {
+        "step1Title": "See The Franchise Timeline",
+        "step1Description": "Connect Metro 2039 with prior milestones from Metro 2033 through Metro Exodus.",
+        "step2Title": "Map Book And Game Context",
+        "step2Description": "Understand where novel references and game events align inside the wider Metro universe.",
+        "step3Title": "Catch Up Efficiently",
+        "step3Description": "Use series guides to decide what to read or replay before the next major reveal."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Metro 2039 Series Articles"
+    },
+    "developer": {
+      "title": "Metro 2039 Developer",
+      "description": "Metro 2039 developer coverage for 4A Games, Deep Silver publishing updates, and production-facing communications.",
+      "metaTitle": "Metro 2039 Developer - 4A Games & Deep Silver Updates",
+      "metaDescription": "Follow Metro 2039 Developer coverage for studio statements, publisher updates, and production context from 4A Games and Deep Silver.",
+      "categoryLabel": "STUDIO TRACKER",
+      "whatIs": "What is Metro 2039 Developer?",
+      "whatIsDescription": "Metro 2039 Developer tracks who is building and publishing the game, plus the communication cadence from studio and publisher channels.",
+      "why": "Why follow Metro 2039 Developer coverage?",
+      "whySteps": {
+        "step1Title": "Track Studio Communications",
+        "step1Description": "See what 4A Games and Deep Silver are saying across official channels.",
+        "step2Title": "Understand Production Context",
+        "step2Description": "Connect roadmap statements and reveal pacing to broader Metro 2039 progress.",
+        "step3Title": "Follow Team-Level Signals",
+        "step3Description": "Use developer-focused updates to anticipate where announcements may go next."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Metro 2039 Developer Articles"
     }
   }
 }

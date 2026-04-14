@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "guide": "Guide",
+    "release": "Release",
+    "platforms": "Platforms",
+    "leaks": "Leaks",
+    "story": "Story",
+    "series": "Series",
+    "developer": "Developer"
+  }
+}

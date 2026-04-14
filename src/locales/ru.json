@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "Руководства",
-    "crafting": "Крафт",
-    "items": "Предметы",
-    "biomes": "Биомы",
-    "building": "Строительство",
-    "support": "Поддержка"
+    "guide": "Guide",
+    "release": "Release",
+    "platforms": "Platforms",
+    "leaks": "Leaks",
+    "story": "Story",
+    "series": "Series",
+    "developer": "Developer"
   },
   "common": {
     "home": "Главная",
