@@ -81,23 +81,23 @@
       },
       {
         "icon": "TrendingUp",
-        "title": "Metro 2039 News",
-        "description": "Announcement beats, official updates, and tracking points"
+        "title": "Metro 2039 Latest News",
+        "description": "Official reveal rollout, press coverage, and community pulse"
       },
       {
         "icon": "MessageCircle",
-        "title": "Metro 2039 Livestream",
-        "description": "When to watch, where to watch, and replay planning"
+        "title": "Metro 2039 First Look Livestream Guide",
+        "description": "Broadcast time, watch links, subtitles, and recap plan"
       },
       {
         "icon": "Gamepad2",
-        "title": "Metro 2039 Platforms",
-        "description": "PC, console, localization, and store status coverage"
+        "title": "Metro 2039 Platform Status",
+        "description": "PC, Steam, Xbox, and PlayStation public status"
       },
       {
         "icon": "Users",
-        "title": "Metro 2039 Characters",
-        "description": "Legacy protagonists, allies, and returning cast context"
+        "title": "Metro 2039 Characters and Returning Faces",
+        "description": "Artyom, Anna, Miller, and the early cast tracker"
       },
       {
         "icon": "ClipboardCheck",
@@ -277,139 +277,148 @@
       ]
     },
     "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Metro 2039 News",
-      "displayType": "cards",
-      "intro": "Metro 2039 news is currently centered on the announcement wave, the first teaser, the scheduled Xbox First Look, and the official game hub.",
-      "cards": [
+      "title": "Metro 2039 Latest News",
+      "displayType": "timelineCards",
+      "eyebrow": "Latest Updates",
+      "subtitle": "Track the official reveal rollout, major press coverage, and the community pulse in one place.",
+      "intro": "The public Metro 2039 news cycle is centered on a short but high-impact reveal window. This feed gives visitors one place to follow what changed, when it changed, and where the next official update will land.",
+      "timelineLabel": "Metro 2039 News Timeline",
+      "items": [
         {
-          "name": "Metro 2039 Announcement Goes Live",
-          "description": "The public rollout begins with the official announcement that establishes Metro 2039 as the next mainline entry."
+          "date": "Apr 13, 2026",
+          "source": "Deep Silver",
+          "headline": "Metro 2039 official teaser page is live",
+          "summary": "Deep Silver launched the Metro 2039 site, opened reminder-email signup, and set the reveal for Apr 16, 2026 at 10 AM PDT / 7 PM CEST / 8 PM EET."
         },
         {
-          "name": "Metro 2039 Teaser Starts the Cycle",
-          "description": "The first teaser gives Metro 2039 a shareable video anchor and pushes attention toward the next reveal beat."
+          "date": "Apr 13, 2026",
+          "source": "Xbox Wire",
+          "headline": "Metro 2039 Xbox First Look becomes the world-premiere broadcast",
+          "summary": "Xbox announced a digital-only Metro 2039 reveal with 4A Games and Deep Silver and framed it as the fourth mainline Metro game after Metro 2033, Metro: Last Light, and Metro Exodus."
         },
         {
-          "name": "Metro 2039 First Look Is Scheduled",
-          "description": "The April 16 premiere is the main upcoming Metro 2039 news event and the biggest trigger for homepage updates."
+          "date": "Apr 13, 2026",
+          "source": "PC Gamer",
+          "headline": "Metro 2039 press coverage is focused on what follows Exodus",
+          "summary": "Early coverage centers on what comes next after Metro Exodus, especially for Artyom, the Spartans, and the wider world beyond Moscow's tunnels."
         },
         {
-          "name": "Metro 2039 Community Tracking Is Active",
-          "description": "The official Discord, Reddit, and Metro YouTube channel are all active watch points for the next Metro 2039 update."
+          "date": "Apr 14, 2026",
+          "source": "r/metro",
+          "headline": "Metro 2039 community discussion is clustering around the countdown",
+          "summary": "The main Metro subreddit is acting as the fastest-moving fan hub for reveal chatter, leak retrospectives, and reaction threads ahead of the Apr 16 broadcast."
         }
-      ],
-      "highlights": [
-        "Metro 2039 announcement live",
-        "Metro 2039 teaser live now",
-        "Metro 2039 first look scheduled",
-        "Metro 2039 community channels active"
       ]
     },
     "lucidBlocksWorldRegions": {
-      "title": "Metro 2039 Livestream",
-      "displayType": "regionCards",
-      "intro": "The Metro 2039 livestream hub should answer four questions fast: when the stream starts, where it airs, what it covers, and where the replay lives.",
-      "regions": [
+      "title": "Metro 2039 First Look Livestream Guide",
+      "displayType": "steps",
+      "eyebrow": "Watch Guide",
+      "subtitle": "Everything needed for the Apr 16 first look, from start time and watch links to subtitles, accessibility, and post-show recap coverage.",
+      "intro": "This module should be the fastest route from search intent to watch intent. It covers the exact air time, where to watch, what language support is available, and where visitors should go once the live premiere ends.",
+      "steps": [
         {
-          "name": "Metro 2039 Start Time",
-          "type": "When to Watch",
-          "description": "Metro 2039 airs on April 16, 2026 at 10:00 AM PT / 1:00 PM ET / 6:00 PM UK / 7:00 PM CEST / 8:00 PM EET."
+          "step": 1,
+          "title": "Mark the exact Metro 2039 broadcast time",
+          "detail": "Xbox First Look: Metro 2039 begins on Thursday, Apr 16, 2026 at 10:00 AM Pacific / 1:00 PM Eastern / 6:00 PM UK."
         },
         {
-          "name": "Metro 2039 Watch Channels",
-          "type": "Where to Watch",
-          "description": "The Xbox YouTube premiere and the official Deep Silver game page are the two main Metro 2039 livestream watch points."
+          "step": 2,
+          "title": "Watch Metro 2039 on the Xbox YouTube premiere",
+          "detail": "The official live destination is the Xbox YouTube channel, and the Metro 2039 site also points visitors to the Xbox reminder page."
         },
         {
-          "name": "Metro 2039 Pre-Show Checklist",
-          "type": "How to Prepare",
-          "description": "Set reminders, queue the teaser, and keep the official site open so you can move straight into the Metro 2039 full reveal."
+          "step": 3,
+          "title": "Use Metro 2039 subtitles if you are not watching in English",
+          "detail": "Xbox confirmed subtitle support for Arabic, Brazilian Portuguese, Bulgarian, Croatian, Czech, Danish, Dutch, Finnish, French, German, Greek, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Romanian, Slovakian, Spanish, Swedish, Simplified Chinese, Traditional Chinese, Turkish, and Ukrainian."
         },
         {
-          "name": "Metro 2039 Replay Plan",
-          "type": "After the Stream",
-          "description": "After the premiere ends, the same official Metro 2039 pages become the fastest path to rewatch clips and recap new details."
+          "step": 4,
+          "title": "Check Metro 2039 accessibility options before the show starts",
+          "detail": "Xbox says the event will also have an English audio-described version and an American Sign Language version on Xbox's YouTube channel."
+        },
+        {
+          "step": 5,
+          "title": "Use the official Metro 2039 recap after the premiere ends",
+          "detail": "Xbox Wire says it will publish a full recap immediately after the show, including localized recap coverage in Brazilian Portuguese, French, German, LATAM Spanish, and Japanese."
         }
       ]
     },
     "lucidBlocksCreaturesAndEnemies": {
-      "title": "Metro 2039 Platforms",
-      "displayType": "creatureCards",
-      "intro": "Metro 2039 platform coverage belongs in one place: the confirmed hardware targets, store-page status, language rollout, and the current state of preorders and wishlists.",
-      "creatures": [
+      "title": "Metro 2039 Platform Status",
+      "displayType": "table",
+      "eyebrow": "Storefront Status",
+      "subtitle": "A clean snapshot of where Metro 2039 is publicly surfacing right now across PC, Steam, Xbox, and PlayStation.",
+      "intro": "Public platform information is still early, so this table focuses on what has actually surfaced: where the game has been listed, which storefronts are live as watch hubs, and which purchase pages have not gone public yet.",
+      "columns": {
+        "platform": "Platform",
+        "currentStatus": "Current Status",
+        "publicStorefront": "Public Storefront",
+        "editionStatus": "Edition Status",
+        "notes": "Notes"
+      },
+      "rows": [
         {
-          "name": "Metro 2039 on PC",
-          "role": "Confirmed Platform",
-          "description": "PC is part of the Metro 2039 rollout from day one and remains one of the core hardware targets for the reveal cycle."
+          "platform": "PC",
+          "currentStatus": "Present in early media platform listings",
+          "publicStorefront": "No standalone PC purchase page is linked in the current announcement materials",
+          "editionStatus": "No edition breakdown is public yet",
+          "notes": "GameSpot lists Metro 2039 for PC, while the official push is still centered on the reveal stream rather than a buy page."
         },
         {
-          "name": "Metro 2039 on Xbox Series X|S",
-          "role": "Confirmed Platform",
-          "description": "Metro 2039 is featured through Xbox First Look, keeping Xbox Series X|S at the front of the public platform conversation."
+          "platform": "Steam",
+          "currentStatus": "No public Metro 2039 app page has surfaced yet",
+          "publicStorefront": "Steam is currently surfacing Metro franchise news about the showcase instead of a Metro 2039 product page",
+          "editionStatus": "No preorder or package details are public yet",
+          "notes": "The easiest Steam-facing public entry right now is the showcase news post attached to existing Metro products, not a Metro 2039 store listing."
         },
         {
-          "name": "Metro 2039 on PlayStation 5",
-          "role": "Confirmed Platform",
-          "description": "PlayStation 5 coverage sits alongside the current Metro 2039 console tracking as the reveal expands beyond the first showcase."
+          "platform": "Xbox",
+          "currentStatus": "Primary reveal partner and official watch destination",
+          "publicStorefront": "The public announcement flow is centered on Xbox Wire and the Xbox YouTube premiere",
+          "editionStatus": "No edition matrix is public yet",
+          "notes": "Xbox is the clearest official entry point for console players right now because the Apr 16 first look is being hosted through Xbox channels."
         },
         {
-          "name": "Metro 2039 Store Page Status",
-          "role": "Store Tracking",
-          "description": "The official Metro 2039 game page is live, while wider storefront rollout remains part of the next update cycle."
-        },
-        {
-          "name": "Metro 2039 Language Coverage",
-          "role": "Localization",
-          "description": "English leads the Metro 2039 site coverage, with German, Polish, and French set as the strongest follow-up languages."
-        },
-        {
-          "name": "Metro 2039 Wishlist and Preorder Status",
-          "role": "Purchase Status",
-          "description": "Metro 2039 is still in the reveal phase, so wishlist and preorder tracking belongs beside the platform section instead of a separate store page."
+          "platform": "PlayStation 5",
+          "currentStatus": "Present in early media platform listings",
+          "publicStorefront": "No public PlayStation Store page is linked in the current announcement wave",
+          "editionStatus": "No version or preorder details are public yet",
+          "notes": "PS5 is already showing up in early coverage, but storefront and package information have not been rolled out publicly."
         }
       ]
     },
     "lucidBlocksMobilityGear": {
-      "title": "Metro 2039 Characters",
-      "displayType": "itemCards",
-      "intro": "Metro 2039 character coverage starts with the faces that define the Metro series: Artyom, Anna, the Spartan Order, the Aurora crew, and the command legacy that shapes the next chapter.",
+      "title": "Metro 2039 Characters and Returning Faces",
+      "displayType": "statusCards",
+      "eyebrow": "Character Hub",
+      "subtitle": "The public reveal has not named Metro 2039-exclusive characters yet, so this hub starts with the core Metro figures most likely to anchor early search demand after the reveal.",
+      "intro": "Character intent is one of the easiest ways to grow internal links once the reveal expands. Until the Apr 16 showcase names the new cast, this module leads with the legacy figures players already associate with the mainline Metro story.",
       "items": [
         {
+          "name": "Current Metro 2039 reveal status",
+          "role": "2039 cast tracker",
+          "status": "No new character names are public yet",
+          "summary": "The official Metro 2039 page and Xbox First Look announcement confirm the game and the reveal date, but they do not yet publish new character names."
+        },
+        {
           "name": "Artyom",
-          "type": "Lead Survivor",
-          "description": "Artyom remains the central figure in any Metro 2039 character conversation because every mainline game builds around his journey."
+          "role": "Series protagonist",
+          "status": "Core legacy lead",
+          "summary": "Deep Silver describes Artyom as a Metro-born survivor who spent his life protecting the tunnels while trying to prove that life exists beyond them."
         },
         {
           "name": "Anna",
-          "type": "Core Ally",
-          "description": "Anna anchors the emotional and tactical side of the later Metro games, making her essential context for Metro 2039 readers."
+          "role": "Spartan Ranger sniper",
+          "status": "Core legacy lead",
+          "summary": "Anna is Miller's daughter, Artyom's wife, and one of the defining voices of the Aurora crew, making her essential context for Metro 2039 readers."
         },
         {
-          "name": "Colonel Miller",
-          "type": "Legacy Commander",
-          "description": "Miller's decisions and sacrifice still shape how players read the Spartan legacy that Metro 2039 inherits."
-        },
-        {
-          "name": "Spartan Rangers",
-          "type": "Faction Backbone",
-          "description": "The Spartan Order remains the cleanest bridge between Metro 2039 character coverage and the wider faction map."
-        },
-        {
-          "name": "Aurora Crew",
-          "type": "Traveling Cast",
-          "description": "The Exodus-era crew provides the most immediate roster of allies, tensions, and relationships feeding into Metro 2039 discussion."
-        },
-        {
-          "name": "Sam",
-          "type": "Parallel Perspective",
-          "description": "Sam widens the Metro 2039 character lens by showing how the series reaches beyond Moscow while keeping the same survival DNA."
+          "name": "Miller",
+          "role": "Order commander",
+          "status": "Core legacy lead",
+          "summary": "Colonel Miller is the commanding figure behind the Spartan Rangers' chain of command and the Aurora expedition, shaping the military tone of the series."
         }
-      ],
-      "unlockMilestones": [
-        "Follow Artyom into Metro 2039 context",
-        "Track Anna and the Spartan thread",
-        "Use Exodus to read the Aurora crew",
-        "Carry faction and character links together"
       ]
     },
     "lucidBlocksFarmingAndGrowth": {

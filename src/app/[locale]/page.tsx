@@ -76,6 +76,10 @@ export default async function HomePage({ params }: PageProps) {
       youtube: 'https://www.youtube.com/metrovideogame',
     },
   }
+  const homepageDesignTokens = {
+    iconLibrary: 'lucide-react',
+    accentColor: 'hsl(var(--nav-theme))',
+  }
   const structuredData = {
     "@context": 'https://schema.org',
     "@graph": [
@@ -159,6 +163,7 @@ export default async function HomePage({ params }: PageProps) {
         locale={locale}
         homepageVideo={homepageVideo}
         externalLinks={externalLinks}
+        designTokens={homepageDesignTokens}
       />
     </>
   )

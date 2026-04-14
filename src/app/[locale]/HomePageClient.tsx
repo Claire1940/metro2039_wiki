@@ -13,7 +13,6 @@ import {
   ExternalLink,
   Gamepad2,
   Hammer,
-  Home,
   MessageCircle,
   Package,
   Settings,
@@ -63,6 +62,10 @@ interface HomePageClientProps {
       youtube: string
     }
   }
+  designTokens: {
+    iconLibrary: string
+    accentColor: string
+  }
 }
 
 export default function HomePageClient({
@@ -70,6 +73,7 @@ export default function HomePageClient({
   locale,
   homepageVideo,
   externalLinks,
+  designTokens,
 }: HomePageClientProps) {
   const t = useMessages() as any
   const sectionIds = [
@@ -94,6 +98,10 @@ export default function HomePageClient({
   // FAQ accordion states
   const [faqExpanded, setFaqExpanded] = useState<number | null>(null)
   const [deckExpanded, setDeckExpanded] = useState<number | null>(null)
+  const newsModule = t.modules.lucidBlocksQualiaAndBaseBuilding
+  const livestreamModule = t.modules.lucidBlocksWorldRegions
+  const platformsModule = t.modules.lucidBlocksCreaturesAndEnemies
+  const charactersModule = t.modules.lucidBlocksMobilityGear
 
   // Scroll reveal animation
   useEffect(() => {
@@ -116,7 +124,11 @@ export default function HomePageClient({
   }, [])
 
   return (
-    <div className="min-h-screen bg-background text-foreground">
+    <div
+      className="min-h-screen bg-background text-foreground"
+      data-icon-library={designTokens.iconLibrary}
+      data-accent-token={designTokens.accentColor}
+    >
       {/* 左侧广告容器 - Fixed 定位 */}
       <aside
         className="hidden xl:block fixed top-20 w-40 z-10"
@@ -401,25 +413,43 @@ export default function HomePageClient({
 
       {/* Module 5: News */}
       <section id="news" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
-        <div className="container mx-auto max-w-5xl">
+        <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.lucidBlocksQualiaAndBaseBuilding.title}</h2>
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-6">
+              <TrendingUp className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{newsModule.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{newsModule.title}</h2>
+            <p className="text-lg md:text-xl text-[hsl(var(--nav-theme-light))] max-w-3xl mx-auto mb-4">
+              {newsModule.subtitle}
+            </p>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksQualiaAndBaseBuilding.intro}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-            {t.modules.lucidBlocksQualiaAndBaseBuilding.cards.map((card: any, index: number) => (
-              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <h3 className="font-bold text-lg mb-2 text-[hsl(var(--nav-theme-light))]">{card.name}</h3>
-                <p className="text-muted-foreground text-sm">{card.description}</p>
-              </div>
-            ))}
+          <div className="scroll-reveal flex items-center gap-2 mb-6 text-sm uppercase tracking-[0.18em] text-[hsl(var(--nav-theme-light))]">
+            <Clock className="w-4 h-4" />
+            <span>{newsModule.timelineLabel}</span>
           </div>
-          <div className="scroll-reveal grid grid-cols-2 md:grid-cols-4 gap-4">
-            {t.modules.lucidBlocksQualiaAndBaseBuilding.highlights.map((h: string, i: number) => (
-              <div key={i} className="p-4 bg-white/5 border border-border rounded-xl text-center hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <Home className="w-6 h-6 text-[hsl(var(--nav-theme-light))] mx-auto mb-2" />
-                <p className="text-sm">{h}</p>
-              </div>
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
+            {newsModule.items.map((item: any, index: number) => (
+              <article
+                key={index}
+                className={`group rounded-2xl border border-border p-6 transition-all duration-300 hover:border-[hsl(var(--nav-theme)/0.5)] hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.08)] ${
+                  index === 0 ? 'md:col-span-2 bg-[hsl(var(--nav-theme)/0.08)]' : 'bg-white/5'
+                }`}
+              >
+                <div className="flex flex-wrap items-center gap-3 mb-4">
+                  <span className="inline-flex items-center rounded-full border border-[hsl(var(--nav-theme)/0.3)] bg-[hsl(var(--nav-theme)/0.1)] px-3 py-1 text-xs font-medium text-[hsl(var(--nav-theme-light))]">
+                    {item.date}
+                  </span>
+                  <span className="text-xs uppercase tracking-[0.18em] text-muted-foreground">
+                    {item.source}
+                  </span>
+                </div>
+                <h3 className={`font-bold mb-3 ${index === 0 ? 'text-2xl md:text-3xl' : 'text-xl'}`}>
+                  {item.headline}
+                </h3>
+                <p className="text-sm md:text-base text-muted-foreground">{item.summary}</p>
+              </article>
             ))}
           </div>
         </div>
@@ -429,19 +459,36 @@ export default function HomePageClient({
       <section id="livestream" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.lucidBlocksWorldRegions.title}</h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksWorldRegions.intro}</p>
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-6">
+              <MessageCircle className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{livestreamModule.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{livestreamModule.title}</h2>
+            <p className="text-lg md:text-xl text-[hsl(var(--nav-theme-light))] max-w-4xl mx-auto mb-4">
+              {livestreamModule.subtitle}
+            </p>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{livestreamModule.intro}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
-            {t.modules.lucidBlocksWorldRegions.regions.map((region: any, index: number) => (
-              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <div className="flex items-center gap-3 mb-3">
-                  <Eye className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-                  <h3 className="font-bold">{region.name}</h3>
-                  <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">{region.type}</span>
+          <div className="scroll-reveal space-y-4">
+            {livestreamModule.steps.map((step: any, index: number) => (
+              <article
+                key={index}
+                className="flex gap-4 rounded-2xl border border-border bg-white/5 p-6 transition-colors hover:border-[hsl(var(--nav-theme)/0.5)]"
+              >
+                <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full border-2 border-[hsl(var(--nav-theme)/0.45)] bg-[hsl(var(--nav-theme)/0.18)]">
+                  <span className="text-lg font-bold text-[hsl(var(--nav-theme-light))]">
+                    {step.step}
+                  </span>
                 </div>
-                <p className="text-muted-foreground text-sm">{region.description}</p>
-              </div>
+                <div className="flex-1">
+                  <div className="flex items-center gap-2 mb-2 text-xs uppercase tracking-[0.18em] text-muted-foreground">
+                    <Clock className="w-4 h-4" />
+                    <span>Metro 2039 Watch Step</span>
+                  </div>
+                  <h3 className="text-xl font-bold mb-2">{step.title}</h3>
+                  <p className="text-muted-foreground">{step.detail}</p>
+                </div>
+              </article>
             ))}
           </div>
         </div>
@@ -449,21 +496,99 @@ export default function HomePageClient({
 
       {/* Module 7: Platforms */}
       <section id="platforms" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
-        <div className="container mx-auto max-w-5xl">
+        <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.lucidBlocksCreaturesAndEnemies.title}</h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksCreaturesAndEnemies.intro}</p>
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-6">
+              <Gamepad2 className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{platformsModule.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{platformsModule.title}</h2>
+            <p className="text-lg md:text-xl text-[hsl(var(--nav-theme-light))] max-w-4xl mx-auto mb-4">
+              {platformsModule.subtitle}
+            </p>
+            <p className="text-muted-foreground text-lg max-w-4xl mx-auto">{platformsModule.intro}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {t.modules.lucidBlocksCreaturesAndEnemies.creatures.map((c: any, index: number) => (
-              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <div className="mb-3">
-                  <span className={`text-xs px-2 py-1 rounded-full border ${index < 2 ? "bg-[hsl(var(--nav-theme)/0.12)] border-[hsl(var(--nav-theme)/0.35)] text-[hsl(var(--nav-theme-light))]" : "bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)]"}`}>{c.role}</span>
+          <div className="scroll-reveal md:hidden space-y-4">
+            {platformsModule.rows.map((row: any, index: number) => (
+              <article
+                key={index}
+                className="rounded-2xl border border-border bg-white/5 p-6 transition-colors hover:border-[hsl(var(--nav-theme)/0.5)]"
+              >
+                <div className="flex items-center gap-3 mb-4">
+                  <Gamepad2 className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                  <h3 className="text-xl font-bold">{row.platform}</h3>
                 </div>
-                <h3 className="font-bold mb-2">{c.name}</h3>
-                <p className="text-muted-foreground text-sm">{c.description}</p>
-              </div>
+                <dl className="space-y-4 text-sm">
+                  <div>
+                    <dt className="text-xs uppercase tracking-[0.18em] text-muted-foreground">
+                      {platformsModule.columns.currentStatus}
+                    </dt>
+                    <dd className="mt-1 text-foreground">{row.currentStatus}</dd>
+                  </div>
+                  <div>
+                    <dt className="text-xs uppercase tracking-[0.18em] text-muted-foreground">
+                      {platformsModule.columns.publicStorefront}
+                    </dt>
+                    <dd className="mt-1 text-muted-foreground">{row.publicStorefront}</dd>
+                  </div>
+                  <div>
+                    <dt className="text-xs uppercase tracking-[0.18em] text-muted-foreground">
+                      {platformsModule.columns.editionStatus}
+                    </dt>
+                    <dd className="mt-1 text-muted-foreground">{row.editionStatus}</dd>
+                  </div>
+                  <div>
+                    <dt className="text-xs uppercase tracking-[0.18em] text-muted-foreground">
+                      {platformsModule.columns.notes}
+                    </dt>
+                    <dd className="mt-1 text-muted-foreground">{row.notes}</dd>
+                  </div>
+                </dl>
+              </article>
             ))}
+          </div>
+          <div className="hidden md:block scroll-reveal overflow-hidden rounded-2xl border border-border bg-card/70">
+            <div className="overflow-x-auto">
+              <table className="w-full min-w-[980px] text-left">
+                <thead className="bg-[hsl(var(--nav-theme)/0.08)]">
+                  <tr>
+                    <th className="px-5 py-4 text-xs uppercase tracking-[0.18em] text-[hsl(var(--nav-theme-light))]">
+                      {platformsModule.columns.platform}
+                    </th>
+                    <th className="px-5 py-4 text-xs uppercase tracking-[0.18em] text-[hsl(var(--nav-theme-light))]">
+                      {platformsModule.columns.currentStatus}
+                    </th>
+                    <th className="px-5 py-4 text-xs uppercase tracking-[0.18em] text-[hsl(var(--nav-theme-light))]">
+                      {platformsModule.columns.publicStorefront}
+                    </th>
+                    <th className="px-5 py-4 text-xs uppercase tracking-[0.18em] text-[hsl(var(--nav-theme-light))]">
+                      {platformsModule.columns.editionStatus}
+                    </th>
+                    <th className="px-5 py-4 text-xs uppercase tracking-[0.18em] text-[hsl(var(--nav-theme-light))]">
+                      {platformsModule.columns.notes}
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {platformsModule.rows.map((row: any, index: number) => (
+                    <tr
+                      key={index}
+                      className={`border-t border-border align-top ${
+                        index % 2 === 0 ? 'bg-white/[0.02]' : 'bg-transparent'
+                      }`}
+                    >
+                      <td className="px-5 py-5 font-semibold text-[hsl(var(--nav-theme-light))]">
+                        {row.platform}
+                      </td>
+                      <td className="px-5 py-5 text-sm text-foreground">{row.currentStatus}</td>
+                      <td className="px-5 py-5 text-sm text-muted-foreground">{row.publicStorefront}</td>
+                      <td className="px-5 py-5 text-sm text-muted-foreground">{row.editionStatus}</td>
+                      <td className="px-5 py-5 text-sm text-muted-foreground">{row.notes}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </section>
@@ -472,26 +597,37 @@ export default function HomePageClient({
       <section id="characters" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.lucidBlocksMobilityGear.title}</h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksMobilityGear.intro}</p>
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-6">
+              <ArrowRight className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{charactersModule.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{charactersModule.title}</h2>
+            <p className="text-lg md:text-xl text-[hsl(var(--nav-theme-light))] max-w-4xl mx-auto mb-4">
+              {charactersModule.subtitle}
+            </p>
+            <p className="text-muted-foreground text-lg max-w-4xl mx-auto">{charactersModule.intro}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
-            {t.modules.lucidBlocksMobilityGear.items.map((item: any, index: number) => (
-              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <div className="flex items-center gap-2 mb-3">
-                  <ArrowRight className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-                  <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">{item.type}</span>
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
+            {charactersModule.items.map((item: any, index: number) => (
+              <article
+                key={index}
+                className={`rounded-2xl border border-border p-6 transition-colors hover:border-[hsl(var(--nav-theme)/0.5)] ${
+                  index === 0 ? 'bg-[hsl(var(--nav-theme)/0.08)]' : 'bg-white/5'
+                }`}
+              >
+                <div className="flex items-start justify-between gap-3 mb-4">
+                  <div>
+                    <p className="text-xs uppercase tracking-[0.18em] text-muted-foreground">
+                      {item.role}
+                    </p>
+                    <h3 className="text-xl font-bold mt-2">{item.name}</h3>
+                  </div>
+                  <span className="inline-flex rounded-full border border-[hsl(var(--nav-theme)/0.3)] bg-[hsl(var(--nav-theme)/0.12)] px-3 py-1 text-xs font-medium text-[hsl(var(--nav-theme-light))]">
+                    {item.status}
+                  </span>
                 </div>
-                <h3 className="font-bold mb-2">{item.name}</h3>
-                <p className="text-muted-foreground text-sm">{item.description}</p>
-              </div>
-            ))}
-          </div>
-          <div className="scroll-reveal flex flex-wrap gap-3 justify-center">
-            {t.modules.lucidBlocksMobilityGear.unlockMilestones.map((m: string, i: number) => (
-              <span key={i} className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm">
-                <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />{m}
-              </span>
+                <p className="text-sm text-muted-foreground">{item.summary}</p>
+              </article>
             ))}
           </div>
         </div>
