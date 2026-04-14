@@ -102,22 +102,22 @@
       {
         "icon": "ClipboardCheck",
         "title": "Metro 2039 Story Recap",
-        "description": "Fast catch-up for Metro 2033, Last Light, and Exodus"
+        "description": "Metro 2039 catch-up for Metro 2033, Last Light, and Exodus"
       },
       {
         "icon": "Eye",
         "title": "Metro 2039 Series Timeline",
-        "description": "Mainline chronology from Metro 2033 to the new reveal"
+        "description": "Metro 2039 chronology from the Last War to Metro Exodus"
       },
       {
         "icon": "Star",
         "title": "Metro 2039 Game Order",
-        "description": "Best play order for the Metro games and key side stories"
+        "description": "Metro 2039 prep order: trilogy first, VR prequel optional"
       },
       {
         "icon": "Package",
         "title": "Metro 2039 Books Order",
-        "description": "Reading order for Metro 2033, 2034, and 2035"
+        "description": "Metro 2039 reading path: Metro 2033, Metro 2034, Metro 2035"
       },
       {
         "icon": "Shield",
@@ -423,173 +423,183 @@
     },
     "lucidBlocksFarmingAndGrowth": {
       "title": "Metro 2039 Story Recap",
-      "displayType": "mixedCards",
-      "intro": "Metro 2039 story recap works best as a four-part catch-up: Metro 2033 establishes the world, Last Light sharpens the politics, Exodus opens the map, and Metro 2039 picks up that long arc.",
-      "sections": [
+      "displayType": "accordion",
+      "eyebrow": "Series Catch-Up",
+      "subtitle": "Metro 2039 story recap should be the fastest way to understand the three core Artyom games before the next chapter.",
+      "intro": "For most visitors, the clean Metro 2039 catch-up path is the core Artyom trilogy. Metro 2033 establishes underground survival, Metro: Last Light turns that world into a political crisis, and Metro Exodus pushes the saga beyond Moscow.",
+      "items": [
         {
-          "name": "Metro 2033 Recap",
-          "description": "Metro 2033 introduces Artyom, the Moscow Metro, and the survival logic that defines the entire series."
+          "title": "Metro 2033",
+          "meta": "Game 1 · Story Year 2033",
+          "summary": "After the 2013 nuclear war, Artyom grows up inside the Moscow Metro, humanity's largest refuge underground. When a new threat puts the network at risk, he leaves home and crosses stations, tunnels, and the poisoned surface to warn the rest of mankind.",
+          "keyPoints": [
+            "Establishes the Moscow Metro as the center of the Metro 2039 backstory",
+            "Introduces Artyom as the main hero of the core game line",
+            "Sets the survival-horror tone of scarce resources, dark tunnels, and surface danger"
+          ],
+          "bridge": "Metro 2033 is the foundation chapter for Metro 2039 readers. It explains who Artyom is, how the Metro world works, and why later chapters keep revisiting the limits of underground survival."
         },
         {
-          "name": "Metro: Last Light Recap",
-          "description": "Metro: Last Light deepens the political struggle inside the tunnels and makes the cost of faction conflict impossible to ignore."
+          "title": "Metro: Last Light",
+          "meta": "Game 2 · Story Year 2034",
+          "summary": "One year later, the Metro faces pressure from outside threats and internal power struggles. Artyom moves through station-cities fighting over D6, a military stockpile powerful enough to decide the political future of underground civilization.",
+          "keyPoints": [
+            "Expands Metro from local survival into a conflict over power and ideology",
+            "Raises the stakes with D6 and the risk of Metro-scale civil war",
+            "Keeps Artyom central while widening the political scope of the world"
+          ],
+          "bridge": "Metro: Last Light is the key middle chapter before Metro 2039. It carries the emotional and political setup that the next mainline era depends on."
         },
         {
-          "name": "Metro Exodus Recap",
-          "description": "Metro Exodus moves the story beyond the tunnels and reframes the franchise around a wider world and a traveling community."
-        },
-        {
-          "name": "Metro 2039 Lead-In",
-          "description": "Metro 2039 arrives after that trilogy of survival, ideology, and escape, making recap content the fastest way into the new chapter."
+          "title": "Metro Exodus",
+          "meta": "Game 3 · Story Year 2036",
+          "summary": "A quarter-century after nuclear war, Artyom leaves the Moscow Metro with Anna and the Spartan Rangers aboard the Aurora. The story becomes a year-long journey across post-apocalyptic Russia in search of a future beyond the tunnels.",
+          "keyPoints": [
+            "Moves Metro beyond Moscow into a broader Russian wasteland",
+            "Follows Artyom and the Spartans through a full seasonal journey",
+            "Creates the clearest mainline setup currently available before Metro 2039"
+          ],
+          "bridge": "If Metro 2033 is about surviving underground and Last Light is about defending that world, Exodus is about deciding whether Metro life should be left behind. That question leads directly into Metro 2039 interest."
         }
-      ],
-      "growthMilestones": [
-        "Metro 2033 builds the world",
-        "Metro: Last Light intensifies the politics",
-        "Metro Exodus expands the horizon",
-        "Metro 2039 continues the saga"
       ]
     },
     "lucidBlocksBestEarlyUnlocks": {
       "title": "Metro 2039 Series Timeline",
-      "displayType": "priorityCards",
-      "intro": "The Metro 2039 series timeline should let readers scan the franchise in one pass, from the first novel-era milestone to the official reveal of the next mainline game.",
-      "priorities": [
+      "displayType": "timelineCards",
+      "eyebrow": "Chronology",
+      "subtitle": "Use the Metro 2039 timeline to scan the story-world order from the Last War to Metro Exodus in one pass.",
+      "intro": "This Metro 2039 timeline follows story year instead of release year. It helps readers place the nuclear war, prequel-era material, Artyom's three major game eras, and the strongest bridge period before the next mainline chapter.",
+      "items": [
         {
-          "name": "Metro 2033",
-          "priority": "Core Era",
-          "description": "The original Metro 2033 milestone establishes the world, the hero, and the survival rules the franchise still follows."
+          "year": "2013",
+          "tag": "World Reset",
+          "title": "The Last War devastates the surface",
+          "description": "Nuclear war destroys normal life, poisons the surface, and pushes Moscow survivors underground into the Metro. Every later Metro book and game grows out of this break with the old world."
         },
         {
-          "name": "Metro: Last Light",
-          "priority": "Core Era",
-          "description": "Metro: Last Light becomes the political and emotional hinge point for the modern Metro timeline."
+          "year": "2028",
+          "tag": "Prequel Era",
+          "title": "Metro Awakening becomes the earliest playable chapter",
+          "description": "Set 15 years after nuclear fire, Metro Awakening follows Serdar through the tunnels in a VR-only story. It expands the franchise backward in time before Artyom's core arc."
         },
         {
-          "name": "Metro Redux",
-          "priority": "Refresh",
-          "description": "The Redux re-releases become the cleanest modern entry point for players catching up before Metro 2039."
+          "year": "2033",
+          "tag": "Metro 2033",
+          "title": "Artyom's first journey defines the game saga",
+          "description": "By 2033, an entire generation has been born underground. Artyom leaves the station-cities to warn humanity about a growing threat and becomes the central figure of the Metro game line."
         },
         {
-          "name": "Metro Exodus",
-          "priority": "World Shift",
-          "description": "Metro Exodus changes the scale of the series and becomes the most important direct lead-in for Metro 2039."
+          "year": "2034",
+          "tag": "Metro 2034 / Last Light",
+          "title": "The saga splits into major book and game threads",
+          "description": "The books widen through Homer, Sasha, and Hunter during a deadly outbreak, while the games keep Artyom central as Metro politics escalate toward conflict over D6."
         },
         {
-          "name": "Metro Exodus DLC",
-          "priority": "Bridge",
-          "description": "The major Exodus expansions widen the timeline and add more perspective before the next mainline chapter."
+          "year": "2035",
+          "tag": "Metro 2035",
+          "title": "Artyom searches for life beyond the tunnels",
+          "description": "Artyom keeps risking radiation to scan for other survivors and uncovers truths that reshape his understanding of Metro life. This is the strongest book bridge into the wider future."
         },
         {
-          "name": "Metro 2039 Reveal",
-          "priority": "Lead-In",
-          "description": "The 2026 Metro 2039 announcement begins the next era of the Metro timeline and resets the homepage around official reveal coverage."
+          "year": "2036",
+          "tag": "Metro Exodus",
+          "title": "The series leaves Moscow behind",
+          "description": "Metro Exodus sends Artyom and the Spartan Rangers across Russia aboard the Aurora through a story that spans the seasons. The franchise expands from tunnel survival into a broader wasteland journey."
         }
       ]
     },
     "lucidBlocksAchievementTracker": {
       "title": "Metro 2039 Game Order",
-      "displayType": "achievementGrid",
-      "intro": "Metro 2039 game order should answer both types of players: people who want the essential mainline path and people who want the fullest possible catch-up before the new game.",
-      "groups": [
+      "displayType": "steps",
+      "eyebrow": "Play Order",
+      "subtitle": "The clean Metro 2039 prep route is the main trilogy first, with Metro Awakening as optional VR context.",
+      "intro": "If your goal is Metro 2039 readiness without confusion, follow the Artyom mainline path first. Metro 2033 Redux, Metro: Last Light Redux, and Metro Exodus are the core run; Metro Awakening adds bonus context if you also want the earlier VR prequel.",
+      "items": [
         {
-          "name": "Metro 2039 Mainline Order",
-          "achievements": [
-            {
-              "title": "Metro 2033 Redux",
-              "description": "Start with Metro 2033 Redux for the cleanest modern version of the first mainline story."
-            },
-            {
-              "title": "Metro: Last Light Redux",
-              "description": "Play Metro: Last Light Redux second to keep the political and character throughline intact."
-            },
-            {
-              "title": "Metro Exodus",
-              "description": "Finish the mainline catch-up with Metro Exodus before moving into Metro 2039."
-            }
+          "step": 1,
+          "title": "Start with Metro 2033 Redux",
+          "tag": "Core Start",
+          "description": "This is the definitive modern version of the first Metro game and the best entry point for new players. It introduces Artyom, station-cities, surface danger, and the survival rules of the universe.",
+          "details": [
+            "Steam release date: August 25, 2014",
+            "Definitive modern version of the first mainline story",
+            "Best first stop before any other Metro game"
           ]
         },
         {
-          "name": "Metro 2039 Expanded Story Order",
-          "achievements": [
-            {
-              "title": "The Two Colonels",
-              "description": "Play The Two Colonels after Metro Exodus to deepen the command and survival themes."
-            },
-            {
-              "title": "Sam's Story",
-              "description": "Sam's Story works best after Exodus when you want a broader world view before Metro 2039."
-            },
-            {
-              "title": "Metro Awakening",
-              "description": "Place Metro Awakening after the main trilogy as an expanded side branch rather than the starting point."
-            }
+          "step": 2,
+          "title": "Continue with Metro: Last Light Redux",
+          "tag": "Direct Sequel",
+          "description": "Last Light follows Artyom in 2034 and carries the political and character setup forward from Metro 2033. It is the chapter that turns Metro into a conflict over factions, power, and the future of the underground world.",
+          "details": [
+            "Steam release date: August 25, 2014",
+            "Direct narrative follow-up to Metro 2033",
+            "Redux package includes all previously released DLC"
           ]
         },
         {
-          "name": "Metro 2039 Fast Catch-Up Path",
-          "achievements": [
-            {
-              "title": "Read a Metro 2033 Recap",
-              "description": "Use recap material if you want the world rules and Artyom's starting context fast."
-            },
-            {
-              "title": "Replay Metro: Last Light Highlights",
-              "description": "Focus on the faction politics and the emotional core of the middle chapter."
-            },
-            {
-              "title": "Play Metro Exodus in Full",
-              "description": "Metro Exodus is the strongest single game to complete before Metro 2039."
-            }
+          "step": 3,
+          "title": "Then play Metro Exodus",
+          "tag": "Mainline Payoff",
+          "description": "Exodus is the third mainline game and the moment the series leaves Moscow behind. It pays off Artyom's earlier arc and remains the clearest setup currently available before Metro 2039.",
+          "details": [
+            "Steam release date: February 14, 2019",
+            "Story year: 2036",
+            "Follows a continent-spanning journey aboard the Aurora"
           ]
         },
         {
-          "name": "Metro 2039 Best Entry Points",
-          "achievements": [
-            {
-              "title": "Redux Editions",
-              "description": "Choose the Redux versions if you want the smoothest technical route into the classic Metro games."
-            },
-            {
-              "title": "Full Trilogy Run",
-              "description": "Play the complete trilogy if you want the richest Metro 2039 background in one continuous arc."
-            },
-            {
-              "title": "Story Recap Plus Exodus",
-              "description": "Use recap pages plus a full Exodus run if you need the shortest serious prep route."
-            }
+          "step": 4,
+          "title": "Treat Metro Awakening as an optional VR prequel",
+          "tag": "Optional VR Route",
+          "description": "Metro Awakening is a VR-only story set in 2028, earlier than the Artyom trilogy. It adds useful prequel context, but the core non-VR catch-up route still runs through 2033 Redux, Last Light Redux, and Exodus.",
+          "details": [
+            "Steam release date: November 7, 2024",
+            "VR-only Metro entry",
+            "Best used as bonus context if you own VR hardware or want deeper prequel lore"
           ]
         }
       ]
     },
     "lucidBlocksSingleplayerAndPlatformFAQ": {
       "title": "Metro 2039 Books Order",
-      "displayType": "accordion",
-      "intro": "Metro 2039 books order should give readers a clean path through the original novels and explain how that reading path supports the games.",
-      "faqs": [
+      "displayType": "steps",
+      "eyebrow": "Reading Order",
+      "subtitle": "The clean Metro 2039 reading route is Metro 2033, then Metro 2034, then Metro 2035.",
+      "intro": "For most readers preparing for Metro 2039, the key question is both order and relevance to the games. The core trilogy reads best in numbered sequence: Metro 2033 builds the foundation, Metro 2034 widens the cast, and Metro 2035 brings Artyom back while pulling major threads together.",
+      "items": [
         {
-          "question": "What is the best Metro 2039 books order?",
-          "answer": "Read Metro 2033 first, Metro 2034 second, and Metro 2035 third for the clearest progression through Dmitry Glukhovsky's core trilogy."
+          "step": 1,
+          "title": "Read Metro 2033 first",
+          "tag": "Foundation",
+          "description": "Metro 2033 is the opening chapter of the core Metro novels and the clearest way to learn the rules, politics, and mood of the Moscow Metro. It is also the novel with the strongest overlap to the first game.",
+          "details": [
+            "Core Metro novel centered on Artyom",
+            "Establishes the underground world that later books and games build on",
+            "Best single starting point for both readers and players"
+          ]
         },
         {
-          "question": "Which Metro 2039 book should players start with?",
-          "answer": "Start with Metro 2033 because it builds the world, introduces Artyom, and establishes the mood that shapes Metro 2039."
+          "step": 2,
+          "title": "Read Metro 2034 second",
+          "tag": "Perspective Shift",
+          "description": "Metro 2034 moves one year forward but shifts away from Artyom. It expands the saga through Sasha, Homer, and Hunter and acts as the bridge from a single-hero story to a wider Metro world.",
+          "details": [
+            "Story year: 2034",
+            "Expands Metro beyond Artyom's viewpoint",
+            "Best read before Metro 2035 because its characters carry forward"
+          ]
         },
         {
-          "question": "How do the Metro 2039 books connect to the games?",
-          "answer": "The novels provide the tone, setting, and creator voice that the games expand into their own playable continuity."
-        },
-        {
-          "question": "Should Metro 2039 readers finish the novels before replaying Metro Exodus?",
-          "answer": "Yes. Reading the trilogy before a Metro Exodus replay makes the world politics and long-form themes much easier to follow."
-        },
-        {
-          "question": "Where does Dmitry Glukhovsky fit into Metro 2039 books order?",
-          "answer": "Dmitry Glukhovsky writes the core Metro books and remains a defining creative force behind how Metro 2039 is discussed."
-        },
-        {
-          "question": "What is the fastest Metro 2039 book catch-up path?",
-          "answer": "If time is short, read Metro 2033 in full, review Metro 2034 through a detailed recap, and then finish Metro 2035 before Metro 2039 coverage intensifies."
+          "step": 3,
+          "title": "Finish with Metro 2035",
+          "tag": "Convergence",
+          "description": "Metro 2035 returns Artyom to center stage and pushes him toward the question of life beyond Moscow. It works as the main convergence point between long-form novel themes and game-era discussion before Metro 2039.",
+          "details": [
+            "Story year: 2035",
+            "Returns focus to Artyom",
+            "Strongest final core read for users moving between books and games"
+          ]
         }
       ]
     },
