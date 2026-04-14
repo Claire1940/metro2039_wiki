@@ -65,12 +65,6 @@ export const HOME_EXTERNAL_LINKS = {
   },
 } as const
 
-const LEGACY_THEME_REPLACEMENTS: Array<[RegExp, string]> = [
-  [/Lucid Blocks Wiki/gi, SITE_NAME],
-  [/Lucid Blocks/gi, SITE_NAME],
-  [/lucidblocks\.wiki/gi, SITE_DOMAIN],
-]
-
 export function getSiteUrl() {
   return (process.env.NEXT_PUBLIC_SITE_URL || DEFAULT_SITE_URL).replace(/\/$/, '')
 }
@@ -102,13 +96,7 @@ export function toAbsoluteUrl(value: string, siteUrl = getSiteUrl()) {
 }
 
 export function rewriteLegacyThemeText(value?: string | null) {
-  if (!value) {
-    return ''
-  }
-
-  return LEGACY_THEME_REPLACEMENTS.reduce((result, [pattern, replacement]) => {
-    return result.replace(pattern, replacement)
-  }, value)
+  return value ? value.trim() : ''
 }
 
 export function getContentMetaTitle(title: string) {

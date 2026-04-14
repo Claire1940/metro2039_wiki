@@ -7,7 +7,10 @@ import {
   getLocalizedUrl,
   getSiteUrl,
   HERO_IMAGE,
+  HOME_EXTERNAL_LINKS,
   HOME_METADATA,
+  HOME_VIDEO,
+  OFFICIAL_LINKS,
   SITE_NAME,
 } from '@/lib/site-config'
 import HomePageClient from './HomePageClient'
@@ -56,26 +59,12 @@ export default async function HomePage({ params }: PageProps) {
   const siteUrl = getSiteUrl()
   const heroImageUrl = new URL('/images/hero.webp', siteUrl).toString()
   const pageUrl = getLocalizedUrl(locale, '', siteUrl)
-  const homepageVideoId = '2GLi240fXzA'
   const homepageVideo = {
-    id: homepageVideoId,
-    videoId: homepageVideoId,
-    title: 'Xbox First Look: METRO 2039 | 4A Games + Deep Silver',
+    id: HOME_VIDEO.id,
+    videoId: HOME_VIDEO.id,
+    title: HOME_VIDEO.title,
   }
-  const externalLinks = {
-    heroPrimary: 'https://www.youtube.com/watch?v=2GLi240fXzA',
-    heroSecondary: 'https://www.deepsilver.com/games/metro2039',
-    ctaCommunity: 'https://discord.com/invite/metrovideogame',
-    ctaGame: 'https://www.deepsilver.com/games/metro2039',
-    supportPrimary: 'https://discord.com/invite/metrovideogame',
-    supportSecondary: 'https://www.deepsilver.com/games/metro2039',
-    footer: {
-      discord: 'https://discord.com/invite/metrovideogame',
-      officialSite: 'https://www.deepsilver.com/games/metro2039',
-      reddit: 'https://www.reddit.com/r/metro/',
-      youtube: 'https://www.youtube.com/metrovideogame',
-    },
-  }
+  const externalLinks = HOME_EXTERNAL_LINKS
   const homepageDesignTokens = {
     iconLibrary: 'lucide-react',
     accentColor: 'hsl(var(--nav-theme))',
@@ -95,6 +84,14 @@ export default async function HomePage({ params }: PageProps) {
           "width": HERO_IMAGE.width,
           "height": HERO_IMAGE.height,
           "caption": HERO_IMAGE.alt,
+        },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": `${siteUrl}/guide?search={search_term_string}`,
+          },
+          "query-input": "required name=search_term_string",
         },
       },
       {
@@ -130,11 +127,11 @@ export default async function HomePage({ params }: PageProps) {
           "height": HERO_IMAGE.height,
         },
         "sameAs": [
-          'https://www.deepsilver.com/games/metro2039',
-          'https://www.4a-games.com.mt/',
-          'https://discord.com/invite/metrovideogame',
-          'https://www.reddit.com/r/metro/',
-          'https://www.youtube.com/metrovideogame',
+          OFFICIAL_LINKS.officialSite,
+          OFFICIAL_LINKS.developer,
+          OFFICIAL_LINKS.discord,
+          OFFICIAL_LINKS.reddit,
+          OFFICIAL_LINKS.youtube,
         ],
       },
       {

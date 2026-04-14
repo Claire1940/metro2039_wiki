@@ -1,11 +1,1083 @@
 {
+  "seo": {
+    "home": {
+      "title": "Metro 2039 Wiki - Zwiastun, data premiery i fabuła",
+      "description": "Metro 2039 Wiki śledzi oficjalny zwiastun, harmonogram daty premiery, wskazówki dotyczące fabuły, frakcje, postacie, platformy i szczegóły transmisji na żywo dla kolejnej głównej gry z serii Metro.",
+      "keywords": "Metro 2039, Metro 2039 wiki, zwiastun, data premiery, fabuła, frakcje, postacie, platformy",
+      "ogTitle": "Metro 2039 Wiki - Zwiastun, data premiery i fabuła",
+      "ogDescription": "Metro 2039 Wiki śledzi oficjalny zwiastun, harmonogram daty premiery, wskazówki dotyczące fabuły, frakcje, postacie, platformy i szczegóły transmisji na żywo dla kolejnej głównej gry z serii Metro.",
+      "twitterTitle": "Metro 2039 Wiki - Zwiastun, data premiery i fabuła",
+      "twitterDescription": "Metro 2039 Wiki śledzi oficjalny zwiastun, harmonogram zapowiedzi, kierunek fabuły, frakcje, postacie i wprowadzanie na platformy w jednym szybkim centrum."
+    }
+  },
   "nav": {
-    "guide": "Guide",
-    "release": "Release",
-    "platforms": "Platforms",
-    "leaks": "Leaks",
-    "story": "Story",
-    "series": "Series",
-    "developer": "Developer"
+    "guide": "Poradnik",
+    "release": "Premiera",
+    "platforms": "Platformy",
+    "leaks": "Przecieki",
+    "story": "Fabuła",
+    "series": "Seria",
+    "developer": "Twórcy"
+  },
+  "common": {
+    "home": "Strona główna",
+    "more": "Więcej",
+    "playNow": "Odwiedź oficjalną stronę",
+    "switchLanguage": "Zmień język",
+    "switchTheme": "Zmień motyw",
+    "lightMode": "Tryb jasny",
+    "darkMode": "Tryb ciemny",
+    "notFound": "Nie znaleziono strony",
+    "notFoundDescription": "Strona, której szukasz, nie istnieje.",
+    "backToHome": "Powrót do strony głównej",
+    "relatedArticles": "Powiązane artykuły",
+    "readMore": "Czytaj więcej"
+  },
+  "hero": {
+    "badge": "Oficjalnie zapowiedziany postapokaliptyczny FPS",
+    "title": "Metro 2039",
+    "description": "Śledź wiadomości o zapowiedzi Metro 2039, analizy zwiastunów, śledzenie premiery, wskazówki dotyczące fabuły, frakcje, postacie i informacje o platformach dla kolejnej głównej gry z serii Metro.",
+    "getFreeCodesCTA": "Obejrzyj zwiastun Metro 2039",
+    "playOnSteamCTA": "Odwiedź oficjalną stronę Metro 2039",
+    "stats": {
+      "stat1": {
+        "value": "16 kwietnia 2026",
+        "label": "Data zapowiedzi"
+      },
+      "stat2": {
+        "value": "68K+",
+        "label": "Wyświetlenia zapowiedzi"
+      },
+      "stat3": {
+        "value": "13.6K+",
+        "label": "Członkowie Discord"
+      },
+      "stat4": {
+        "value": "73K+",
+        "label": "Członkowie Reddit"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Oficjalny przegląd Metro 2039",
+    "description": "Śledź kalendarz zapowiedzi, kierunek fabuły, frakcje, postacie i wprowadzanie na platformy dla Metro 2039 na jednej stronie głównej wolnej od spoilerów."
+  },
+  "tools": {
+    "title": "Strona główna Metro 2039",
+    "titleHighlight": "Moduły",
+    "subtitle": "Przejdź bezpośrednio do każdej sekcji strony głównej Metro 2039",
+    "cards": [
+      {
+        "icon": "Clock",
+        "title": "Data premiery Metro 2039",
+        "description": "Harmonogram zapowiedzi, status premiery i kluczowe daty w kalendarzu"
+      },
+      {
+        "icon": "Download",
+        "title": "Zwiastun Metro 2039",
+        "description": "Linki do teaserów, transmisja z pierwszego spojrzenia i miejsca do oglądania"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Fabuła Metro 2039",
+        "description": "Główne motywy, zaangażowanie twórców i kierunek narracji"
+      },
+      {
+        "icon": "Hammer",
+        "title": "Rozgrywka Metro 2039",
+        "description": "DNA strzelanki, skradanie się, presja przetrwania i cele technologiczne"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Najnowsze wiadomości o Metro 2039",
+        "description": "Oficjalny proces zapowiedzi, relacje prasowe i puls społeczności"
+      },
+      {
+        "icon": "MessageCircle",
+        "title": "Przewodnik po transmisji na żywo z pierwszego spojrzenia na Metro 2039",
+        "description": "Czas emisji, linki do oglądania, napisy i plan podsumowania"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Status platform Metro 2039",
+        "description": "Publiczny status na PC, Steam, Xbox i PlayStation"
+      },
+      {
+        "icon": "Users",
+        "title": "Postacie i powracające twarze w Metro 2039",
+        "description": "Artyom, Anna, Miller i śledzenie wczesnej obsady"
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "Podsumowanie fabuły Metro 2039",
+        "description": "Nadrabianie zaległości Metro 2039 dla Metro 2033, Last Light i Exodus"
+      },
+      {
+        "icon": "Eye",
+        "title": "Oś czasu serii Metro 2039",
+        "description": "Chronologia Metro 2039 od Ostatniej Wojny do Metro Exodus"
+      },
+      {
+        "icon": "Star",
+        "title": "Kolejność gier Metro 2039",
+        "description": "Kolejność przygotowania do Metro 2039: najpierw trylogia, prequel VR opcjonalnie"
+      },
+      {
+        "icon": "Package",
+        "title": "Kolejność książek Metro 2039",
+        "description": "Ścieżka czytania Metro 2039: Metro 2033, Metro 2034, Metro 2035"
+      },
+      {
+        "icon": "Shield",
+        "title": "Frakcje Metro 2039",
+        "description": "Główne potęgi, polityka stacji i linie kontroli w całym Metro"
+      },
+      {
+        "icon": "Home",
+        "title": "Wyjaśnienie świata Metro 2039",
+        "description": "Zasady świata dotyczące masek, stacji, ryzyka podróży i przetrwania na powierzchni"
+      },
+      {
+        "icon": "AlertTriangle",
+        "title": "Wyjaśnienie zakończeń Metro 2039",
+        "description": "Kanoniczne zakończenia z Metro 2033, Last Light i Exodus"
+      },
+      {
+        "icon": "Settings",
+        "title": "Wyjaśnienie twórców Metro 2039",
+        "description": "Kto tworzy Metro 2039 i jak ustrukturyzowane jest studio"
+      }
+    ]
+  },
+  "modules": {
+    "lucidBlocksBeginnerGuide": {
+      "title": "Data premiery Metro 2039",
+      "displayType": "steps",
+      "intro": "Metro 2039 zostało oficjalnie zapowiedziane, a publiczny harmonogram określają ogłoszenie, data pełnej prezentacji oraz okno premiery, które wciąż widnieje jako TBA.",
+      "quickTipsHeading": "Podsumowanie premiery Metro 2039",
+      "steps": [
+        {
+          "title": "Oficjalny status Metro 2039",
+          "description": "Metro 2039 zostało zapowiedziane jako kolejny główny rozdział serii Metro, co daje cyklowi prezentacji wyraźny, oficjalny punkt startowy."
+        },
+        {
+          "title": "Data ogłoszenia Metro 2039",
+          "description": "Publiczne ogłoszenie nastąpiło 13 kwietnia 2026 roku i przygotowało grunt pod pierwszą pełną prezentację."
+        },
+        {
+          "title": "Data pełnej prezentacji Metro 2039",
+          "description": "Pierwszy pełny pokaz zaplanowano na 16 kwietnia 2026 roku jako najważniejszy punkt obecnego harmonogramu."
+        },
+        {
+          "title": "Godzina premiery Metro 2039",
+          "description": "Okienko transmisji na żywo to 10:00 AM PT / 1:00 PM ET / 6:00 PM UK / 7:00 PM CEST / 8:00 PM EET."
+        },
+        {
+          "title": "Okno premiery Metro 2039",
+          "description": "Metro 2039 wciąż posiada datę premiery TBA, podczas gdy kampania informacyjna przechodzi od teasera do pełnego pokazu."
+        }
+      ],
+      "quickTips": [
+        "Metro 2039 jest pozycjonowane jako czwarta główna gra z serii Metro.",
+        "Prezentacja 16 kwietnia to najważniejszy punkt w kalendarzu na stronie głównej.",
+        "Oficjalna strona oraz transmisja Xbox First Look to dwa główne punkty śledzenia daty premiery.",
+        "Data premiery pozostaje TBA, dopóki Deep Silver i 4A Games nie opublikują kolejnej aktualizacji dotyczącej wydania."
+      ]
+    },
+    "lucidBlocksApotheosisCrafting": {
+      "title": "Zwiastun Metro 2039",
+      "displayType": "cards",
+      "intro": "Kampania wideo Metro 2039 obejmuje już teaser, zaplanowaną premierę Xbox First Look oraz dwa oficjalne centra oglądania, które stanowią fundament cyklu prezentacji.",
+      "cards": [
+        {
+          "name": "Teaser zapowiadający Metro 2039",
+          "description": "Pierwszy teaser Metro 2039 to najbardziej przejrzysty punkt startowy dla harmonogramu prezentacji i najszybszy sposób na poznanie początkowego klimatu gry."
+        },
+        {
+          "name": "Metro 2039 Xbox First Look",
+          "description": "Pełna transmisja z prezentacji z udziałem 4A Games i Deep Silver to główne wydarzenie dla kolejnej fali materiałów z Metro 2039."
+        },
+        {
+          "name": "Oficjalne centrum gry Metro 2039",
+          "description": "Strona Deep Silver to centralna oficjalna strona docelowa dla materiałów wideo, przypomnień i aktualizacji dotyczących prezentacji."
+        },
+        {
+          "name": "Oficjalny kanał YouTube Metro 2039",
+          "description": "Kanał Metro to najszybsze miejsce do śledzenia publikacji teaserów, linków do premier i przyszłych zwiastunów."
+        }
+      ],
+      "milestones": [
+        "Obejrzyj teaser Metro 2039",
+        "Ustaw przypomnienie o pełnej prezentacji Metro 2039",
+        "Dodaj oficjalną stronę Metro 2039 do zakładek",
+        "Obserwuj kanał Metro na YouTube"
+      ]
+    },
+    "lucidBlocksToolsAndWeapons": {
+      "title": "Fabuła Metro 2039",
+      "displayType": "itemCards",
+      "intro": "Obraz fabuły Metro 2039 ma już pięć wyraźnych filarów: miejsce w serii, postapokaliptyczne realia, ton ukształtowany przez wojnę, polityczne DNA oraz kontynuację roli Dmitrija Głuchowskiego.",
+      "items": [
+        {
+          "name": "Metro 2039 kontynuuje główną sagę",
+          "type": "Miejsce w serii",
+          "description": "Metro 2039 jest przedstawiane jako kolejna główna odsłona po Metro 2033, Metro: Last Light i Metro Exodus."
+        },
+        {
+          "name": "Metro 2039 zachowuje perspektywę przetrwania w Moskwie",
+          "type": "Miejsce akcji",
+          "description": "Nowy rozdział wciąż osadzony jest w postapokaliptycznym świecie Metro pełnym ocalałych, tuneli, zagrożeń na powierzchni i trudnych wyborów politycznych."
+        },
+        {
+          "name": "Metro 2039 niesie ton ukształtowany przez wojnę",
+          "type": "Motyw",
+          "description": "4A Games powiązało historię kolejnego Metro z realną presją wojny, wolnością, represjami i kosztem ludzkim."
+        },
+        {
+          "name": "Metro 2039 pozostaje polityczne i emocjonalne",
+          "type": "DNA serii",
+          "description": "Studio utrzymuje antywojenną i antytyrańską tożsamość Metro w centrum nowej narracji."
+        },
+        {
+          "name": "Metro 2039 wciąż angażuje Dmitrija Głuchowskiego",
+          "type": "Twórca",
+          "description": "Dmitry Glukhovsky pozostaje częścią kierunku rozwoju serii, utrzymując aktywną więź między książkami a grami w Metro 2039."
+        }
+      ]
+    },
+    "lucidBlocksStorageAndInventory": {
+      "title": "Rozgrywka w Metro 2039",
+      "displayType": "solutionCards",
+      "intro": "Rozgrywkę w Metro 2039 łatwo już zdefiniować na stronie głównej: to strzelanka zbudowana wokół walki, skradania się, presji przetrwania, eksploracji i skupienia na fabularnej kampanii dla jednego gracza.",
+      "managementTipsHeading": "Lista kontrolna rozgrywki Metro 2039",
+      "solutions": [
+        {
+          "name": "Fundament strzelanki Metro 2039",
+          "role": "Gatunek",
+          "description": "Metro 2039 jest klasyfikowane jako strzelanka, co pozostaje w zgodzie z pierwszoosobową tożsamością serii."
+        },
+        {
+          "name": "Walka i skradanie w Metro 2039",
+          "role": "Pętla walki",
+          "description": "Walka i skradanie pozostają najwyraźniejszym filarem rozgrywki w Metro 2039, ponieważ definiują oficjalną formułę Metro."
+        },
+        {
+          "name": "Eksploracja i przetrwanie w Metro 2039",
+          "role": "Eksploracja",
+          "description": "Presja zasobów, wrogi teren i ostrożne przeszukiwanie otoczenia nadal kształtują to, jak ma wyglądać gra w Metro 2039."
+        },
+        {
+          "name": "Fabularna gra dla jednego gracza Metro 2039",
+          "role": "Cel projektowy",
+          "description": "4A Games koncentruje kolejne Metro na dopracowanej kampanii dla jednego gracza, a nie na strukturze gry-usługi."
+        },
+        {
+          "name": "Baza technologiczna Metro 2039 na 9. generację i PC",
+          "role": "Docelowa technologia",
+          "description": "Metro 2039 powstaje z myślą o konsolach obecnej generacji i komputerach PC, co wpisuje się w dążenie serii do zaawansowanego renderowania."
+        }
+      ],
+      "managementTips": [
+        "Oczekuj, że Metro 2039 połączy skradanie się, strzelanie i presję, zamiast gonić za arkadowym widowiskiem.",
+        "Użyj Metro Exodus jako najlepszego publicznego punktu odniesienia dla DNA rozgrywki w Metro 2039.",
+        "Traktuj zarządzanie zasobami i zagrożenia środowiskowe jako część głównej pętli rozgrywki.",
+        "Obejrzyj pierwszą pełną prezentację, aby po raz pierwszy zobaczyć walkę i poruszanie się w Metro 2039."
+      ]
+    },
+    "lucidBlocksQualiaAndBaseBuilding": {
+      "title": "Metro 2039 Latest News",
+      "displayType": "timelineCards",
+      "eyebrow": "Latest Updates",
+      "subtitle": "Track the official reveal rollout, major press coverage, and the community pulse in one place.",
+      "intro": "The public Metro 2039 news cycle is centered on a short but high-impact reveal window. This feed gives visitors one place to follow what changed, when it changed, and where the next official update will land.",
+      "timelineLabel": "Metro 2039 News Timeline",
+      "items": [
+        {
+          "date": "Apr 13, 2026",
+          "source": "Deep Silver",
+          "headline": "Metro 2039 official teaser page is live",
+          "summary": "Deep Silver launched the Metro 2039 site, opened reminder-email signup, and set the reveal for Apr 16, 2026 at 10 AM PDT / 7 PM CEST / 8 PM EET."
+        },
+        {
+          "date": "Apr 13, 2026",
+          "source": "Xbox Wire",
+          "headline": "Metro 2039 Xbox First Look becomes the world-premiere broadcast",
+          "summary": "Xbox announced a digital-only Metro 2039 reveal with 4A Games and Deep Silver and framed it as the fourth mainline Metro game after Metro 2033, Metro: Last Light, and Metro Exodus."
+        },
+        {
+          "date": "Apr 13, 2026",
+          "source": "PC Gamer",
+          "headline": "Metro 2039 press coverage is focused on what follows Exodus",
+          "summary": "Early coverage centers on what comes next after Metro Exodus, especially for Artyom, the Spartans, and the wider world beyond Moscow's tunnels."
+        },
+        {
+          "date": "Apr 14, 2026",
+          "source": "r/metro",
+          "headline": "Metro 2039 community discussion is clustering around the countdown",
+          "summary": "The main Metro subreddit is acting as the fastest-moving fan hub for reveal chatter, leak retrospectives, and reaction threads ahead of the Apr 16 broadcast."
+        }
+      ]
+    },
+    "lucidBlocksWorldRegions": {
+      "title": "Metro 2039 First Look Livestream Guide",
+      "displayType": "steps",
+      "eyebrow": "Watch Guide",
+      "subtitle": "Everything needed for the Apr 16 first look, from start time and watch links to subtitles, accessibility, and post-show recap coverage.",
+      "intro": "This module should be the fastest route from search intent to watch intent. It covers the exact air time, where to watch, what language support is available, and where visitors should go once the live premiere ends.",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Mark the exact Metro 2039 broadcast time",
+          "detail": "Xbox First Look: Metro 2039 begins on Thursday, Apr 16, 2026 at 10:00 AM Pacific / 1:00 PM Eastern / 6:00 PM UK."
+        },
+        {
+          "step": 2,
+          "title": "Watch Metro 2039 on the Xbox YouTube premiere",
+          "detail": "The official live destination is the Xbox YouTube channel, and the Metro 2039 site also points visitors to the Xbox reminder page."
+        },
+        {
+          "step": 3,
+          "title": "Use Metro 2039 subtitles if you are not watching in English",
+          "detail": "Xbox confirmed subtitle support for Arabic, Brazilian Portuguese, Bulgarian, Croatian, Czech, Danish, Dutch, Finnish, French, German, Greek, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Romanian, Slovakian, Spanish, Swedish, Simplified Chinese, Traditional Chinese, Turkish, and Ukrainian."
+        },
+        {
+          "step": 4,
+          "title": "Check Metro 2039 accessibility options before the show starts",
+          "detail": "Xbox says the event will also have an English audio-described version and an American Sign Language version on Xbox's YouTube channel."
+        },
+        {
+          "step": 5,
+          "title": "Use the official Metro 2039 recap after the premiere ends",
+          "detail": "Xbox Wire says it will publish a full recap immediately after the show, including localized recap coverage in Brazilian Portuguese, French, German, LATAM Spanish, and Japanese."
+        }
+      ]
+    },
+    "lucidBlocksCreaturesAndEnemies": {
+      "title": "Metro 2039 Platform Status",
+      "displayType": "table",
+      "eyebrow": "Storefront Status",
+      "subtitle": "A clean snapshot of where Metro 2039 is publicly surfacing right now across PC, Steam, Xbox, and PlayStation.",
+      "intro": "Public platform information is still early, so this table focuses on what has actually surfaced: where the game has been listed, which storefronts are live as watch hubs, and which purchase pages have not gone public yet.",
+      "columns": {
+        "platform": "Platform",
+        "currentStatus": "Current Status",
+        "publicStorefront": "Public Storefront",
+        "editionStatus": "Edition Status",
+        "notes": "Notes"
+      },
+      "rows": [
+        {
+          "platform": "PC",
+          "currentStatus": "Present in early media platform listings",
+          "publicStorefront": "No standalone PC purchase page is linked in the current announcement materials",
+          "editionStatus": "No edition breakdown is public yet",
+          "notes": "GameSpot lists Metro 2039 for PC, while the official push is still centered on the reveal stream rather than a buy page."
+        },
+        {
+          "platform": "Steam",
+          "currentStatus": "No public Metro 2039 app page has surfaced yet",
+          "publicStorefront": "Steam is currently surfacing Metro franchise news about the showcase instead of a Metro 2039 product page",
+          "editionStatus": "No preorder or package details are public yet",
+          "notes": "The easiest Steam-facing public entry right now is the showcase news post attached to existing Metro products, not a Metro 2039 store listing."
+        },
+        {
+          "platform": "Xbox",
+          "currentStatus": "Primary reveal partner and official watch destination",
+          "publicStorefront": "The public announcement flow is centered on Xbox Wire and the Xbox YouTube premiere",
+          "editionStatus": "No edition matrix is public yet",
+          "notes": "Xbox is the clearest official entry point for console players right now because the Apr 16 first look is being hosted through Xbox channels."
+        },
+        {
+          "platform": "PlayStation 5",
+          "currentStatus": "Present in early media platform listings",
+          "publicStorefront": "No public PlayStation Store page is linked in the current announcement wave",
+          "editionStatus": "No version or preorder details are public yet",
+          "notes": "PS5 is already showing up in early coverage, but storefront and package information have not been rolled out publicly."
+        }
+      ]
+    },
+    "lucidBlocksMobilityGear": {
+      "title": "Postacie i powracające twarze w Metro 2039",
+      "displayType": "statusCards",
+      "eyebrow": "Centrum postaci",
+      "subtitle": "Publiczna prezentacja nie ujawniła jeszcze postaci ekskluzywnych dla Metro 2039, więc to centrum zaczyna się od kluczowych postaci Metro, które najprawdopodobniej będą generować największe zainteresowanie po premierze.",
+      "intro": "Zamiary postaci to jeden z najłatwiejszych sposobów na rozbudowę linków wewnętrznych po rozszerzeniu prezentacji. Dopóki pokaz zaplanowany na 16 kwietnia nie ujawni nowej obsady, ten moduł skupia się na legendarnych postaciach, które gracze już kojarzą z główną historią Metro.",
+      "items": [
+        {
+          "name": "Aktualny status ujawnienia Metro 2039",
+          "role": "Śledzenie obsady 2039",
+          "status": "Żadne nowe imiona postaci nie są jeszcze publicznie znane",
+          "summary": "Oficjalna strona Metro 2039 oraz ogłoszenie Xbox First Look potwierdzają grę i datę premiery, ale nie opublikowano jeszcze imion nowych postaci."
+        },
+        {
+          "name": "Artyom",
+          "role": "Protagonista serii",
+          "status": "Główna postać dziedzictwa",
+          "summary": "Deep Silver opisuje Artyoma jako ocalałego urodzonego w Metro, który spędził życie chroniąc tunele, jednocześnie próbując udowodnić, że życie istnieje poza nimi."
+        },
+        {
+          "name": "Anna",
+          "role": "Snajperka Spartan Rangers",
+          "status": "Główna postać dziedzictwa",
+          "summary": "Anna jest córką Millera, żoną Artyoma i jednym z najważniejszych głosów załogi Aurory, co czyni ją istotnym kontekstem dla czytelników Metro 2039."
+        },
+        {
+          "name": "Miller",
+          "role": "Dowódca Zakonu",
+          "status": "Główna postać dziedzictwa",
+          "summary": "Pułkownik Miller jest dowódcą stojącym za łańcuchem dowodzenia Spartan Rangers i ekspedycją Aurory, kształtującym militarny ton serii."
+        }
+      ]
+    },
+    "lucidBlocksFarmingAndGrowth": {
+      "title": "Podsumowanie fabuły Metro 2039",
+      "displayType": "accordion",
+      "eyebrow": "Nadrabianie serii",
+      "subtitle": "Podsumowanie fabuły Metro 2039 powinno być najszybszym sposobem na zrozumienie trzech głównych gier o Artyomie przed kolejnym rozdziałem.",
+      "intro": "Dla większości odwiedzających najprostszą drogą do nadrobienia zaległości przed Metro 2039 jest główna trylogia Artyoma. Metro 2033 ustanawia przetrwanie pod ziemią, Metro: Last Light zmienia ten świat w kryzys polityczny, a Metro Exodus wypycha sagę poza Moskwę.",
+      "items": [
+        {
+          "title": "Metro 2033",
+          "meta": "Gra 1 · Rok fabularny 2033",
+          "summary": "Po wojnie nuklearnej w 2013 roku Artyom dorasta w moskiewskim Metro, największym podziemnym schronieniu ludzkości. Gdy nowe zagrożenie naraża sieć na niebezpieczeństwo, opuszcza dom i przemierza stacje, tunele oraz skażoną powierzchnię, aby ostrzec resztę ludzkości.",
+          "keyPoints": [
+            "Ustanawia moskiewskie Metro jako centrum tła fabularnego Metro 2039",
+            "Przedstawia Artyoma jako głównego bohatera głównej linii gier",
+            "Nadaje ton survival-horroru z ograniczonymi zasobami, mrocznymi tunelami i niebezpieczeństwem na powierzchni"
+          ],
+          "bridge": "Metro 2033 to rozdział fundamentalny dla czytelników Metro 2039. Wyjaśnia, kim jest Artyom, jak działa świat Metro i dlaczego późniejsze rozdziały wciąż powracają do granic przetrwania pod ziemią."
+        },
+        {
+          "title": "Metro: Last Light",
+          "meta": "Gra 2 · Rok fabularny 2034",
+          "summary": "Rok później Metro staje w obliczu zagrożeń zewnętrznych i wewnętrznych walk o władzę. Artyom przemieszcza się między miastami-stacjami walczącymi o D6, wojskowy magazyn wystarczająco potężny, by zdecydować o politycznej przyszłości podziemnej cywilizacji.",
+          "keyPoints": [
+            "Rozszerza Metro z lokalnego przetrwania w konflikt o władzę i ideologię",
+            "Podnosi stawkę dzięki D6 i ryzyku wojny domowej na skalę całego Metro",
+            "Utrzymuje Artyoma w centrum, jednocześnie poszerzając polityczny zakres świata"
+          ],
+          "bridge": "Metro: Last Light to kluczowy środkowy rozdział przed Metro 2039. Przenosi emocjonalne i polityczne podstawy, od których zależy kolejna era głównej linii."
+        },
+        {
+          "title": "Metro Exodus",
+          "meta": "Gra 3 · Rok fabularny 2036",
+          "summary": "Ćwierć wieku po wojnie nuklearnej Artyom opuszcza moskiewskie Metro wraz z Anną i Spartan Rangers na pokładzie Aurory. Historia staje się całoroczną podróżą przez postapokaliptyczną Rosję w poszukiwaniu przyszłości poza tunelami.",
+          "keyPoints": [
+            "Przenosi Metro poza Moskwę na szersze rosyjskie pustkowia",
+            "Śledzi Artyoma i Spartan przez pełną podróż przez pory roku",
+            "Tworzy najwyraźniejszy fundament głównej linii dostępny obecnie przed Metro 2039"
+          ],
+          "bridge": "Jeśli Metro 2033 opowiada o przetrwaniu pod ziemią, a Last Light o obronie tego świata, to Exodus dotyczy decyzji, czy życie w Metro należy zostawić za sobą. To pytanie prowadzi bezpośrednio do zainteresowania Metro 2039."
+        }
+      ]
+    },
+    "lucidBlocksBestEarlyUnlocks": {
+      "title": "Oś czasu serii Metro 2039",
+      "displayType": "timelineCards",
+      "eyebrow": "Chronologia",
+      "subtitle": "Użyj osi czasu Metro 2039, aby jednym rzutem oka sprawdzić porządek świata gry od Ostatniej Wojny do Metro Exodus.",
+      "intro": "Ta oś czasu Metro 2039 opiera się na roku fabularnym, a nie roku wydania. Pomaga czytelnikom umiejscowić wojnę nuklearną, materiały z ery prequeli, trzy główne ery gier Artyoma oraz najsilniejszy okres przejściowy przed kolejnym głównym rozdziałem.",
+      "items": [
+        {
+          "year": "2013",
+          "tag": "Reset świata",
+          "title": "Ostatnia Wojna niszczy powierzchnię",
+          "description": "Wojna nuklearna niszczy normalne życie, zatruwa powierzchnię i spycha ocalałych z Moskwy pod ziemię do Metro. Każda późniejsza książka i gra z serii Metro wyrasta z tego zerwania ze starym światem."
+        },
+        {
+          "year": "2028",
+          "tag": "Era prequeli",
+          "title": "Metro Awakening staje się najwcześniejszym grywalnym rozdziałem",
+          "description": "Akcja Metro Awakening toczy się 15 lat po nuklearnym pożarze i śledzi losy Serdara w tunelach w historii dostępnej wyłącznie w VR. Rozszerza ona franczyzę wstecz w czasie, przed główną historię Artyoma."
+        },
+        {
+          "year": "2033",
+          "tag": "Metro 2033",
+          "title": "Pierwsza podróż Artyoma definiuje sagę gier",
+          "description": "Do 2033 roku całe pokolenie urodziło się pod ziemią. Artyom opuszcza miasta-stacje, aby ostrzec ludzkość przed rosnącym zagrożeniem i staje się centralną postacią linii gier Metro."
+        },
+        {
+          "year": "2034",
+          "tag": "Metro 2034 / Last Light",
+          "title": "Saga dzieli się na główne wątki książkowe i growe",
+          "description": "Książki rozszerzają się o postacie Homera, Saszy i Huntera podczas zabójczej epidemii, podczas gdy gry utrzymują Artyoma w centrum, gdy polityka Metro eskaluje w stronę konfliktu o D6."
+        },
+        {
+          "year": "2035",
+          "tag": "Metro 2035",
+          "title": "Artyom szuka życia poza tunelami",
+          "description": "Artyom wciąż ryzykując napromieniowanie, szuka innych ocalałych i odkrywa prawdy, które zmieniają jego postrzeganie życia w Metro. To najsilniejszy pomost książkowy do szerszej przyszłości."
+        },
+        {
+          "year": "2036",
+          "tag": "Metro Exodus",
+          "title": "Seria zostawia Moskwę w tyle",
+          "description": "Metro Exodus wysyła Artyoma i Spartan Rangers przez Rosję na pokładzie Aurory w historii obejmującej wszystkie pory roku. Franczyza rozszerza się z przetrwania w tunelach na szerszą podróż przez pustkowia."
+        }
+      ]
+    },
+    "lucidBlocksAchievementTracker": {
+      "title": "Kolejność gier Metro 2039",
+      "displayType": "steps",
+      "eyebrow": "Kolejność grania",
+      "subtitle": "Przejrzysta ścieżka przygotowawcza do Metro 2039 to najpierw główna trylogia, a Metro Awakening jako opcjonalny kontekst VR.",
+      "intro": "Jeśli Twoim celem jest gotowość na Metro 2039 bez zbędnego zamieszania, najpierw podążaj główną ścieżką Artema. Metro 2033 Redux, Metro: Last Light Redux i Metro Exodus to trzon rozgrywki; Metro Awakening dodaje dodatkowy kontekst, jeśli chcesz poznać wcześniejszy prequel VR.",
+      "items": [
+        {
+          "step": 1,
+          "title": "Zacznij od Metro 2033 Redux",
+          "tag": "Główny początek",
+          "description": "To ostateczna, nowoczesna wersja pierwszej gry z serii Metro i najlepszy punkt wejścia dla nowych graczy. Wprowadza postać Artema, miasta-stacje, zagrożenia na powierzchni oraz zasady przetrwania w tym uniwersum.",
+          "details": [
+            "Data premiery na Steam: 25 sierpnia 2014",
+            "Ostateczna nowoczesna wersja pierwszej głównej opowieści",
+            "Najlepszy pierwszy przystanek przed jakąkolwiek inną grą z serii Metro"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Kontynuuj z Metro: Last Light Redux",
+          "tag": "Bezpośrednia kontynuacja",
+          "description": "Last Light śledzi losy Artema w 2034 roku i rozwija wątki polityczne oraz postacie z Metro 2033. To rozdział, który zmienia Metro w konflikt frakcji, walkę o władzę i przyszłość podziemnego świata.",
+          "details": [
+            "Data premiery na Steam: 25 sierpnia 2014",
+            "Bezpośrednia kontynuacja fabularna Metro 2033",
+            "Pakiet Redux zawiera wszystkie wcześniej wydane dodatki DLC"
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Następnie zagraj w Metro Exodus",
+          "tag": "Zwieńczenie głównej linii",
+          "description": "Exodus to trzecia główna gra i moment, w którym seria opuszcza Moskwę. Stanowi zwieńczenie wcześniejszego wątku Artema i pozostaje najbardziej klarownym wprowadzeniem dostępnym przed Metro 2039.",
+          "details": [
+            "Data premiery na Steam: 14 lutego 2019",
+            "Rok akcji: 2036",
+            "Przedstawia podróż przez cały kontynent na pokładzie Aurory"
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Potraktuj Metro Awakening jako opcjonalny prequel VR",
+          "tag": "Opcjonalna ścieżka VR",
+          "description": "Metro Awakening to historia wyłącznie na VR, osadzona w 2028 roku, czyli wcześniej niż trylogia Artema. Dodaje przydatny kontekst prequela, ale główna ścieżka bez VR nadal prowadzi przez 2033 Redux, Last Light Redux i Exodus.",
+          "details": [
+            "Data premiery na Steam: 7 listopada 2024",
+            "Tytuł z serii Metro wyłącznie na VR",
+            "Najlepiej traktować jako dodatkowy kontekst, jeśli posiadasz sprzęt VR lub chcesz zgłębić historię świata"
+          ]
+        }
+      ]
+    },
+    "lucidBlocksSingleplayerAndPlatformFAQ": {
+      "title": "Kolejność książek Metro 2039",
+      "displayType": "steps",
+      "eyebrow": "Kolejność czytania",
+      "subtitle": "Przejrzysta kolejność czytania przed Metro 2039 to Metro 2033, następnie Metro 2034, a na końcu Metro 2035.",
+      "intro": "Dla większości czytelników przygotowujących się do Metro 2039 kluczową kwestią jest zarówno kolejność, jak i powiązanie z grami. Główną trylogię najlepiej czytać w kolejności numeracji: Metro 2033 buduje fundamenty, Metro 2034 rozszerza obsadę, a Metro 2035 przywraca Artema, łącząc najważniejsze wątki.",
+      "items": [
+        {
+          "step": 1,
+          "title": "Najpierw przeczytaj Metro 2033",
+          "tag": "Fundament",
+          "description": "Metro 2033 to otwierający rozdział głównych powieści z serii Metro i najjaśniejszy sposób na poznanie zasad, polityki i nastroju moskiewskiego Metro. Jest to również powieść, która ma najsilniejsze punkty wspólne z pierwszą grą.",
+          "details": [
+            "Główna powieść Metro skupiona na Artemie",
+            "Ustanawia podziemny świat, na którym opierają się późniejsze książki i gry",
+            "Najlepszy punkt startowy zarówno dla czytelników, jak i graczy"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Jako drugie przeczytaj Metro 2034",
+          "tag": "Zmiana perspektywy",
+          "description": "Metro 2034 przenosi akcję o rok do przodu, ale odchodzi od postaci Artema. Rozszerza sagę poprzez Saszę, Homera i Huntera, działając jako pomost od historii jednego bohatera do szerszego świata Metro.",
+          "details": [
+            "Rok akcji: 2034",
+            "Rozszerza Metro poza punkt widzenia Artema",
+            "Najlepiej przeczytać przed Metro 2035, ponieważ występujące tu postacie pojawiają się w kontynuacji"
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Zakończ na Metro 2035",
+          "tag": "Zbieżność",
+          "description": "Metro 2035 przywraca Artema na pierwszy plan i stawia go przed pytaniem o życie poza Moskwą. Działa jako główny punkt zbieżny między motywami powieści a dyskusjami o erze gier przed Metro 2039.",
+          "details": [
+            "Rok akcji: 2035",
+            "Przywraca skupienie na Artemie",
+            "Najlepsza lektura na finał dla użytkowników poruszających się między książkami a grami"
+          ]
+        }
+      ]
+    },
+    "lucidBlocksSteamDeckAndController": {
+      "title": "Frakcje Metro 2039",
+      "displayType": "cardList",
+      "eyebrow": "Polityka świata",
+      "subtitle": "Polityka w Metro opiera się na stacjach, liniach zaopatrzeniowych i blokach zbrojnych. To właśnie te frakcje nadają serii jej długotrwałą tożsamość polityczną.",
+      "intro": "W Metro 2039 frakcje nie są tylko tłem fabularnym. Wyjaśniają one, kto kontroluje handel, kto sprawuje przemoc, kto chroni wiedzę i dlaczego każdy powrót do polityki moskiewskiej natychmiast staje się walką o linie, stacje i przetrwanie.",
+      "items": [
+        {
+          "icon": "Shield",
+          "title": "Hanza",
+          "tag": "Potęga handlowa",
+          "summary": "Liga Hanzeatycka to handlowe supermocarstwo Metro i najbliższa rzecz, jaką tunele mają do centrum gospodarczego.",
+          "details": [
+            "Kontroluje linię okrężną (Kolcewą), kluczowy szlak handlowy w Metro.",
+            "Handel z każdej stacji i frakcji przechodzi przez punkty kontrolne Hanzy.",
+            "Utrzymuje około 4 000 do 5 000 żołnierzy i chroni handel bardziej niż ideologię."
+          ]
+        },
+        {
+          "icon": "BookOpen",
+          "title": "Polis",
+          "tag": "Centrum wiedzy",
+          "summary": "Polis to intelektualne serce Metro i jedno z niewielu miejsc, gdzie przedwojenna kultura i nauka wciąż wydają się żywe.",
+          "details": [
+            "Skupione wokół węzła przesiadkowego stacji Arbatskaja, Aleksandrowskij Sad, Biblioteka imienia Lenina i Borowickaja.",
+            "Rządzone przez radę, a nie przez jedną głowę państwa.",
+            "Chronione zarówno przez niewielkie siły wojskowe, jak i przez status repozytorium wiedzy Metro."
+          ]
+        },
+        {
+          "icon": "Star",
+          "title": "Zakon Spartan",
+          "tag": "Elitarni obrońcy",
+          "summary": "Spartanie to najbardziej szanowany zakon wojskowy w Metro i główna frakcja Artema.",
+          "details": [
+            "Elitarna formacja paramilitarna ściśle powiązana z Polis.",
+            "Zajmuje bazę powierzchniową Sparta oraz D6 po wydarzeniach z Metro 2033.",
+            "Liczy około 250 członków, z czego około 100 przebywa w terenie w dowolnym momencie."
+          ]
+        },
+        {
+          "icon": "Hammer",
+          "title": "Linia Czerwona",
+          "tag": "Armia masowa",
+          "summary": "Linia Czerwona to marksistowsko-leninowskie, neostalinowskie państwo oparte na terytorium, sile ludzkiej i kontroli.",
+          "details": [
+            "Pod przywództwem Sekretarza Generalnego Maksyma Moskwina.",
+            "Kontroluje większość linii Sokolniczeskiej.",
+            "Liczy około 15 000 obywateli, z czego około 6 000 do 7 000 służy w siłach zbrojnych."
+          ]
+        },
+        {
+          "icon": "AlertTriangle",
+          "title": "Czwarta Rzesza",
+          "tag": "Państwo ideologiczne",
+          "summary": "Rzesza to faszystowski blok Metro, definiowany przez ksenofobię, militaryzację i ciągły konflikt z Linią Czerwoną.",
+          "details": [
+            "Zbudowana wokół neonazistowskiej i przedwojennej ksenofobicznej ideologii.",
+            "Skupiona wokół kompleksu stacji Twierskaja-Ciechowskaja-Puszkinskaja.",
+            "Wystawia armię liczącą około 2 000 do 3 000 osób i pozostaje w niemal permanentnej walce z Linią Czerwoną."
+          ]
+        },
+        {
+          "icon": "Eye",
+          "title": "Niewidzialni Obserwatorzy",
+          "tag": "Rządy w cieniu",
+          "summary": "Metro 2035 ujawnia ukrytą warstwę władzy nad widocznymi frakcjami: pozostałości dawnego państwa rosyjskiego.",
+          "details": [
+            "Przedstawiani jako ukryci ocalali z rządu rosyjskiego.",
+            "Utrzymują przywódców głównych frakcji w ryzach poprzez groźby, szantaże i łapówki.",
+            "Wykorzystują kontrolowany konflikt i zarządzaną niestabilność jako narzędzia kontroli populacji."
+          ]
+        }
+      ],
+      "ctaLabel": "Poznaj frakcje Metro 2039"
+    },
+    "lucidBlocksSettingsAndAccessibility": {
+      "title": "Wyjaśnienie realiów Metro 2039",
+      "displayType": "accordion",
+      "eyebrow": "Podstawy świata",
+      "subtitle": "Nowi gracze nie potrzebują na początku każdego szczegółu fabularnego. Potrzebują zasad rządzących światem: dlaczego ludzie żyją pod ziemią, dlaczego maski są ważne i dlaczego każda podróż przypomina survival horror.",
+      "intro": "Metro to nie tylko postapokaliptyczne tło. To system z jasnymi zasadami przetrwania: podziemne schronienie, zatrute powietrze na powierzchni, polityka stacji, niebezpieczne podróże i jedno centralne pytanie, które napędza serię – czy ludzkość w ogóle powinna zostać w tunelach.",
+      "items": [
+        {
+          "heading": "Dlaczego ludzie żyją w Metro",
+          "summary": "Tunele są ostatnim funkcjonującym schronieniem ludzkości.",
+          "content": "Po tym, jak Ostatnia Wojna spustoszyła świat, tylko czterdzieści tysięcy osób zdołało ocaleć i schronić się w moskiewskim Metro. Dwie dekady później powierzchnia wciąż jest zatruta opadem nuklearnym i opanowana przez mutanty, więc tunele stały się pełnoprawną podziemną cywilizacją.",
+          "points": [
+            "Metro zostało zaprojektowane tak, aby funkcjonować jako gigantyczny schron przeciwlotniczy.",
+            "Stacje ewoluowały w domy, targowiska i społeczności polityczne.",
+            "Cała seria zaczyna się od założenia, że walka o przetrwanie przeniosła się pod ziemię."
+          ]
+        },
+        {
+          "heading": "Dlaczego maski przeciwgazowe są ważne",
+          "summary": "Maski to zasada przetrwania, a nie tylko ikoniczny element wizualny.",
+          "content": "Na powierzchni Moskwy niebezpieczne promieniowanie sprawia, że maski przeciwgazowe są obowiązkowe. W Metro każda wyprawa na górę jest ograniczona zapasem powietrza, filtrami i ekspozycją, co zmienia eksplorację w ryzyko ograniczone czasowo.",
+          "points": [
+            "Powierzchnia Moskwy jest spowita niebezpiecznym promieniowaniem.",
+            "Artem i Rangerzy noszą maski przeciwgazowe przez cały czas przebywania na powierzchni.",
+            "Ekspozycja na powierzchni to jeden z najbardziej przejrzystych systemów zagrożeń w tym świecie."
+          ]
+        },
+        {
+          "heading": "Jak stacje stają się miastami-państwami",
+          "summary": "Metro to mozaika lokalnych potęg, a nie jedno zjednoczone społeczeństwo.",
+          "content": "Każda stacja wypracowuje własnego lidera, zwyczaje i tożsamość polityczną. Dlatego Metro przypomina mniej jeden naród, a bardziej mapę miniaturowych państw połączonych tunelami, handlem, strachem i uzbrojonymi granicami.",
+          "points": [
+            "Każda stacja ma własne zasady i wewnętrzną kulturę.",
+            "Handel i podróże łączą społeczności, które nie wyznają tych samych wartości.",
+            "Polityka w tunelach ma takie samo znaczenie, jak potwory na powierzchni."
+          ]
+        },
+        {
+          "heading": "Co sprawia, że podróżowanie jest śmiertelnie niebezpieczne",
+          "summary": "Przemieszczanie się między miejscami jest niebezpieczne nawet wtedy, gdy nie toczy się żadna wojna.",
+          "content": "Tunele nigdy nie są bezpiecznymi trasami tranzytowymi. Kieszenie radiacyjne, zagrożenia psychiczne, bandyci i zmutowane drapieżniki sprawiają, że nawet zwykły ruch jest aktem przetrwania, dlatego przewodnicy, trasy i terytoria frakcji mają tak duże znaczenie w dyskusjach o Metro.",
+          "points": [
+            "Promieniowanie nie ogranicza się tylko do otwartej powierzchni.",
+            "Bandyci i drapieżniki polują na podróżnych między stacjami.",
+            "Zagrożenia psychiczne i sprawiające wrażenie nadprzyrodzonych są częścią atmosfery serii."
+          ]
+        },
+        {
+          "heading": "Co wnosi powierzchnia poza Moskwą",
+          "summary": "Exodus rozszerza świat, nie czyniąc go bezpieczniejszym.",
+          "content": "Gdy seria wykracza poza Moskwę, Metro staje się szerszą podróżą survivalową przez Rosję. Exodus dodaje anomalie, burze piaskowe, dziką przyrodę i niedobór zasobów do starej formuły Metro, pokazując, że opuszczenie tuneli zmienia świat, ale nie poziom zagrożenia.",
+          "points": [
+            "Anomalie to niebezpieczne sfery elektryczne, które poruszają się po powtarzalnych ścieżkach.",
+            "Burze piaskowe mogą ograniczyć widoczność i zmienić otwarty teren w śmiertelną pułapkę.",
+            "Amunicja i zapasy pozostają rzadkością nawet poza Metro."
+          ]
+        },
+        {
+          "heading": "Dlaczego Artem wciąż patrzy na zewnątrz",
+          "summary": "Kluczowym przekonaniem Artema jest to, że życie nie może skończyć się w tunelach.",
+          "content": "In Metro 2035, Artem wciąż zapuszcza się na powierzchnię, aby skanować fale radiowe i szukać innych ocalałych. W Exodus to przekonanie przeradza się w podróż przez Rosję, czyniąc poszukiwanie przyszłości nadającej się do życia jednym z najsilniejszych pomostów narracyjnych prowadzących do Metro 2039.",
+          "points": [
+            "Artem chce zabrać ocalałych z powrotem na powierzchnię i znaleźć nowy dom.",
+            "Wielokrotnie ryzykuje ekspozycję na promieniowanie, aby udowodnić, że poza Moskwą istnieje życie.",
+            "To dążenie na zewnątrz jest jedną z kluczowych idei, które napędzają serię."
+          ]
+        }
+      ],
+      "ctaLabel": "Poznaj realia Metro 2039"
+    },
+    "lucidBlocksUpdatesAndPatchNotes": {
+      "title": "Wyjaśnienie zakończeń Metro 2039",
+      "displayType": "accordion",
+      "eyebrow": "Przewodnik po kanonie",
+      "subtitle": "Zakończenia Metro to nie tylko ciekawostki. Kształtują one sposób, w jaki gracze rozumieją Artema, Cieni, D6, Młynarza i przyszłość poza Moskwą.",
+      "intro": "Zestawienie Metro 2033, Metro Last Light i Metro Exodus daje użytkownikom przejrzystą mapę kanonu przed zagłębieniem się w Metro 2039. To najszybszy sposób na zrozumienie, które wyniki definiują serię i które pytania o dziedzictwo wciąż mają największe znaczenie.",
+      "items": [
+        {
+          "heading": "Metro 2033: Ranger kontra Oświecony",
+          "summary": "Pierwsze główne rozwidlenie decyduje o losie Cieni.",
+          "content": "Metro 2033 ma dwa zakończenia. Kanoniczne zakończenie Ranger pozwala na atak rakietowy niszczący Cieni. Alternatywne zakończenie Oświecony pojawia się, jeśli Artem zdobędzie wystarczającą liczbę punktów moralnych i zamiast tego zniszczy system naprowadzania, zdając sobie sprawę, że Cienie chciały pokoju.",
+          "points": [
+            "Ścieżka kanoniczna: Ranger",
+            "Ścieżka alternatywna: Oświecony",
+            "Główna konsekwencja: Cienie zostają zniszczone lub oszczędzone"
+          ]
+        },
+        {
+          "heading": "Metro Last Light: C'est la Vie kontra Odkupienie",
+          "summary": "Last Light kontynuuje kanoniczny wynik Metro 2033, a następnie tworzy własne główne rozwidlenie.",
+          "content": "Metro Last Light zaczyna się po ścieżce, w której Artem zniszczył Cieni i dołączył do Rangerów w D6. Jego dwa zakończenia to C'est la Vie, w którym Artem wysadza D6, oraz Odkupienie, w którym Mały Cień i inne Cienie ratują D6. Metro 2035 i Metro Exodus podążają linią Odkupienia.",
+          "points": [
+            "Ścieżka kanoniczna: Odkupienie",
+            "C'est la Vie kończy się zniszczeniem D6",
+            "Odkupienie zachowuje D6 i ciągłość losów Rangerów"
+          ]
+        },
+        {
+          "heading": "Metro Exodus: Twój cel kontra Wieczna podróż",
+          "summary": "Exodus zmienia kwestię zakończenia w pytanie o przetrwanie Artema po misji w Nowosybirsku.",
+          "content": "Exodus dzieli się na Twój cel i Wieczną podróż. W Twoim celu Artem przeżywa, Anna zostaje uratowana, a on zostaje nowym liderem zarówno Zakonu, jak i nowej społeczności nad jeziorem Bajkał. W Wiecznej podróży Anna również zostaje uratowana, ale Artem umiera na chorobę popromienną po zdobyciu lekarstwa.",
+          "points": [
+            "Twój cel: Artem żyje",
+            "Wieczna podróż: Artem umiera",
+            "Oba zakończenia koncentrują się wokół wyścigu po lekarstwo dla Anny i ceny zapłaconej w Nowosybirsku"
+          ]
+        },
+        {
+          "heading": "Dziedzictwo, które przejmuje Metro 2039",
+          "summary": "Trylogia pozostawia trzy główne wątki dziedzictwa dla przyszłych dyskusji.",
+          "content": "Podsumowując, trylogia przekazuje Metro 2039 trzy trwałe wątki dziedzictwa: pamięć o Cieniach, przetrwanie D6 i Zakonu Spartańskiego oraz los Artema po Bajkale. Są to pytania, które gracze zadają sobie przy każdej nowej zapowiedzi, teorii i streszczeniu fabuły Metro.",
+          "points": [
+            "Metro 2033 nakreśla kwestię Cieni",
+            "Last Light decyduje, czy Rangerzy zachowają D6 i realną przyszłość",
+            "Exodus zmienia największe pozostałe rozwidlenie w kwestię przetrwania i przywództwa Artema"
+          ]
+        }
+      ],
+      "ctaLabel": "Porównaj zakończenia Metro 2039"
+    },
+    "lucidBlocksCrashFixAndTroubleshooting": {
+      "title": "Wyjaśnienie dewelopera Metro 2039",
+      "displayType": "cardList",
+      "eyebrow": "Studio i twórcy",
+      "subtitle": "Zainteresowanie wyszukiwaniem Metro 2039 przekłada się już na pytania o 4A Games, Deep Silver, Dmitrija Głuchowskiego i strukturę studia. Ten moduł daje użytkownikom jasną odpowiedź na to, kto tworzy grę i jak zorganizowany jest ten zespół.",
+      "intro": "Duża część ruchu związanego z wyszukiwaniem Metro obejmuje teraz pytania dotyczące deweloperów: czy 4A to wciąż ten sam zespół Metro, jaka jest rola Deep Silver, gdzie pasuje Dmitrij i jak Reburn łączy się ze starą strukturą 4A. Ten moduł odpowiada na te pytania bezpośrednio na podstawie aktualnych oficjalnych stron i aktualizacji 4A z 2025 roku.",
+      "items": [
+        {
+          "icon": "Clock",
+          "title": "Aktualny status oficjalny",
+          "tag": "Okno prezentacji",
+          "summary": "Metro 2039 ma już aktywną oficjalną stronę i zaplanowany pokaz.",
+          "details": [
+            "Oficjalna strona Metro 2039 od Deep Silver jest już dostępna online.",
+            "Strona wskazuje prezentację na 16 kwietnia 2026 o godzinie 10:00 PDT / 19:00 CEST / 20:00 EET.",
+            "Kieruje również użytkowników na oficjalny kanał Xbox na YouTube w celu otrzymywania powiadomień o wydarzeniu."
+          ]
+        },
+        {
+          "icon": "Package",
+          "title": "Wydawca, deweloper, twórca",
+          "tag": "Oficjalne informacje",
+          "summary": "Oficjalne informacje odpowiadają najpierw na najprostsze pytania: kto wydaje grę, kto ją tworzy i na czym jest oparta.",
+          "details": [
+            "Wydawane przez Deep Silver, oddział PLAION.",
+            "Tworzone przez 4A Games.",
+            "Oparte na trylogii książkowej Metro Dmitrija Głuchowskiego."
+          ]
+        },
+        {
+          "icon": "Check",
+          "title": "Ten sam zespół Metro, nie rebranding",
+          "tag": "Tożsamość studia",
+          "summary": "Aktualizacja 4A z lutego 2025 r. została napisana, aby wyjaśnić zamieszanie wokół zespołu Metro.",
+          "details": [
+            "4A twierdzi, że jest zespołem, który stworzył i zbudował gry z serii Metro.",
+            "Studio twierdzi, że nadal tworzy kolejne Metro wraz z Dmitrijem Głuchowskim.",
+            "4A wyraźnie opisuje siebie jako tych samych założycieli, kierownictwo i deweloperów, a nie jako przemianowanego następcę."
+          ]
+        },
+        {
+          "icon": "Users",
+          "title": "Gdzie 4A pracuje dzisiaj",
+          "tag": "Zasięg studia",
+          "summary": "Metro 2039 jest tworzone przez studio działające w dwóch krajach, z Ukrainą wciąż w centrum.",
+          "details": [
+            "4A podaje, że zatrudnia obecnie ponad 200 pracowników w dwóch krajach.",
+            "Około 150 z tych deweloperów pozostaje na Ukrainie.",
+            "Zespół pracuje z Kijowa, Sliemy na Malcie oraz zdalnie."
+          ]
+        },
+        {
+          "icon": "ExternalLink",
+          "title": "Jak łączą się 4A i Reburn",
+          "tag": "Historia zespołu",
+          "summary": "Dawny podział nazewnictwa 4A jest jednym z największych źródeł zamieszania w sieci, a 4A odniosło się do tego bezpośrednio.",
+          "details": [
+            "W 2014 roku pierwotni założyciele utworzyli 4A Games Limited i stworzyli siedzibę na Malcie.",
+            "Ten zespół kierowany z Malty kontynuował ścisłą współpracę z 4A Games Ukraine nad Metro Exodus.",
+            "Po Exodus, 4A Games Ukraine realizowało własny projekt i później zmieniło nazwę na Reburn, podczas gdy 4A Games Limited kontynuowało serię Metro."
+          ]
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Co kształtuje następne Metro",
+          "tag": "Kierunek fabularny",
+          "summary": "Jubileuszowa aktualizacja 4A z marca 2025 r. wyjaśnia, dlaczego następne Metro brzmi mroczniej i jest bardziej nacechowane politycznie.",
+          "details": [
+            "4A twierdzi, że inwazja na pełną skalę w 2022 roku zmieniła sposób, w jaki studio chciało opowiedzieć kolejną historię Metro.",
+            "Studio twierdzi, że kolejna gra jest kształtowana przez przeżyte doświadczenia wojenne.",
+            "4A dodaje również, że antywojenne, polityczne i emocjonalne motywy Metro są kontynuowane dzięki współpracy z Dmitrijem Głuchowskim."
+          ]
+        }
+      ],
+      "ctaLabel": "Poznaj zespół Metro 2039"
+    }
+  },
+  "faq": {
+    "title": "Metro 2039",
+    "titleHighlight": "FAQ",
+    "subtitle": "Szybkie odpowiedzi na najczęstsze pytania dotyczące Metro 2039",
+    "questions": [
+      {
+        "question": "Kiedy odbędzie się premiera Metro 2039?",
+        "answer": "Metro 2039 zostało zapowiedziane, pełna prezentacja zaplanowana jest na 16 kwietnia 2026 r., a ostateczna data premiery nie została jeszcze ogłoszona."
+      },
+      {
+        "question": "Gdzie mogę obejrzeć prezentację Metro 2039?",
+        "answer": "Obejrzyj prezentację Metro 2039 podczas premiery Xbox First Look na YouTube oraz na oficjalnej stronie gry Deep Silver."
+      },
+      {
+        "question": "O czym jest Metro 2039?",
+        "answer": "Metro 2039 kontynuuje postapokaliptyczną sagę Metro z ukształtowaną przez wojnę, antytyrańską historią zakorzenioną w przetrwaniu, polityce i ludzkich kosztach."
+      },
+      {
+        "question": "Które platformy Metro 2039 są monitorowane?",
+        "answer": "Monitorowanie platform Metro 2039 koncentruje się na PC, Xbox Series X|S i PlayStation 5, wraz z informacjami o sklepach i lokalizacji."
+      },
+      {
+        "question": "W które gry z serii Metro powinienem zagrać najpierw?",
+        "answer": "Zagraj w Metro 2033 Redux, Metro: Last Light Redux i Metro Exodus w tej kolejności przed Metro 2039, aby najlepiej nadrobić historię."
+      },
+      {
+        "question": "Które książki z serii Metro powinienem przeczytać najpierw?",
+        "answer": "Przeczytaj Metro 2033, Metro 2034 i Metro 2035 w tej kolejności, aby poznać kontekst książkowy stojący za Metro 2039."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Śledź oficjalne kanały Metro 2039",
+    "description": "Obejrzyj oficjalną prezentację, dołącz do społeczności Metro na Discord i bądź na bieżąco z nowymi aktualizacjami Metro 2039, gdy Deep Silver i 4A Games udostępnią więcej szczegółów.",
+    "joinCommunity": "Dołącz do oficjalnego Discord Metro",
+    "joinGame": "Odwiedź oficjalną stronę Metro 2039"
+  },
+  "footer": {
+    "title": "Metro 2039",
+    "description": "Śledź zwiastuny Metro 2039, aktualizacje dotyczące premiery, wskazówki fabularne, frakcje, postacie i oficjalne linki społecznościowe w jednym centrum wolnym od spoilerów.",
+    "resources": "Zasoby",
+    "community": "Oficjalne kanały",
+    "legal": "Informacje prawne",
+    "discord": "Oficjalny Discord",
+    "twitter": "Oficjalna strona",
+    "steamCommunity": "Reddit",
+    "steamStore": "YouTube",
+    "about": "O nas",
+    "privacy": "Polityka prywatności",
+    "terms": "Regulamin",
+    "copyrightNotice": "Prawa autorskie",
+    "copyright": "© 2026 fanowskie centrum Metro 2039. Niezwiązane z Deep Silver ani 4A Games.",
+    "disclaimer": "Nieoficjalna strona fanowska. Wszystkie znaki towarowe i materiały z gry należą do ich odpowiednich właścicieli."
+  },
+  "pages": {
+    "guide": {
+      "title": "Przewodnik Metro 2039",
+      "description": "Niezbędne wyjaśnienia dotyczące Metro 2039, wskazówki dotyczące oglądania pokazów i ścieżki szybkiego startu dla nowych obserwatorów.",
+      "metaTitle": "Przewodnik Metro 2039 – Niezbędne wyjaśnienia i centrum startowe",
+      "metaDescription": "Odwiedź centrum Przewodnika Metro 2039, aby znaleźć wyjaśnienia, kontekst pokazów i praktyczne artykuły na start dla nowych i powracających fanów.",
+      "categoryLabel": "ZACZNIJ TUTAJ",
+      "whatIs": "Czym jest strona Przewodnika Metro 2039?",
+      "whatIsDescription": "Przewodnik Metro 2039 to centrum orientacyjne, które odpowiada na kluczowe pytania, wyjaśnia obecny kontekst pokazów i wskazuje najszybszą drogę do bardziej szczegółowych informacji.",
+      "why": "Dlaczego warto czytać Przewodnik Metro 2039?",
+      "whySteps": {
+        "step1Title": "Szybko zrozum podstawy",
+        "step1Description": "Poznaj kluczowy kontekst Metro 2039 w kilka minut, zanim zagłębisz się w szczegółowe tematy.",
+        "step2Title": "Podążaj za właściwą kolejnością czytania",
+        "step2Description": "Przejdź od ogólnych wyjaśnień do szczegółów dotyczących premiery, fabuły i platform bez zbędnego szukania.",
+        "step3Title": "Bądź gotowy na nowe aktualizacje",
+        "step3Description": "Traktuj przewodnik jako bazę, dzięki której każde nowe ogłoszenie dotyczące Metro 2039 będzie łatwiejsze do zrozumienia."
+      },
+      "featured": "Wyróżnione i niezbędne",
+      "all": "Wszystkie artykuły z Przewodnika Metro 2039"
+    },
+    "release": {
+      "title": "Premiera Metro 2039",
+      "description": "Śledź terminy pokazów Metro 2039, sygnały dotyczące dat, okna wydarzeń i zmiany kamieni milowych z oficjalnych kanałów.",
+      "metaTitle": "Premiera Metro 2039 – Śledzenie daty, czas pokazu i kamienie milowe",
+      "metaDescription": "Śledź aktualizacje dotyczące premiery Metro 2039, w tym terminy pokazów, daty, okna wydarzeń i kamienie milowe premiery na jednej osi czasu.",
+      "categoryLabel": "ŚLEDZENIE PREMIERY",
+      "whatIs": "Czym jest strona Premiera Metro 2039?",
+      "whatIsDescription": "Sekcja Premiera Metro 2039 gromadzi informacje związane z czasem, w tym terminy pokazów, okna ogłoszeń i aktualizacje sekwencji startowej.",
+      "why": "Dlaczego warto korzystać ze strony Premiera Metro 2039?",
+      "whySteps": {
+        "step1Title": "Śledź każdy sygnał dotyczący czasu",
+        "step1Description": "Sprawdzaj zmiany dat i godzin w jednym miejscu, zamiast przeglądać wiele kanałów informacyjnych.",
+        "step2Title": "Dopasuj wydarzenia do ogłoszeń",
+        "step2Description": "Łącz pokazy, segmenty Xbox First Look i oficjalne posty z osią czasu Metro 2039.",
+        "step3Title": "Planuj wokół kamieni milowych",
+        "step3Description": "Korzystaj z informacji o premierze, aby wiedzieć, kiedy sprawdzać zwiastuny, strony platform i kolejne nowości."
+      },
+      "featured": "Wyróżnione i niezbędne",
+      "all": "Wszystkie artykuły o premierze Metro 2039"
+    },
+    "platforms": {
+      "title": "Platformy Metro 2039",
+      "description": "Informacje o dostępności Metro 2039 na Xbox, PlayStation, w sklepach PC oraz uwagi dotyczące wersji językowych.",
+      "metaTitle": "Platformy Metro 2039 – Xbox, PlayStation, Steam i dostępność",
+      "metaDescription": "Sprawdź informacje o platformach Metro 2039, w tym docelowy sprzęt, status w sklepach oraz szczegóły dotyczące regionów i wersji językowych.",
+      "categoryLabel": "STATUS PLATFORM",
+      "whatIs": "Czym jest sekcja Platformy Metro 2039?",
+      "whatIsDescription": "Platformy Metro 2039 to kategoria dotycząca tego, gdzie gra się pojawia, które sklepy są aktywne i jak dostępność różni się w zależności od ekosystemu.",
+      "why": "Dlaczego warto sprawdzać Platformy Metro 2039?",
+      "whySteps": {
+        "step1Title": "Potwierdź, gdzie możesz zagrać",
+        "step1Description": "Sprawdź aktualne wsparcie dla platform i aktywność w sklepach bez przełączania się między stronami.",
+        "step2Title": "Śledź zmiany w sklepach",
+        "step2Description": "Monitoruj aktualizacje ofert, sygnały dotyczące list życzeń i zmiany w dostępności regionalnej.",
+        "step3Title": "Wybierz najlepszą wersję dla siebie",
+        "step3Description": "Porównaj kontekst platform wcześniej, aby decyzje dotyczące konfiguracji Metro 2039 były proste."
+      },
+      "featured": "Wyróżnione i niezbędne",
+      "all": "Wszystkie artykuły o platformach Metro 2039"
+    },
+    "leaks": {
+      "title": "Przecieki Metro 2039",
+      "description": "Strony śledzące przecieki Metro 2039, w tym dyskusje o zrzutach ekranu, raporty z rozgrywki i osie czasu cykli plotek.",
+      "metaTitle": "Przecieki Metro 2039 – Dyskusje o zrzutach ekranu i raporty z rozgrywki",
+      "metaDescription": "Śledź przecieki dotyczące Metro 2039, w tym cykle plotek, podsumowania dyskusji o zrzutach ekranu i osie czasu raportów z rozgrywki.",
+      "categoryLabel": "MONITOROWANIE PRZECIEKÓW",
+      "whatIs": "Czym jest sekcja Przecieki Metro 2039?",
+      "whatIsDescription": "Przecieki Metro 2039 gromadzą tematy oparte na pogłoskach, takie jak raporty z rozgrywki, serie zrzutów ekranu i skoki aktywności w dyskusjach związane z cyklami pokazów.",
+      "why": "Dlaczego warto czytać o przeciekach Metro 2039?",
+      "whySteps": {
+        "step1Title": "Śledź dynamikę plotek",
+        "step1Description": "Zobacz, które tematy z przecieków zyskują uwagę przed głównymi oficjalnymi wydarzeniami.",
+        "step2Title": "Uporządkuj rozproszone raporty",
+        "step2Description": "Korzystaj z jednej osi czasu, aby śledzić powiązane dyskusje o zrzutach ekranu i rozgrywce w różnych cyklach.",
+        "step3Title": "Połącz z oficjalnymi wiadomościami",
+        "step3Description": "Porównaj narracje z fazy przecieków z późniejszymi oficjalnymi ogłoszeniami dotyczącymi Metro 2039."
+      },
+      "featured": "Wyróżnione i niezbędne",
+      "all": "Wszystkie artykuły o przeciekach Metro 2039"
+    },
+    "story": {
+      "title": "Fabuła Metro 2039",
+      "description": "Relacje dotyczące fabuły Metro 2039, w tym wątki postaci, wskazówki dotyczące miejsca akcji i kierunek narracji powiązany z uniwersum Metro.",
+      "metaTitle": "Fabuła Metro 2039 – Postacie, wskazówki dotyczące świata i kierunek narracji",
+      "metaDescription": "Przeczytaj omówienie fabuły Metro 2039, aby poznać kontekst lore, wątki postaci, wskazówki dotyczące stanu świata i kierunek narracji przed premierą.",
+      "categoryLabel": "RELACJE DOTYCZĄCE FABUŁY",
+      "whatIs": "Czym jest fabuła Metro 2039?",
+      "whatIsDescription": "Fabuła Metro 2039 skupia się na wątkach narracyjnych: kontekście protagonisty, relacjach między bohaterami, napięciach w świecie gry oraz sygnałach fabularnych z oficjalnych materiałów.",
+      "why": "Dlaczego warto śledzić fabułę Metro 2039?",
+      "whySteps": {
+        "step1Title": "Odśwież wiedzę o lore Metro",
+        "step1Description": "Przypomnij sobie główny kontekst stanu świata, aby nowe wątki fabularne Metro 2039 były w pełni zrozumiałe.",
+        "step2Title": "Śledź rozwój postaci",
+        "step2Description": "Obserwuj, jak Artem, sojusznicy i rywale są przedstawiani w materiałach z pokazów.",
+        "step3Title": "Lepiej odczytuj sygnały narracyjne",
+        "step3Description": "Wykorzystaj kontekst fabularny, aby szybciej interpretować zwiastuny, wywiady i podsumowania wydarzeń."
+      },
+      "featured": "Polecane i kluczowe",
+      "all": "Wszystkie artykuły o fabule Metro 2039"
+    },
+    "series": {
+      "title": "Seria Metro 2039",
+      "description": "Omówienie całej serii Metro, łączące Metro 2039 z Metro 2033, Last Light, Exodus oraz powiązanym kontekstem książkowym.",
+      "metaTitle": "Seria Metro 2039 – Powiązania na osi czasu między grami i książkami",
+      "metaDescription": "Poznaj omówienie serii Metro 2039, aby połączyć starsze gry Metro, odniesienia do książek i kontekst osi czasu franczyzy.",
+      "categoryLabel": "KONTEKST SERII",
+      "whatIs": "Czym jest seria Metro 2039?",
+      "whatIsDescription": "Seria Metro 2039 łączy nowy tytuł z wcześniejszymi grami i odniesieniami do ery powieści, zapewniając czytelnikom pełny kontekst całej franczyzy.",
+      "why": "Dlaczego warto korzystać z omówienia serii Metro 2039?",
+      "whySteps": {
+        "step1Title": "Poznaj oś czasu franczyzy",
+        "step1Description": "Połącz Metro 2039 z wcześniejszymi kamieniami milowymi, od Metro 2033 po Metro Exodus.",
+        "step2Title": "Dopasuj kontekst książek i gier",
+        "step2Description": "Zrozum, w których miejscach odniesienia do powieści i wydarzenia z gier pokrywają się w szerszym uniwersum Metro.",
+        "step3Title": "Nadrób zaległości efektywnie",
+        "step3Description": "Skorzystaj z przewodników po serii, aby zdecydować, co przeczytać lub w co zagrać ponownie przed kolejnym dużym pokazem."
+      },
+      "featured": "Polecane i kluczowe",
+      "all": "Wszystkie artykuły o serii Metro 2039"
+    },
+    "developer": {
+      "title": "Twórcy Metro 2039",
+      "description": "Relacje dotyczące twórców Metro 2039, w tym aktualizacje od 4A Games, informacje wydawnicze Deep Silver oraz komunikacja dotycząca produkcji.",
+      "metaTitle": "Twórcy Metro 2039 – Aktualizacje od 4A Games i Deep Silver",
+      "metaDescription": "Śledź relacje dotyczące twórców Metro 2039, aby poznać oświadczenia studia, aktualizacje wydawcy i kontekst produkcyjny od 4A Games i Deep Silver.",
+      "categoryLabel": "MONITOROWANIE STUDIA",
+      "whatIs": "Czym są informacje o twórcach Metro 2039?",
+      "whatIsDescription": "Sekcja ta śledzi, kto tworzy i wydaje grę, a także analizuje częstotliwość komunikacji na kanałach studia i wydawcy.",
+      "why": "Dlaczego warto śledzić informacje o twórcach Metro 2039?",
+      "whySteps": {
+        "step1Title": "Śledź komunikację studia",
+        "step1Description": "Sprawdzaj, co 4A Games i Deep Silver ogłaszają w swoich oficjalnych kanałach.",
+        "step2Title": "Zrozum kontekst produkcji",
+        "step2Description": "Powiąż oświadczenia dotyczące mapy drogowej i tempo pokazów z ogólnym postępem prac nad Metro 2039.",
+        "step3Title": "Obserwuj sygnały od zespołu",
+        "step3Description": "Korzystaj z aktualizacji skupionych na twórcach, aby przewidzieć, czego mogą dotyczyć kolejne ogłoszenia."
+      },
+      "featured": "Polecane i kluczowe",
+      "all": "Wszystkie artykuły o twórcach Metro 2039"
+    }
   }
 }

@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Téléchargement de la démo, Guide de coopération, Fabrication et Mods",
-      "description": "Centre de ressources complet pour Lucid Blocks ! Obtenez des informations sur le téléchargement de la démo, des guides pour débutants, des stratégies de coopération, des conseils de fabrication, des commandes, des mods et des liens communautaires pour le jeu de braquage furtif sur Steam.",
-      "keywords": "Lucid Blocks Wiki, Lucid Blocks, téléchargement de la démo, guide pour débutants, guide de coopération, fabrication, équipement, mods, BepInEx, jeu Steam, jeu furtif",
-      "ogTitle": "Lucid Blocks Wiki - Téléchargement de la démo, Guide de coopération, Fabrication et Mods",
-      "ogDescription": "Centre de ressources complet pour Lucid Blocks ! Obtenez des informations sur le téléchargement de la démo, des guides pour débutants, des stratégies de coopération, des conseils de fabrication et des mods pour le jeu de braquage furtif sur Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Téléchargement de la démo, Guide de coopération, Fabrication et Mods",
-      "twitterDescription": "Centre de ressources complet pour Lucid Blocks ! Obtenez des informations sur le téléchargement de la démo, des guides pour débutants, des stratégies de coopération et des conseils de fabrication."
+      "title": "Metro 2039 Wiki - Trailer, Release Date & Story",
+      "description": "Metro 2039 Wiki tracks the official trailer, release-date timeline, story clues, factions, characters, platforms, and livestream details for the next mainline Metro game.",
+      "keywords": "Metro 2039, Metro 2039 wiki, trailer, release date, story, factions, characters, platforms",
+      "ogTitle": "Metro 2039 Wiki - Trailer, Release Date & Story",
+      "ogDescription": "Metro 2039 Wiki tracks the official trailer, release-date timeline, story clues, factions, characters, platforms, and livestream details for the next mainline Metro game.",
+      "twitterTitle": "Metro 2039 Wiki - Trailer, Release Date & Story",
+      "twitterDescription": "Metro 2039 Wiki follows the official trailer, reveal schedule, story direction, factions, characters, and platform rollout in one fast hub."
     }
   },
   "nav": {
@@ -20,947 +20,1064 @@
     "developer": "Developer"
   },
   "common": {
-    "home": "Accueil",
-    "more": "Plus",
-    "playNow": "Obtenir la démo",
-    "switchLanguage": "Changer de langue",
-    "switchTheme": "Changer de thème",
-    "lightMode": "Mode clair",
-    "darkMode": "Mode sombre",
-    "notFound": "Page introuvable",
-    "notFoundDescription": "La page que vous recherchez n'existe pas.",
-    "backToHome": "Retour à l'accueil",
-    "relatedArticles": "Articles similaires",
-    "readMore": "En savoir plus"
+    "home": "Home",
+    "more": "More",
+    "playNow": "Visit Official Site",
+    "switchLanguage": "Switch Language",
+    "switchTheme": "Switch Theme",
+    "lightMode": "Light Mode",
+    "darkMode": "Dark Mode",
+    "notFound": "Page Not Found",
+    "notFoundDescription": "The page you are looking for does not exist.",
+    "backToHome": "Back to Home",
+    "relatedArticles": "Related Articles",
+    "readMore": "Read More"
   },
   "hero": {
-    "badge": "Minuscules gnomes. Grandes maisons. Braquages furtifs entre amis.",
-    "title": "Lucid Blocks wiki",
-    "description": "Votre centre pour Lucid Blocks : comment fonctionnent les braquages, les tâches de Haut-Gnome, la fabrication et les améliorations, les ennemis, les commandes et les moyens les plus rapides de survivre à chaque partie.",
-    "getFreeCodesCTA": "Télécharger la démo",
-    "playOnSteamCTA": "Ajouter à la liste de souhaits sur Steam",
+    "badge": "Officially Revealed Post-Apocalyptic FPS",
+    "title": "Metro 2039",
+    "description": "Follow Metro 2039 announcement news, trailer breakdowns, release tracking, story clues, factions, characters, and platform coverage for the next mainline Metro game.",
+    "getFreeCodesCTA": "Watch Metro 2039 Trailer",
+    "playOnSteamCTA": "Visit Metro 2039 Official Site",
     "stats": {
       "stat1": {
-        "value": "15K",
-        "label": "Pic de CCU (Démo)"
+        "value": "Apr 16, 2026",
+        "label": "Reveal Date"
       },
       "stat2": {
-        "value": "6",
-        "label": "Joueurs en coopération"
+        "value": "68K+",
+        "label": "Announcement Views"
       },
       "stat3": {
-        "value": "31/01/2026",
-        "label": "Sortie de la démo"
+        "value": "13.6K+",
+        "label": "Discord Members"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Plateforme"
+        "value": "73K+",
+        "label": "Reddit Members"
       }
     }
   },
   "gameFeature": {
-    "title": "Gameplay de Lucid Blocks",
-    "description": "Regardez de minuscules gnomes réaliser de gros braquages dans des missions furtives chaotiques en coopération à 6 joueurs !"
+    "title": "Metro 2039 Official Overview",
+    "description": "Track the reveal calendar, story direction, factions, characters, and platform rollout for Metro 2039 in one spoiler-aware homepage."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Ressources",
-    "subtitle": "Tout ce dont vous avez besoin pour maîtriser les braquages et la furtivité en coopération",
+    "title": "Metro 2039 Homepage",
+    "titleHighlight": "Modules",
+    "subtitle": "Jump straight to every Metro 2039 homepage section",
     "cards": [
       {
-        "icon": "Télécharger",
-        "title": "Téléchargement de la démo",
-        "description": "Obtenez la démo gratuite sur Steam"
+        "icon": "Clock",
+        "title": "Metro 2039 Release Date",
+        "description": "Reveal schedule, launch status, and key calendar dates"
+      },
+      {
+        "icon": "Download",
+        "title": "Metro 2039 Trailer",
+        "description": "Teaser links, first-look stream, and watch points"
       },
       {
         "icon": "BookOpen",
-        "title": "Guide du débutant",
-        "description": "Boucle de base et pièges courants"
+        "title": "Metro 2039 Story",
+        "description": "Core themes, creator involvement, and narrative direction"
       },
       {
-        "icon": "Utilisateurs",
-        "title": "Guide de coopération",
-        "description": "Rôles à 6 joueurs et tactiques de sauvetage"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Tâches et objectifs",
-        "description": "Ce que le Haut-Gnome attend de vous"
-      },
-      {
-        "icon": "Clavier",
-        "title": "Commandes et raccourcis clavier",
-        "description": "Touches par défaut et comment les modifier"
-      },
-      {
-        "icon": "Bouclier",
-        "title": "Paramètres de contenu",
-        "description": "Contenu pour adultes et options d'activation/désactivation"
-      },
-      {
-        "icon": "Marteau",
-        "title": "Fabrication et équipement",
-        "description": "Équipez-vous avec des matériaux volés"
-      },
-      {
-        "icon": "Package",
-        "title": "Butin et objets",
-        "description": "Quoi voler et conseils de transport"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Ennemis et dangers",
-        "description": "Menaces et comment les gérer"
-      },
-      {
-        "icon": "Oeil",
-        "title": "Furtivité et évasion",
-        "description": "Restez caché et extrayez-vous en toute sécurité"
-      },
-      {
-        "icon": "Accueil",
-        "title": "Améliorations de la maison",
-        "description": "Améliorez votre base d'île flottante"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Communauté et Discord",
-        "description": "Liens officiels et recherche de groupe"
-      },
-      {
-        "icon": "Paramètres",
-        "title": "Mods et BepInEx",
-        "description": "Installer le framework et configurer les mods"
-      },
-      {
-        "icon": "Étoile",
-        "title": "Mods populaires",
-        "description": "Meilleures sélections et fonctionnalités de la communauté"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Prise en charge de la manette",
-        "description": "Jeu complet à la manette avec curseur d'interface utilisateur"
+        "icon": "Hammer",
+        "title": "Metro 2039 Gameplay",
+        "description": "Shooter DNA, stealth, survival pressure, and tech targets"
       },
       {
         "icon": "TrendingUp",
-        "title": "Nombre de joueurs et tendance",
-        "description": "Statistiques en direct et suivi des pics"
+        "title": "Metro 2039 Latest News",
+        "description": "Official reveal rollout, press coverage, and community pulse"
+      },
+      {
+        "icon": "MessageCircle",
+        "title": "Metro 2039 First Look Livestream Guide",
+        "description": "Broadcast time, watch links, subtitles, and recap plan"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Metro 2039 Platform Status",
+        "description": "PC, Steam, Xbox, and PlayStation public status"
+      },
+      {
+        "icon": "Users",
+        "title": "Metro 2039 Characters and Returning Faces",
+        "description": "Artyom, Anna, Miller, and the early cast tracker"
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "Metro 2039 Story Recap",
+        "description": "Metro 2039 catch-up for Metro 2033, Last Light, and Exodus"
+      },
+      {
+        "icon": "Eye",
+        "title": "Metro 2039 Series Timeline",
+        "description": "Metro 2039 chronology from the Last War to Metro Exodus"
+      },
+      {
+        "icon": "Star",
+        "title": "Metro 2039 Game Order",
+        "description": "Metro 2039 prep order: trilogy first, VR prequel optional"
+      },
+      {
+        "icon": "Package",
+        "title": "Metro 2039 Books Order",
+        "description": "Metro 2039 reading path: Metro 2033, Metro 2034, Metro 2035"
+      },
+      {
+        "icon": "Shield",
+        "title": "Metro 2039 Factions",
+        "description": "Major powers, station politics, and control lines across the Metro"
+      },
+      {
+        "icon": "Home",
+        "title": "Metro 2039 Setting Explained",
+        "description": "World rules for masks, stations, travel risk, and surface survival"
+      },
+      {
+        "icon": "AlertTriangle",
+        "title": "Metro 2039 Endings Explained",
+        "description": "Canonical endings from Metro 2033, Last Light, and Exodus"
+      },
+      {
+        "icon": "Settings",
+        "title": "Metro 2039 Developer Explained",
+        "description": "Who is making Metro 2039 and how the studio is structured"
       }
     ]
   },
   "modules": {
-    "demoDownload": {
-      "title": "Téléchargement de la démo de Lucid Blocks",
-      "subtitle": "Obtenez la démo gratuite sur Steam",
-      "downloadSize": "2,62 Gio",
-      "diskSize": "4,88 Gio",
-      "releaseDate": "30 janvier 2026",
-      "price": "Gratuit",
-      "platform": "PC (Steam) / Windows",
-      "engine": "Unity",
-      "primaryCTA": "Télécharger la démo",
-      "secondaryCTA": "Voir les informations techniques",
-      "installPath": "Steam\\steamapps\\common\\Lucid Blocks Demo",
-      "sections": [
-        {
-          "heading": "Où télécharger",
-          "items": [
-            "Ouvrez la page officielle du magasin Steam et utilisez la section \"Télécharger la démo\".",
-            "Si Steam vous demande de vous connecter, connectez-vous d'abord et réessayez."
-          ]
-        },
-        {
-          "heading": "Vérifications rapides d'installation et de lancement",
-          "items": [
-            "Emplacement d'installation par défaut : Dossier de la bibliothèque Steam → steamapps → common → (dossier du jeu).",
-            "Si le jeu ne se lance pas : vérifiez les fichiers du jeu dans Steam, puis redémarrez Steam."
-          ]
-        }
-      ]
-    },
-    "beginnerGuide": {
-      "title": "Guide du débutant de Lucid Blocks",
-      "subtitle": "Maîtrisez la boucle de base et évitez les erreurs courantes",
+    "lucidBlocksBeginnerGuide": {
+      "title": "Date de sortie de Metro 2039",
+      "displayType": "steps",
+      "intro": "Metro 2039 est officiellement annoncé, et le calendrier public est défini par l'annonce, la date de la révélation complète et une fenêtre de lancement qui est toujours répertoriée comme TBA.",
+      "quickTipsHeading": "Aperçu de la sortie de Metro 2039",
       "steps": [
         {
-          "number": 1,
-          "title": "Entrer dans la maison",
-          "description": "Descendez dans une maison humaine depuis votre base d'île flottante. Apparaissez à l'extérieur et faufilez-vous par des portes ou des fenêtres déverrouillées."
+          "title": "Statut officiel de Metro 2039",
+          "description": "Metro 2039 est annoncé comme le prochain chapitre principal de Metro, donnant au cycle de révélation un point de départ officiel clair."
         },
         {
-          "number": 2,
-          "title": "Effectuer des tâches",
-          "description": "Terminez les tâches du Haut-Gnome avant la fin du temps imparti. Vérifiez les objectifs via la touche Tab et donnez la priorité aux tâches risquées en premier."
+          "title": "Date d'annonce de Metro 2039",
+          "description": "L'annonce publique a eu lieu le 13 avril 2026 et a préparé le terrain pour la première révélation complète."
         },
         {
-          "number": 3,
-          "title": "Voler des objets",
-          "description": "Attrapez des objets de valeur et des matériaux pour la fabrication. Évitez de faire du bruit ou de vous faire repérer par le propriétaire."
+          "title": "Date de révélation complète de Metro 2039",
+          "description": "Le premier aperçu complet est prévu pour le 16 avril 2026, constituant l'étape la plus importante du déploiement actuel."
         },
         {
-          "number": 4,
-          "title": "S'échapper via une tornade",
-          "description": "Lorsque le minuteur se termine, une tornade apparaît dans la cour - atteignez-la pour vous extraire en toute sécurité. Commencez à bouger tôt !"
+          "title": "Heure de la première de Metro 2039",
+          "description": "Le créneau du livestream est 10:00 AM PT / 1:00 PM ET / 6:00 PM UK / 7:00 PM CEST / 8:00 PM EET."
         },
         {
-          "number": 5,
-          "title": "Améliorer et répéter",
-          "description": "Utilisez les récompenses et les matériaux pour fabriquer de l'équipement à la maison, puis commencez votre prochain braquage avec un meilleur équipement."
+          "title": "Fenêtre de lancement de Metro 2039",
+          "description": "Metro 2039 porte toujours une date de sortie TBA alors que la campagne de révélation passe du teaser à la présentation complète."
         }
-      ],
-      "pitfalls": [
-        {
-          "title": "Se faire prendre",
-          "description": "Le propriétaire vous poursuivra. Restez caché, utilisez des distractions et brisez les lignes de vue pour vous échapper.",
-          "icon": "AlertTriangle"
-        },
-        {
-          "title": "Manque de temps",
-          "description": "Le minuteur de la tornade est strict. Commencez à vous diriger vers l'extraction tôt au lieu de trop piller.",
-          "icon": "Clock"
-        },
-        {
-          "title": "Ignorer ses coéquipiers",
-          "description": "Sauvez rapidement les alliés piégés dans les pièges du réfrigérateur/four - signalez immédiatement pour les sauvetages.",
-          "icon": "Utilisateurs"
-        }
-      ]
-    },
-    "coopGuide": {
-      "title": "Guide de coopération de Lucid Blocks",
-      "subtitle": "Coordonnez-vous avec jusqu'à 6 joueurs pour un chaos maximal",
-      "maxPlayers": 6,
-      "roles": [
-        {
-          "name": "Éclaireur",
-          "description": "Vérifiez les menaces, marquez les chemins sûrs et guidez les mouvements de l'équipe",
-          "icon": "Oeil"
-        },
-        {
-          "name": "Transporteur",
-          "description": "Concentrez-vous sur les objets lourds avec des améliorations de sac à dos et sécurisez la progression des tâches",
-          "icon": "Package"
-        },
-        {
-          "name": "Distraction",
-          "description": "Attirez le propriétaire/les animaux de compagnie loin de l'équipe pour créer des fenêtres sûres",
-          "icon": "Utilisateurs"
-        },
-        {
-          "name": "Sauveteur",
-          "description": "Libérez les coéquipiers piégés du réfrigérateur/four avant qu'ils ne meurent",
-          "icon": "Bouclier"
-        }
-      ],
-      "threats": [
-        "Propriétaire (vous poursuit et vous piège)",
-        "Chats et souris (itinéraires de patrouille)",
-        "Aspirateur robot (danger instantané)",
-        "Limite de temps (extraction par tornade)"
-      ],
-      "communication": "Utilisez le chat vocal (touche V) pour coordonner les tâches et les sauvetages. Annoncez : \"Repéré\", \"Itinéraire\", \"Besoin d'un sauvetage\", \"Extraire bientôt\"."
-    },
-    "tasksObjectives": {
-      "title": "Tâches et objectifs de Lucid Blocks",
-      "subtitle": "Ce que le Haut-Gnome veut : exemples de tâches",
-      "taskTypes": [
-        {
-          "type": "Voler des objets",
-          "examples": [
-            "Attrapez des objets spécifiques marqués par les objectifs du Haut-Gnome"
-          ]
-        },
-        {
-          "type": "Atteindre des lieux",
-          "examples": [
-            "Naviguez vers des zones spécifiées à l'intérieur de la maison"
-          ]
-        },
-        {
-          "type": "Faire des bêtises",
-          "examples": [
-            "Casser une télévision",
-            "Inonder des toilettes",
-            "Créer le chaos"
-          ]
-        }
-      ],
-      "efficiency": [
-        "Effectuez d'abord les tâches risquées pendant que l'équipe est ensemble",
-        "Attribuez un transporteur pour les objets de la tâche afin qu'ils ne soient pas perdus pendant les poursuites",
-        "Commencez à vous déplacer vers l'extraction avant la fin du temps imparti"
-      ]
-    },
-    "controlsKeybinds": {
-      "title": "Commandes et raccourcis clavier de Lucid Blocks",
-      "subtitle": "Commandes clavier par défaut (et où les modifier)",
-      "keybinds": [
-        {
-          "action": "Déplacer à gauche",
-          "key": "A"
-        },
-        {
-          "action": "Déplacer à droite",
-          "key": "D"
-        },
-        {
-          "action": "Avancer",
-          "key": "W"
-        },
-        {
-          "action": "Reculer",
-          "key": "S"
-        },
-        {
-          "action": "S'accroupir",
-          "key": "Ctrl gauche"
-        },
-        {
-          "action": "Attaquer",
-          "key": "Clic gauche"
-        },
-        {
-          "action": "Courir",
-          "key": "Maj gauche"
-        },
-        {
-          "action": "Déposer un objet",
-          "key": "G"
-        },
-        {
-          "action": "Interagir",
-          "key": "E"
-        },
-        {
-          "action": "Sauter",
-          "key": "Espace"
-        },
-        {
-          "action": "Appuyer pour parler",
-          "key": "V"
-        },
-        {
-          "action": "Pousser",
-          "key": "Clic droit"
-        },
-        {
-          "action": "Ragdoll",
-          "key": "Q"
-        },
-        {
-          "action": "Emplacement d'équipement 1",
-          "key": "1"
-        },
-        {
-          "action": "Emplacement d'équipement 2",
-          "key": "2"
-        },
-        {
-          "action": "Emplacement d'équipement 3",
-          "key": "3"
-        },
-        {
-          "action": "Emplacement d'équipement 4",
-          "key": "4"
-        },
-        {
-          "action": "Inventaire",
-          "key": "Tab"
-        }
-      ],
-      "changePath": "Depuis le menu titre : ouvrez PARAMÈTRES, puis vérifiez les paramètres du clavier. Utilisez le champ de recherche pour filtrer les lignes de raccourcis clavier."
-    },
-    "contentSettings": {
-      "title": "Paramètres de contenu de Lucid Blocks",
-      "subtitle": "Contenu pour adultes, activation/désactivation de la nudité et préférences Steam",
-      "descriptors": [
-        "Nudité ou contenu sexuel partiel",
-        "Contenu général pour adultes"
-      ],
-      "details": [
-        {
-          "heading": "Ce que les développeurs déclarent",
-          "items": [
-            "Un humain peut apparaître nu en faisant des activités comme se baigner.",
-            "La nudité est censurée et peut être complètement désactivée en option.",
-            "Les gnomes peuvent être démembrés et mourir de manière brutale."
-          ]
-        },
-        {
-          "heading": "Si Steam bloque la page de la communauté",
-          "items": [
-            "Steam peut masquer le hub de la communauté en fonction de vos préférences de contenu.",
-            "Utilisez \"Mettre à jour les préférences de contenu\" de Steam pour ajuster ce que vous autorisez Steam à afficher."
-          ]
-        }
-      ]
-    },
-    "craftingEquipment": {
-      "title": "Fabrication et équipement de Lucid Blocks",
-      "subtitle": "Équipez-vous : exemples de fabrication et ce que chaque outil fait",
-      "equipment": [
-        {
-          "item": "Sac à dos",
-          "benefit": "Augmente la capacité de l'inventaire pour plus de butin par course"
-        },
-        {
-          "item": "Gants de gnome",
-          "benefit": "Vous permet d'ouvrir des portes et d'interagir avec plus d'objets"
-        },
-        {
-          "item": "Chaussures à ressort",
-          "benefit": "Empêche les dégâts de chute lors des évasions depuis des hauteurs"
-        },
-        {
-          "item": "Arme",
-          "benefit": "Vous aide à combattre les menaces comme les souris lorsque vous êtes acculé"
-        }
-      ],
-      "sections": [
-        {
-          "heading": "Comment la fabrication se connecte au pillage",
-          "items": [
-            "Pendant une course, volez des objets et rapportez-les comme matériaux de fabrication.",
-            "Après l'extraction, les récompenses/matériaux soutiennent de nouvelles fabrications."
-          ]
-        },
-        {
-          "heading": "Amélioration de la base",
-          "items": [
-            "Fabriquez des meubles et améliorez votre maison sur l'île flottante (fonctionnalité du jeu complet)."
-          ]
-        }
-      ]
-    },
-    "lootItems": {
-      "title": "Butin et objets de Lucid Blocks",
-      "subtitle": "Quoi voler : types d'objets, risque et conseils de transport",
-      "categories": [
-        {
-          "type": "Objets de tâche",
-          "examples": [
-            "Objets requis par le Haut-Gnome pour les objectifs"
-          ]
-        },
-        {
-          "type": "Matériaux de fabrication",
-          "examples": [
-            "Objets ménagers réutilisés en équipement et améliorations de gnome"
-          ]
-        },
-        {
-          "type": "Cibles de méfait",
-          "examples": [
-            "Objets impliqués dans des tâches comme casser ou inonder"
-          ]
-        }
-      ],
-      "carryTips": [
-        "Donnez la priorité à la progression de la tâche, puis remplissez la capacité restante avec des matériaux de fabrication",
-        "Si des menaces sont à proximité, déplacez les objets par petits sauts sûrs plutôt que par de longs transports exposés",
-        "Planifiez l'itinéraire vers l'extraction dans la cour avant la fin du temps imparti"
-      ],
-      "riskLevels": [
-        {
-          "level": "Faible",
-          "description": "Près des entrées ou des coins sûrs"
-        },
-        {
-          "level": "Moyen",
-          "description": "Pièces plus profondes ou près des menaces errantes"
-        },
-        {
-          "level": "Élevé",
-          "description": "Près de la patrouille du propriétaire ou de l'aspirateur robot"
-        }
-      ]
-    },
-    "enemiesHazards": {
-      "title": "Ennemis et dangers de Lucid Blocks",
-      "subtitle": "Sachez ce qui peut vous attraper",
-      "threats": [
-        {
-          "name": "Le propriétaire",
-          "trigger": "Se faire repérer en cambriolant ou en effectuant des tâches",
-          "behavior": "Il vous poursuit et essaie de vous attraper",
-          "counter": "Restez furtif, brisez les lignes de vue et continuez à bouger en équipe"
-        },
-        {
-          "name": "Chats",
-          "trigger": "S'approcher trop près ou croiser leur chemin",
-          "behavior": "Ils deviennent une menace directe pendant que vous vous faufilez",
-          "counter": "Évitez leurs itinéraires et passez silencieusement"
-        },
-        {
-          "name": "Souris",
-          "trigger": "Entrer dans des zones où les souris errent",
-          "behavior": "Elles menacent les gnomes fragiles pendant les courses",
-          "counter": "Restez vigilant dans les espaces restreints et soyez prêt à vous retirer"
-        },
-        {
-          "name": "Aspirateur robot",
-          "trigger": "Être sur son chemin de nettoyage",
-          "behavior": "Il peut aspirer les gnomes",
-          "counter": "Écoutez-le, restez en dehors de son itinéraire et repositionnez-vous rapidement"
-        },
-        {
-          "name": "Piège du réfrigérateur / four",
-          "trigger": "Se faire attraper par le propriétaire",
-          "behavior": "Vous pouvez être enfermé à l'intérieur ; si les coéquipiers ne vous sauvent pas à temps, vous mourez",
-          "counter": "Signalez immédiatement ; les coéquipiers donnent la priorité à l'itinéraire de sauvetage"
-        },
-        {
-          "name": "Limite de temps",
-          "trigger": "Le minuteur de course atteint la limite",
-          "behavior": "Une tornade d'extraction apparaît dans la cour ; vous devez l'atteindre pour vous échapper",
-          "counter": "Arrêtez de trop piller, regroupez-vous et engagez-vous à l'extraction tôt"
-        }
-      ]
-    },
-    "stealthEscape": {
-      "title": "Conseils de furtivité et d'évasion de Lucid Blocks",
-      "subtitle": "Volez plus, mourez moins",
-      "do": [
-        "Restez furtif et mettez-vous à couvert avant d'interagir avec des objets",
-        "Utilisez le travail d'équipe : signalez les menaces et coordonnez les itinéraires",
-        "Sauvez rapidement les coéquipiers lorsque quelqu'un est piégé ou à terre",
-        "Réduisez vos pertes et dirigez-vous vers l'extraction lorsque le minuteur est serré"
-      ],
-      "dont": [
-        "Devenez gourmand lorsque l'extraction approche",
-        "Séparez-vous trop de l'équipe lorsque le propriétaire est actif",
-        "Ignorez les itinéraires de l'aspirateur robot ou les patrouilles d'animaux",
-        "Retardez les sauvetages lorsqu'un coéquipier est enfermé"
       ],
       "quickTips": [
-        {
-          "title": "La règle des 3 secondes",
-          "text": "Si vous ne pouvez pas expliquer votre prochain mouvement en 3 secondes, vous êtes sur le point de vous faire repérer."
-        },
-        {
-          "title": "Sauvetage d'abord",
-          "text": "Un sauvetage rapide maintient la course en vie ; le pillage peut attendre."
-        },
-        {
-          "title": "Discipline d'extraction",
-          "text": "Regroupez-vous tôt et engagez-vous dans la tornade avant que la panique ne commence."
-        }
+        "Metro 2039 est positionné comme le quatrième jeu Metro de la série principale.",
+        "La révélation du 16 avril est le marqueur de calendrier le plus important sur la page d'accueil.",
+        "Le site officiel et le stream Xbox First Look sont les deux principaux points de suivi de la date de sortie.",
+        "La date de lancement reste TBA jusqu'à ce que Deep Silver et 4A Games publient la prochaine mise à jour sur la sortie."
       ]
     },
-    "homeUpgrades": {
-      "title": "Améliorations de la maison de Lucid Blocks",
-      "subtitle": "Fabriquez, construisez, améliorez",
-      "branches": [
+    "lucidBlocksApotheosisCrafting": {
+      "title": "Bande-annonce de Metro 2039",
+      "displayType": "cards",
+      "intro": "Le déploiement vidéo de Metro 2039 comprend déjà un teaser, une première Xbox First Look programmée et deux hubs de visionnage officiels qui ancrent le cycle de révélation.",
+      "cards": [
         {
-          "branch": "Stockage",
-          "summary": "Transportez plus et rapportez plus",
-          "items": [
-            "Sac à dos (extension d'inventaire)"
-          ]
+          "name": "Teaser d'annonce de Metro 2039",
+          "description": "Le premier teaser de Metro 2039 est le point de départ le plus clair pour le calendrier de révélation et le moyen le plus rapide de saisir le ton initial du jeu."
         },
         {
-          "branch": "Utilité",
-          "summary": "Interagissez plus efficacement avec la maison",
-          "items": [
-            "Gants de gnome (vous permet d'ouvrir des portes et plus encore)"
-          ]
+          "name": "Metro 2039 Xbox First Look",
+          "description": "Le stream de révélation complète avec 4A Games et Deep Silver est l'événement principal pour la prochaine vague d'images de Metro 2039."
         },
         {
-          "branch": "Mobilité",
-          "summary": "Déplacez-vous plus en sécurité dans les espaces verticaux",
-          "items": [
-            "Chaussures à ressort (réduisent les dégâts de chute)"
-          ]
+          "name": "Hub de jeu officiel de Metro 2039",
+          "description": "La page de Deep Silver est la page d'accueil officielle centrale pour le déploiement vidéo, les rappels et les mises à jour de la révélation."
         },
         {
-          "branch": "Défense",
-          "summary": "Gérez les petites menaces si nécessaire",
-          "items": [
-            "Armes (pour les menaces comme les souris)"
-          ]
-        },
-        {
-          "branch": "Base d'attache",
-          "summary": "Fabriquez des meubles et améliorez votre maison sur l'île flottante",
-          "items": [
-            "Améliorations de meubles fonctionnels"
-          ]
+          "name": "Flux YouTube officiel de Metro 2039",
+          "description": "La chaîne Metro est l'endroit le plus rapide pour suivre les mises en ligne de teasers, les liens de première et les futures sorties de bandes-annonces."
         }
       ],
-      "priority": [
+      "milestones": [
+        "Regarder le teaser de Metro 2039",
+        "Définir un rappel pour la révélation complète de Metro 2039",
+        "Ajouter la page officielle de Metro 2039 aux favoris",
+        "Suivre la chaîne YouTube de Metro"
+      ]
+    },
+    "lucidBlocksToolsAndWeapons": {
+      "title": "Histoire de Metro 2039",
+      "displayType": "itemCards",
+      "intro": "Le portrait de l'histoire de Metro 2039 possède déjà cinq ancres claires : sa position dans la série, son cadre post-apocalyptique, son ton façonné par la guerre, son ADN politique et le rôle continu de Dmitry Glukhovsky.",
+      "items": [
         {
-          "rank": 1,
-          "title": "Stockage en premier",
-          "reason": "Plus de capacité de transport améliore le rendement de chaque course"
+          "name": "Metro 2039 continue la saga principale",
+          "type": "Position dans la série",
+          "description": "Metro 2039 est présenté comme le prochain opus principal après Metro 2033, Metro: Last Light et Metro Exodus."
         },
         {
-          "rank": 2,
-          "title": "Utilité ensuite",
-          "reason": "De meilleures interactions réduisent le temps passé dans les zones dangereuses"
+          "name": "Metro 2039 conserve l'angle de survie à Moscou",
+          "type": "Cadre",
+          "description": "Le nouveau chapitre s'inscrit toujours dans le monde post-apocalyptique de Metro, fait de survivants, de tunnels, de dangers en surface et de choix politiques difficiles."
         },
         {
-          "rank": 3,
-          "title": "Mobilité pour la survie",
-          "reason": "La sécurité contre les chutes prévient les morts évitables lors de l'évasion"
+          "name": "Metro 2039 porte un ton façonné par la guerre",
+          "type": "Thème",
+          "description": "4A Games a lié la prochaine histoire de Metro à la pression vécue de la guerre, de la liberté, de la répression et du coût humain."
+        },
+        {
+          "name": "Metro 2039 reste politique et émotionnel",
+          "type": "ADN de la franchise",
+          "description": "Le studio maintient l'identité anti-guerre et anti-tyrannie de Metro au centre du nouveau récit."
+        },
+        {
+          "name": "Metro 2039 inclut toujours Dmitry Glukhovsky",
+          "type": "Créateur",
+          "description": "Dmitry Glukhovsky continue de participer à la direction de la franchise, maintenant le lien entre les livres et les jeux actif dans Metro 2039."
         }
       ]
     },
-    "community": {
-      "title": "Communauté et Discord de Lucid Blocks",
-      "subtitle": "Trouvez des équipes, des mises à jour, des discussions",
-      "links": [
+    "lucidBlocksStorageAndInventory": {
+      "title": "Gameplay de Metro 2039",
+      "displayType": "solutionCards",
+      "intro": "Le gameplay de Metro 2039 est déjà facile à définir sur la page d'accueil : c'est un jeu de tir construit autour du combat, de l'infiltration, de la pression de survie, de l'exploration et d'un focus solo axé sur l'histoire.",
+      "managementTipsHeading": "Liste de contrôle du gameplay de Metro 2039",
+      "solutions": [
         {
-          "title": "Discord officiel",
-          "subtitle": "Annonces • Commentaires • LFG",
-          "url": "https://discord.com/invite/lucidblocks"
+          "name": "Fondation de jeu de tir de Metro 2039",
+          "role": "Genre",
+          "description": "Metro 2039 est suivi comme un jeu de tir, ce qui le maintient aligné avec l'identité à la première personne de la franchise."
         },
         {
-          "title": "X officiel (Twitter)",
-          "subtitle": "Mises à jour et publications des développeurs",
-          "url": "https://x.com/lucidblocks"
+          "name": "Combat et infiltration dans Metro 2039",
+          "role": "Boucle de combat",
+          "description": "Le combat et l'infiltration restent les piliers de gameplay les plus clairs pour Metro 2039 car ils définissent la formule officielle de Metro."
         },
         {
-          "title": "Hub de la communauté Steam",
-          "subtitle": "Discussions • Captures d'écran • Guides",
-          "url": "https://steamcommunity.com/app/3495730"
+          "name": "Exploration et survie dans Metro 2039",
+          "role": "Exploration",
+          "description": "La pression sur les ressources, les terrains hostiles et la récupération minutieuse continuent de façonner la manière dont Metro 2039 est censé se jouer."
         },
         {
-          "title": "Page du magasin Steam",
-          "subtitle": "Liste de souhaits • Démo • Description officielle",
-          "url": "https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+          "name": "Solo axé sur l'histoire de Metro 2039",
+          "role": "Objectif de conception",
+          "description": "4A Games maintient le prochain Metro centré sur une campagne solo travaillée plutôt que sur une structure de jeu service."
+        },
+        {
+          "name": "Base technologique Gen 9 et PC de Metro 2039",
+          "role": "Cible technologique",
+          "description": "Metro 2039 est conçu pour le matériel de console de génération actuelle et le PC, correspondant à la volonté de la franchise de proposer un rendu avancé."
+        }
+      ],
+      "managementTips": [
+        "Attendez-vous à ce que Metro 2039 mélange infiltration, fusillades et pression plutôt que de chercher le spectacle arcade.",
+        "Utilisez Metro Exodus comme le meilleur point de référence public pour l'ADN du gameplay de Metro 2039.",
+        "Considérez la gestion des ressources et les dangers environnementaux comme faisant partie de la boucle principale.",
+        "Regardez la première révélation complète pour avoir un premier aperçu réel du combat et des déplacements dans Metro 2039."
+      ]
+    },
+    "lucidBlocksQualiaAndBaseBuilding": {
+      "title": "Dernières actualités de Metro 2039",
+      "displayType": "timelineCards",
+      "eyebrow": "Dernières mises à jour",
+      "subtitle": "Suivez le déploiement de la révélation officielle, la couverture médiatique majeure et le pouls de la communauté en un seul endroit.",
+      "intro": "Le cycle d'actualités public de Metro 2039 est centré sur une fenêtre de révélation courte mais à fort impact. Ce flux permet aux visiteurs de suivre ce qui a changé, quand cela a changé et où la prochaine mise à jour officielle sera publiée.",
+      "timelineLabel": "Chronologie des actualités de Metro 2039",
+      "items": [
+        {
+          "date": "13 avr. 2026",
+          "source": "Deep Silver",
+          "headline": "La page de teaser officielle de Metro 2039 est en ligne",
+          "summary": "Deep Silver a lancé le site Metro 2039, ouvert les inscriptions aux e-mails de rappel et fixé la révélation au 16 avr. 2026 à 10h00 PDT / 19h00 CEST / 20h00 EET."
+        },
+        {
+          "date": "13 avr. 2026",
+          "source": "Xbox Wire",
+          "headline": "Le Xbox First Look de Metro 2039 devient la diffusion en avant-première mondiale",
+          "summary": "Xbox a annoncé une révélation exclusivement numérique de Metro 2039 avec 4A Games et Deep Silver, le présentant comme le quatrième jeu principal de la franchise Metro après Metro 2033, Metro: Last Light et Metro Exodus."
+        },
+        {
+          "date": "13 avr. 2026",
+          "source": "PC Gamer",
+          "headline": "La couverture médiatique de Metro 2039 se concentre sur la suite d'Exodus",
+          "summary": "La couverture initiale se concentre sur ce qui suit Metro Exodus, en particulier pour Artyom, les Spartans et le monde plus vaste au-delà des tunnels de Moscou."
+        },
+        {
+          "date": "14 avr. 2026",
+          "source": "r/metro",
+          "headline": "Les discussions de la communauté Metro 2039 se regroupent autour du compte à rebours",
+          "summary": "Le subreddit principal de Metro sert de hub de fans le plus actif pour les discussions sur la révélation, les rétrospectives de fuites et les fils de réaction avant la diffusion du 16 avr."
         }
       ]
     },
-    "modsBepInEx": {
-      "title": "Configuration des mods et de BepInEx de Lucid Blocks",
-      "subtitle": "Installez les mods proprement",
+    "lucidBlocksWorldRegions": {
+      "title": "Guide du livestream Xbox First Look de Metro 2039",
+      "displayType": "steps",
+      "eyebrow": "Guide de visionnage",
+      "subtitle": "Tout ce qu'il faut savoir pour le premier aperçu du 16 avr., de l'heure de début et des liens de visionnage aux sous-titres, à l'accessibilité et au récapitulatif après l'émission.",
+      "intro": "Ce module doit être le chemin le plus rapide entre l'intention de recherche et l'intention de visionnage. Il couvre l'heure exacte de diffusion, où regarder, les langues disponibles et où les visiteurs doivent se rendre une fois la première en direct terminée.",
       "steps": [
         {
           "step": 1,
-          "title": "Installer BepInEx 5",
-          "text": "Téléchargez BepInEx 5 et extrayez-le dans le dossier racine du jeu."
+          "title": "Notez l'heure exacte de diffusion de Metro 2039",
+          "detail": "Xbox First Look : Metro 2039 commence le jeudi 16 avr. 2026 à 10h00 Pacifique / 13h00 Est / 18h00 Royaume-Uni."
         },
         {
           "step": 2,
-          "title": "Lancez une fois pour générer des dossiers",
-          "text": "Démarrez le jeu jusqu'au menu principal, puis fermez-le. Cela crée la structure de dossiers BepInEx."
+          "title": "Regardez Metro 2039 lors de la première Xbox sur YouTube",
+          "detail": "La destination officielle en direct est la chaîne YouTube de Xbox, et le site Metro 2039 oriente également les visiteurs vers la page de rappel Xbox."
         },
         {
           "step": 3,
-          "title": "Installer des mods",
-          "text": "Placez les fichiers .dll des mods dans le dossier plugins."
+          "title": "Utilisez les sous-titres de Metro 2039 si vous ne regardez pas en anglais",
+          "detail": "Xbox a confirmé la prise en charge des sous-titres pour l'arabe, le portugais brésilien, le bulgare, le croate, le tchèque, le danois, le néerlandais, le finnois, le français, l'allemand, le grec, le hongrois, l'italien, le japonais, le coréen, le norvégien, le polonais, le roumain, le slovaque, l'espagnol, le suédois, le chinois simplifié, le chinois traditionnel, le turc et l'ukrainien."
         },
         {
           "step": 4,
-          "title": "Vérifiez l'installation",
-          "text": "Relancez le jeu et confirmez que la fonctionnalité du mod est disponible (bascule de la caméra, curseur de l'interface utilisateur, etc.)."
+          "title": "Vérifiez les options d'accessibilité de Metro 2039 avant le début de l'émission",
+          "detail": "Xbox indique que l'événement disposera également d'une version avec audiodescription en anglais et d'une version en langue des signes américaine sur la chaîne YouTube de Xbox."
+        },
+        {
+          "step": 5,
+          "title": "Consultez le récapitulatif officiel de Metro 2039 après la fin de la première",
+          "detail": "Xbox Wire indique qu'il publiera un récapitulatif complet immédiatement après l'émission, incluant une couverture localisée en portugais brésilien, français, allemand, espagnol d'Amérique latine et japonais."
+        }
+      ]
+    },
+    "lucidBlocksCreaturesAndEnemies": {
+      "title": "Statut des plateformes de Metro 2039",
+      "displayType": "table",
+      "eyebrow": "Statut des boutiques",
+      "subtitle": "Un aperçu clair de l'endroit où Metro 2039 apparaît publiquement en ce moment sur PC, Steam, Xbox et PlayStation.",
+      "intro": "Les informations publiques sur les plateformes sont encore précoces, ce tableau se concentre donc sur ce qui a réellement fait surface : où le jeu a été répertorié, quelles boutiques sont actives en tant que hubs de visionnage et quelles pages d'achat ne sont pas encore publiques.",
+      "columns": {
+        "platform": "Plateforme",
+        "currentStatus": "Statut actuel",
+        "publicStorefront": "Boutique publique",
+        "editionStatus": "Statut des éditions",
+        "notes": "Notes"
+      },
+      "rows": [
+        {
+          "platform": "PC",
+          "currentStatus": "Présent dans les premières listes de plateformes médiatiques",
+          "publicStorefront": "Aucune page d'achat PC autonome n'est liée dans les documents d'annonce actuels",
+          "editionStatus": "Aucun détail sur les éditions n'est encore public",
+          "notes": "GameSpot répertorie Metro 2039 sur PC, tandis que la promotion officielle est toujours centrée sur le flux de révélation plutôt que sur une page d'achat."
+        },
+        {
+          "platform": "Steam",
+          "currentStatus": "Aucune page d'application publique Metro 2039 n'a encore fait surface",
+          "publicStorefront": "Steam affiche actuellement des actualités de la franchise Metro concernant la présentation au lieu d'une page produit Metro 2039",
+          "editionStatus": "Aucun détail de précommande ou de pack n'est encore public",
+          "notes": "L'entrée publique la plus simple sur Steam pour le moment est le post d'actualité de la présentation attaché aux produits Metro existants, et non une fiche produit Metro 2039."
+        },
+        {
+          "platform": "Xbox",
+          "currentStatus": "Partenaire de révélation principal et destination de visionnage officielle",
+          "publicStorefront": "Le flux d'annonces publiques est centré sur Xbox Wire et la première Xbox sur YouTube",
+          "editionStatus": "Aucune matrice d'édition n'est encore publique",
+          "notes": "Xbox est le point d'entrée officiel le plus clair pour les joueurs console en ce moment car le premier aperçu du 16 avr. est hébergé via les chaînes Xbox."
+        },
+        {
+          "platform": "PlayStation 5",
+          "currentStatus": "Présent dans les premières listes de plateformes médiatiques",
+          "publicStorefront": "Aucune page publique du PlayStation Store n'est liée dans la vague d'annonces actuelle",
+          "editionStatus": "Aucun détail de version ou de précommande n'est encore public",
+          "notes": "La PS5 apparaît déjà dans la couverture initiale, mais les informations sur la boutique et les packs n'ont pas encore été diffusées publiquement."
+        }
+      ]
+    },
+    "lucidBlocksMobilityGear": {
+      "title": "Personnages de Metro 2039 et visages familiers",
+      "displayType": "statusCards",
+      "eyebrow": "Centre des personnages",
+      "subtitle": "La révélation publique n'a pas encore nommé de personnages exclusifs à Metro 2039, ce centre commence donc par les figures centrales de Metro les plus susceptibles de répondre à la demande de recherche initiale après la révélation.",
+      "intro": "L'intention liée aux personnages est l'un des moyens les plus simples de développer les liens internes une fois que la révélation s'élargit. Jusqu'à ce que la présentation du 16 avril nomme la nouvelle distribution, ce module met en avant les figures historiques que les joueurs associent déjà à l'histoire principale de Metro.",
+      "items": [
+        {
+          "name": "Statut actuel de la révélation de Metro 2039",
+          "role": "Suivi de la distribution 2039",
+          "status": "Aucun nouveau nom de personnage n'est encore public",
+          "summary": "La page officielle de Metro 2039 et l'annonce Xbox First Look confirment le jeu et la date de révélation, mais ne publient pas encore de nouveaux noms de personnages."
+        },
+        {
+          "name": "Artyom",
+          "role": "Protagoniste de la série",
+          "status": "Personnage historique principal",
+          "summary": "Deep Silver décrit Artyom comme un survivant né dans le Metro qui a passé sa vie à protéger les tunnels tout en essayant de prouver que la vie existe au-delà."
+        },
+        {
+          "name": "Anna",
+          "role": "Sniper des Rangers Spartiates",
+          "status": "Personnage historique principal",
+          "summary": "Anna est la fille de Miller, la femme d'Artyom et l'une des voix marquantes de l'équipage de l'Aurora, ce qui en fait un contexte essentiel pour les lecteurs de Metro 2039."
+        },
+        {
+          "name": "Miller",
+          "role": "Commandant de l'Ordre",
+          "status": "Personnage historique principal",
+          "summary": "Le colonel Miller est la figure de commandement derrière la chaîne de commandement des Rangers Spartiates et l'expédition Aurora, façonnant le ton militaire de la série."
+        }
+      ]
+    },
+    "lucidBlocksFarmingAndGrowth": {
+      "title": "Récapitulatif de l'histoire de Metro 2039",
+      "displayType": "accordion",
+      "eyebrow": "Rattrapage de la série",
+      "subtitle": "Le récapitulatif de l'histoire de Metro 2039 devrait être le moyen le plus rapide de comprendre les trois jeux principaux d'Artyom avant le prochain chapitre.",
+      "intro": "Pour la plupart des visiteurs, le chemin de rattrapage clair pour Metro 2039 est la trilogie principale d'Artyom. Metro 2033 établit la survie souterraine, Metro: Last Light transforme ce monde en crise politique, et Metro Exodus pousse la saga au-delà de Moscou.",
+      "items": [
+        {
+          "title": "Metro 2033",
+          "meta": "Jeu 1 · Année de l'histoire 2033",
+          "summary": "Après la guerre nucléaire de 2013, Artyom grandit à l'intérieur du Metro de Moscou, le plus grand refuge souterrain de l'humanité. Lorsqu'une nouvelle menace met le réseau en péril, il quitte son foyer et traverse les stations, les tunnels et la surface empoisonnée pour avertir le reste de l'humanité.",
+          "keyPoints": [
+            "Établit le Metro de Moscou comme le centre de l'histoire de Metro 2039",
+            "Présente Artyom comme le héros principal de la lignée de jeux centrale",
+            "Définit le ton survival-horror avec des ressources rares, des tunnels sombres et les dangers de la surface"
+          ],
+          "bridge": "Metro 2033 est le chapitre fondateur pour les lecteurs de Metro 2039. Il explique qui est Artyom, comment fonctionne le monde du Metro et pourquoi les chapitres suivants continuent de revisiter les limites de la survie souterraine."
+        },
+        {
+          "title": "Metro: Last Light",
+          "meta": "Jeu 2 · Année de l'histoire 2034",
+          "summary": "Un an plus tard, le Metro fait face à la pression de menaces extérieures et de luttes de pouvoir internes. Artyom traverse des cités-stations qui se battent pour le D6, un stock militaire assez puissant pour décider de l'avenir politique de la civilisation souterraine.",
+          "keyPoints": [
+            "Étend Metro de la survie locale à un conflit de pouvoir et d'idéologie",
+            "Augmente les enjeux avec le D6 et le risque d'une guerre civile à l'échelle du Metro",
+            "Garde Artyom au centre tout en élargissant la portée politique du monde"
+          ],
+          "bridge": "Metro: Last Light est le chapitre intermédiaire clé avant Metro 2039. Il porte la mise en place émotionnelle et politique dont dépend la prochaine ère principale."
+        },
+        {
+          "title": "Metro Exodus",
+          "meta": "Jeu 3 · Année de l'histoire 2036",
+          "summary": "Un quart de siècle après la guerre nucléaire, Artyom quitte le Metro de Moscou avec Anna et les Rangers Spartiates à bord de l'Aurora. L'histoire devient un voyage d'un an à travers la Russie post-apocalyptique à la recherche d'un avenir au-delà des tunnels.",
+          "keyPoints": [
+            "Déplace Metro au-delà de Moscou vers une étendue sauvage russe plus vaste",
+            "Suit Artyom et les Spartiates à travers un voyage saisonnier complet",
+            "Crée la mise en place principale la plus claire actuellement disponible avant Metro 2039"
+          ],
+          "bridge": "Si Metro 2033 traite de la survie souterraine et Last Light de la défense de ce monde, Exodus consiste à décider si la vie dans le Metro doit être abandonnée. Cette question mène directement à l'intérêt pour Metro 2039."
+        }
+      ]
+    },
+    "lucidBlocksBestEarlyUnlocks": {
+      "title": "Chronologie de la série Metro 2039",
+      "displayType": "timelineCards",
+      "eyebrow": "Chronologie",
+      "subtitle": "Utilisez la chronologie de Metro 2039 pour parcourir l'ordre du monde de l'histoire, de la Dernière Guerre à Metro Exodus, en un seul passage.",
+      "intro": "Cette chronologie de Metro 2039 suit l'année de l'histoire plutôt que l'année de sortie. Elle aide les lecteurs à situer la guerre nucléaire, le contenu de l'ère préquelle, les trois grandes ères de jeu d'Artyom et la période de transition la plus forte avant le prochain chapitre principal.",
+      "items": [
+        {
+          "year": "2013",
+          "tag": "Réinitialisation du monde",
+          "title": "La Dernière Guerre dévaste la surface",
+          "description": "La guerre nucléaire détruit la vie normale, empoisonne la surface et pousse les survivants de Moscou sous terre dans le Metro. Chaque livre et jeu Metro ultérieur découle de cette rupture avec l'ancien monde."
+        },
+        {
+          "year": "2028",
+          "tag": "Ère préquelle",
+          "title": "Metro Awakening devient le chapitre jouable le plus ancien",
+          "description": "Se déroulant 15 ans après le feu nucléaire, Metro Awakening suit Serdar à travers les tunnels dans une histoire exclusivement en VR. Il étend la franchise vers le passé avant l'arc principal d'Artyom."
+        },
+        {
+          "year": "2033",
+          "tag": "Metro 2033",
+          "title": "Le premier voyage d'Artyom définit la saga vidéoludique",
+          "description": "En 2033, une génération entière est née sous terre. Artyom quitte les cités-stations pour avertir l'humanité d'une menace croissante et devient la figure centrale de la lignée de jeux Metro."
+        },
+        {
+          "year": "2034",
+          "tag": "Metro 2034 / Last Light",
+          "title": "La saga se divise en fils narratifs majeurs entre livres et jeux",
+          "description": "Les livres s'élargissent à travers Homer, Sasha et Hunter lors d'une épidémie mortelle, tandis que les jeux gardent Artyom au centre alors que la politique du Metro s'intensifie vers un conflit pour le D6."
+        },
+        {
+          "year": "2035",
+          "tag": "Metro 2035",
+          "title": "Artyom cherche la vie au-delà des tunnels",
+          "description": "Artyom continue de risquer les radiations pour chercher d'autres survivants et découvre des vérités qui remodèlent sa compréhension de la vie dans le Metro. C'est le pont littéraire le plus fort vers le futur élargi."
+        },
+        {
+          "year": "2036",
+          "tag": "Metro Exodus",
+          "title": "La série laisse Moscou derrière elle",
+          "description": "Metro Exodus envoie Artyom et les Rangers Spartiates à travers la Russie à bord de l'Aurora dans une histoire qui s'étend sur les saisons. La franchise passe de la survie dans les tunnels à un voyage plus vaste dans les terres désolées."
+        }
+      ]
+    },
+    "lucidBlocksAchievementTracker": {
+      "title": "Ordre des jeux Metro 2039",
+      "displayType": "steps",
+      "eyebrow": "Ordre de jeu",
+      "subtitle": "La route de préparation idéale pour Metro 2039 consiste à jouer d'abord à la trilogie principale, avec Metro Awakening comme contexte VR optionnel.",
+      "intro": "Si votre objectif est d'être prêt pour Metro 2039 sans confusion, suivez d'abord le chemin principal d'Artyom. Metro 2033 Redux, Metro: Last Light Redux et Metro Exodus constituent le cœur de l'aventure ; Metro Awakening apporte un contexte supplémentaire si vous souhaitez également découvrir la préquelle VR.",
+      "items": [
+        {
+          "step": 1,
+          "title": "Commencez par Metro 2033 Redux",
+          "tag": "Début de l'intrigue principale",
+          "description": "C'est la version moderne définitive du premier jeu Metro et le meilleur point d'entrée pour les nouveaux joueurs. Il présente Artyom, les cités-stations, les dangers de la surface et les règles de survie de l'univers.",
+          "details": [
+            "Date de sortie Steam : 25 août 2014",
+            "Version moderne définitive de la première histoire principale",
+            "Meilleure première étape avant tout autre jeu Metro"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Continuez avec Metro: Last Light Redux",
+          "tag": "Suite directe",
+          "description": "Last Light suit Artyom en 2034 et poursuit la mise en place politique et des personnages de Metro 2033. C'est le chapitre qui transforme Metro en un conflit de factions, de pouvoir et d'avenir du monde souterrain.",
+          "details": [
+            "Date de sortie Steam : 25 août 2014",
+            "Suite narrative directe de Metro 2033",
+            "Le pack Redux inclut tous les DLC sortis précédemment"
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Jouez ensuite à Metro Exodus",
+          "tag": "Aboutissement de l'intrigue principale",
+          "description": "Exodus est le troisième jeu principal et le moment où la série quitte Moscou. Il conclut l'arc narratif précédent d'Artyom et constitue la préparation la plus claire actuellement disponible avant Metro 2039.",
+          "details": [
+            "Date de sortie Steam : 14 février 2019",
+            "Année de l'histoire : 2036",
+            "Suit un voyage à travers le continent à bord de l'Aurora"
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Considérez Metro Awakening comme une préquelle VR optionnelle",
+          "tag": "Route VR optionnelle",
+          "description": "Metro Awakening est une histoire exclusivement VR se déroulant en 2028, avant la trilogie d'Artyom. Elle ajoute un contexte de préquelle utile, mais le parcours de rattrapage principal non-VR passe toujours par 2033 Redux, Last Light Redux et Exodus.",
+          "details": [
+            "Date de sortie Steam : 7 novembre 2024",
+            "Épisode Metro exclusivement VR",
+            "À utiliser comme contexte bonus si vous possédez un casque VR ou si vous voulez approfondir l'histoire de la préquelle"
+          ]
+        }
+      ]
+    },
+    "lucidBlocksSingleplayerAndPlatformFAQ": {
+      "title": "Ordre des livres Metro 2039",
+      "displayType": "steps",
+      "eyebrow": "Ordre de lecture",
+      "subtitle": "L'ordre de lecture idéal pour Metro 2039 est Metro 2033, puis Metro 2034, puis Metro 2035.",
+      "intro": "Pour la plupart des lecteurs se préparant à Metro 2039, la question clé est à la fois l'ordre et la pertinence par rapport aux jeux. La trilogie principale se lit mieux dans l'ordre numérique : Metro 2033 pose les bases, Metro 2034 élargit la distribution des personnages, et Metro 2035 ramène Artyom tout en rassemblant les fils conducteurs majeurs.",
+      "items": [
+        {
+          "step": 1,
+          "title": "Lisez d'abord Metro 2033",
+          "tag": "Fondations",
+          "description": "Metro 2033 est le chapitre d'ouverture des romans principaux Metro et le moyen le plus clair d'apprendre les règles, la politique et l'ambiance du Metro de Moscou. C'est aussi le roman qui présente le plus de similitudes avec le premier jeu.",
+          "details": [
+            "Roman principal Metro centré sur Artyom",
+            "Établit le monde souterrain sur lequel s'appuient les livres et jeux ultérieurs",
+            "Meilleur point de départ unique pour les lecteurs comme pour les joueurs"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Lisez Metro 2034 en deuxième",
+          "tag": "Changement de perspective",
+          "description": "Metro 2034 avance d'un an mais s'éloigne d'Artyom. Il élargit la saga à travers Sasha, Homer et Hunter, et sert de pont entre l'histoire d'un héros unique et un monde Metro plus vaste.",
+          "details": [
+            "Année de l'histoire : 2034",
+            "Élargit Metro au-delà du point de vue d'Artyom",
+            "À lire de préférence avant Metro 2035 car ses personnages y réapparaissent"
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Terminez par Metro 2035",
+          "tag": "Convergence",
+          "description": "Metro 2035 ramène Artyom sur le devant de la scène et le pousse vers la question de la vie au-delà de Moscou. Il sert de point de convergence principal entre les thèmes des romans et les discussions de l'ère des jeux avant Metro 2039.",
+          "details": [
+            "Année de l'histoire : 2035",
+            "Recentré sur Artyom",
+            "Lecture finale principale la plus pertinente pour les utilisateurs passant des livres aux jeux"
+          ]
+        }
+      ]
+    },
+    "lucidBlocksSteamDeckAndController": {
+      "title": "Factions de Metro 2039",
+      "displayType": "cardList",
+      "eyebrow": "Politique mondiale",
+      "subtitle": "La politique de Metro est construite autour des stations, des lignes de ravitaillement et des blocs armés. Ce sont les factions qui donnent à la série son identité politique durable.",
+      "intro": "Pour Metro 2039, factions ne sont pas de simples éléments de décor. Elles expliquent qui contrôle le commerce, qui contrôle la violence, qui protège le savoir, et pourquoi tout retour à la politique moscovite devient immédiatement une lutte pour les lignes, les stations et la survie.",
+      "items": [
+        {
+          "icon": "Shield",
+          "title": "Hanza",
+          "tag": "Puissance commerciale",
+          "summary": "La Ligue Hanséatique est la superpuissance commerciale du Metro et ce qui se rapproche le plus d'un centre économique dans les tunnels.",
+          "details": [
+            "Contrôle la ligne circulaire Koltsevaya, la route commerciale clé du Metro.",
+            "Le commerce de chaque station et faction passe par les points de contrôle de la Hanza.",
+            "Entretient environ 4 000 à 5 000 soldats et protège le commerce plus que l'idéologie."
+          ]
+        },
+        {
+          "icon": "BookOpen",
+          "title": "Polis",
+          "tag": "Centre du savoir",
+          "summary": "Polis est le cœur intellectuel du Metro et l'un des rares endroits où la culture et l'apprentissage d'avant-guerre semblent encore vivants.",
+          "details": [
+            "Centré sur le point de transfert Arbatskaya, Alexandrovsky Sad, Biblioteka Imeni Lenina et Borovitskaya.",
+            "Gouverné par un conseil plutôt que par un seul chef d'État.",
+            "Protégé à la fois par sa petite force militaire et par son statut de dépositaire du savoir du Metro."
+          ]
+        },
+        {
+          "icon": "Star",
+          "title": "Spartan Order",
+          "tag": "Protecteurs d'élite",
+          "summary": "Les Spartiates sont l'ordre militaire le plus respecté du Metro et la faction principale d'Artyom.",
+          "details": [
+            "Une force paramilitaire d'élite étroitement liée à Polis.",
+            "Occupe la base de surface Sparta et le D6 après les événements de Metro 2033.",
+            "Compte environ 250 membres, avec environ 100 sur le terrain à tout moment."
+          ]
+        },
+        {
+          "icon": "Hammer",
+          "title": "Red Line",
+          "tag": "Armée de masse",
+          "summary": "La Ligne Rouge est un État marxiste-léniniste et néo-stalinien fondé sur le territoire, la main-d'œuvre et le contrôle.",
+          "details": [
+            "Dirigé par le secrétaire général Maxime Moskvin.",
+            "Contrôle la majeure partie de la ligne Sokolnitcheskaïa.",
+            "Compte environ 15 000 citoyens, dont 6 000 à 7 000 servent dans ses forces armées."
+          ]
+        },
+        {
+          "icon": "AlertTriangle",
+          "title": "Fourth Reich",
+          "tag": "État idéologique",
+          "summary": "Le Reich est le bloc fasciste du Metro, défini par la xénophobie, la militarisation et un conflit constant avec la Ligne Rouge.",
+          "details": [
+            "Construit autour d'une idéologie néonazie et xénophobe d'avant-guerre.",
+            "Centré sur le complexe de stations Tverskaïa-Tchekhovskaïa-Pouchkinskaïa.",
+            "Aligne une armée d'environ 2 000 à 3 000 hommes et reste en lutte quasi permanente avec la Ligne Rouge."
+          ]
+        },
+        {
+          "icon": "Eye",
+          "title": "Invisible Watchers",
+          "tag": "Gouvernement de l'ombre",
+          "summary": "Metro 2035 révèle une couche de pouvoir cachée au-dessus des factions visibles : les vestiges de l'ancien État russe.",
+          "details": [
+            "Présentés comme des survivants cachés du gouvernement russe.",
+            "Maintiennent les chefs des principales factions au pas par des menaces, du chantage et des pots-de-vin.",
+            "Utilisent les conflits contrôlés et l'instabilité gérée comme outils de contrôle de la population."
+          ]
         }
       ],
-      "paths": [
+      "ctaLabel": "Explorer les factions de Metro 2039"
+    },
+    "lucidBlocksSettingsAndAccessibility": {
+      "title": "L'univers de Metro 2039 expliqué",
+      "displayType": "accordion",
+      "eyebrow": "Guide de l'univers",
+      "subtitle": "Les nouveaux joueurs n'ont pas besoin de tous les détails de l'histoire dès le début. Ils ont besoin de comprendre les règles du monde : pourquoi les gens vivent sous terre, pourquoi les masques sont essentiels, et pourquoi chaque voyage ressemble à un survival horror.",
+      "intro": "Metro n'est pas seulement un décor post-apocalyptique. C'est un système avec des règles de survie claires : abris souterrains, air de surface empoisonné, politique des stations, voyages dangereux, et une question centrale qui fait avancer la série : l'humanité est-elle censée rester dans les tunnels ?",
+      "items": [
         {
-          "label": "Installation Steam typique",
-          "path": "Steam\\steamapps\\common\\Lucid Blocks Demo\\"
+          "heading": "Pourquoi les gens vivent dans le Metro",
+          "summary": "Les tunnels sont le dernier refuge fonctionnel de l'humanité.",
+          "content": "Après que la Dernière Guerre a dévasté le monde, seules quarante mille personnes ont survécu et se sont réfugiées dans le Metro de Moscou. Deux décennies plus tard, la surface est toujours empoisonnée par les retombées nucléaires et la vie mutante, les tunnels sont donc devenus une véritable civilisation souterraine.",
+          "points": [
+            "Le Metro a été conçu pour fonctionner comme un abri anti-aérien géant.",
+            "Les stations sont devenues des foyers, des marchés et des communautés politiques.",
+            "Toute la série part de l'idée que la survie s'est déplacée sous terre."
+          ]
         },
         {
-          "label": "Dossier Plugins",
-          "path": "Steam\\steamapps\\common\\Lucid Blocks Demo\\BepInEx\\plugins\\"
+          "heading": "Pourquoi les masques à gaz sont importants",
+          "summary": "Les masques sont une règle de survie, pas seulement un élément visuel emblématique.",
+          "content": "À la surface de Moscou, les radiations dangereuses rendent les masques à gaz obligatoires. Dans Metro, chaque voyage à l'extérieur est limité par l'air, les filtres et l'exposition, ce qui transforme l'exploration en un risque chronométré.",
+          "points": [
+            "La surface de Moscou est enveloppée de radiations dangereuses.",
+            "Artyom et les Rangers portent des masques à gaz en tout temps à la surface.",
+            "L'exposition à l'extérieur est l'un des systèmes de danger les plus explicites du monde."
+          ]
+        },
+        {
+          "heading": "Comment les stations deviennent des cités-États",
+          "summary": "Le Metro est une mosaïque de puissances locales plutôt qu'une société unifiée.",
+          "content": "Chaque station développe son propre chef, ses coutumes et son identité politique. C'est pourquoi le Metro ressemble moins à une nation qu'à une carte de micro-États reliés par des tunnels, le commerce, la peur et des frontières armées.",
+          "points": [
+            "Chaque station a ses propres règles et sa culture interne.",
+            "Le commerce et les voyages relient des communautés qui ne partagent pas les mêmes valeurs.",
+            "La politique dans les tunnels compte autant que les monstres à la surface."
+          ]
+        },
+        {
+          "heading": "Ce qui rend les voyages mortels",
+          "summary": "Se déplacer entre les lieux est dangereux, même en l'absence de guerre.",
+          "content": "Les tunnels ne sont jamais des voies de transit sûres. Les poches de radiation, les menaces mentales, les bandits et les prédateurs mutants font du moindre mouvement un acte de survie, c'est pourquoi les guides, les itinéraires et les territoires des factions comptent tant dans les discussions sur Metro.",
+          "points": [
+            "Les radiations ne se limitent pas à la surface libre.",
+            "Les bandits et les prédateurs s'en prennent aux voyageurs entre les stations.",
+            "Les menaces mentales et d'apparence surnaturelle font partie de l'atmosphère de la série."
+          ]
+        },
+        {
+          "heading": "Ce que la surface apporte au-delà de Moscou",
+          "summary": "Exodus élargit le monde sans pour autant le rendre plus sûr.",
+          "content": "Une fois que la série dépasse Moscou, Metro devient un voyage de survie plus vaste à travers la Russie. Exodus ajoute des anomalies, des tempêtes de sable, la faune sauvage et la rareté des ressources à l'ancienne formule de Metro, montrant que quitter les tunnels change le monde, mais pas le danger.",
+          "points": [
+            "Les anomalies sont des sphères électriques dangereuses qui suivent des trajectoires répétitives.",
+            "Les tempêtes de sable peuvent réduire la visibilité et transformer les terrains découverts en pièges mortels.",
+            "Les munitions et les fournitures restent rares, même en dehors du Metro."
+          ]
+        },
+        {
+          "heading": "Pourquoi Artyom continue de regarder vers l'extérieur",
+          "summary": "La conviction profonde d'Artyom est que la vie ne peut pas s'arrêter dans les tunnels.",
+          "content": "Dans Metro 2035, Artyom continue de s'aventurer à la surface pour scanner les ondes radio et chercher d'autres survivants. Dans Exodus, cette conviction devient un voyage à travers la Russie, faisant de la recherche d'un avenir vivable l'un des ponts narratifs les plus forts vers Metro 2039.",
+          "points": [
+            "Artyom veut ramener les survivants à la surface et trouver un nouveau foyer.",
+            "Il risque à plusieurs reprises l'exposition aux radiations pour prouver qu'il y a de la vie au-delà de Moscou.",
+            "Cette volonté de regarder vers l'extérieur est l'une des idées centrales qui fait avancer la série."
+          ]
         }
       ],
-      "multiplayerNote": "Pour les fonctionnalités de jeu en coopération modifiées, tout le monde doit installer BepInEx et les mêmes mods de gameplay."
+      "ctaLabel": "Découvrir l'univers de Metro 2039"
     },
-    "popularMods": {
-      "title": "Mods populaires de Lucid Blocks",
-      "subtitle": "Meilleures sélections de la communauté",
-      "mods": [
+    "lucidBlocksUpdatesAndPatchNotes": {
+      "title": "Les fins de Metro 2039 expliquées",
+      "displayType": "accordion",
+      "eyebrow": "Guide du Canon",
+      "subtitle": "Les fins de Metro ne sont pas de simples anecdotes. Elles façonnent la compréhension qu'ont les joueurs d'Artyom, des Sombres, du D6, de Miller et de l'avenir au-delà de Moscou.",
+      "intro": "Mettre Metro 2033, Metro Last Light et Metro Exodus côte à côte offre aux utilisateurs une carte claire du canon avant de plonger dans Metro 2039. C'est le moyen le plus rapide de comprendre quels résultats définissent la série et quelles questions d'héritage importent encore le plus.",
+      "items": [
         {
-          "title": "Menu de spawn",
-          "tags": [
-            "Amusant",
-            "Outils",
-            "Hôte uniquement"
-          ],
-          "description": "Ajoute un menu de spawn d'objets avec un mode de vol.",
-          "controls": [
-            {
-              "key": "F",
-              "action": "Ouvrir le menu de spawn"
-            },
-            {
-              "key": "V",
-              "action": "Activer le vol"
-            }
-          ],
-          "note": "Hôte uniquement ; les autres n'ont pas besoin de l'installer pour rejoindre."
-        },
-        {
-          "title": "Vue à la troisième personne",
-          "tags": [
-            "Caméra",
-            "QoL"
-          ],
-          "description": "Ajoute une vue de caméra à la troisième personne.",
-          "controls": [
-            {
-              "key": "F7",
-              "action": "Basculer entre la première personne / la troisième personne"
-            }
+          "heading": "Metro 2033 : Ranger vs Éclairé",
+          "summary": "Le premier embranchement majeur décide du sort des Sombres.",
+          "content": "Metro 2033 a deux fins. La fin canonique « Ranger » laisse la frappe de missiles détruire les Sombres. La fin alternative « Éclairé » apparaît si Artyom gagne suffisamment de points moraux et détruit le système de guidage à la place, réalisant que les Sombres voulaient la paix.",
+          "points": [
+            "Voie canonique : Ranger",
+            "Voie alternative : Éclairé",
+            "Conséquence principale : les Sombres sont détruits ou épargnés"
           ]
         },
         {
-          "title": "Plus de chapeaux",
-          "tags": [
-            "Cosmétique"
-          ],
-          "description": "Ajoute des options de couleur de chapeau supplémentaires pour les gnomes.",
-          "colors": [
-            "Bleu",
-            "Vert",
-            "Orange",
-            "Violet",
-            "Noir",
-            "Rouge"
+          "heading": "Metro Last Light : C'est la Vie vs Rédemption",
+          "summary": "Last Light fait suite au résultat canonique de Metro 2033, puis crée son propre embranchement majeur.",
+          "content": "Metro Last Light commence après la voie où Artyom a détruit les Sombres et rejoint les Rangers au D6. Ses deux fins sont « C'est la Vie », où Artyom fait exploser le D6, et « Rédemption », où le Bébé Sombre et les autres Sombres sauvent le D6. Metro 2035 et Metro Exodus suivent la ligne de la Rédemption.",
+          "points": [
+            "Voie canonique : Rédemption",
+            "« C'est la Vie » se termine par la destruction du D6",
+            "« Rédemption » préserve le D6 et la continuité des Rangers"
           ]
         },
         {
-          "title": "DOOM à la télé",
-          "tags": [
-            "Amusant",
-            "Mini-jeu"
-          ],
-          "description": "Jouez à DOOM original sur un téléviseur dans le jeu, avec le son provenant du haut-parleur du téléviseur.",
-          "highlights": [
-            "Fonctionne en multijoueur afin que d'autres joueurs puissent regarder le même téléviseur",
-            "Inclut les données de l'épisode de DOOM en shareware (Épisode 1)"
+          "heading": "Metro Exodus : Votre Destination vs Voyage Éternel",
+          "summary": "Exodus transforme la question de la fin en celle de la survie d'Artyom après la mission de Novossibirsk.",
+          "content": "Exodus se divise entre « Votre Destination » et « Voyage Éternel ». Dans « Votre Destination », Artyom survit, Anna est sauvée, et il devient le nouveau chef de l'Ordre et de la nouvelle communauté au lac Baïkal. Dans « Voyage Éternel », Anna est toujours sauvée, mais Artyom meurt d'un empoisonnement aux radiations après avoir obtenu le remède.",
+          "points": [
+            "Votre Destination : Artyom survit",
+            "Voyage Éternel : Artyom meurt",
+            "Les deux fins tournent autour de la quête du remède pour Anna et du prix payé à Novossibirsk"
+          ]
+        },
+        {
+          "heading": "L'héritage dont Metro 2039 hérite",
+          "summary": "La trilogie laisse trois grandes lignes d'héritage pour la suite.",
+          "content": "Ensemble, la trilogie transmet à Metro 2039 trois fils conducteurs durables : la mémoire des Sombres, la survie du D6 et de l'Ordre de Sparte, et le sort d'Artyom après le lac Baïkal. Ce sont les questions que les joueurs se posent lors de chaque nouvelle annonce, théorie ou récapitulatif de l'histoire de Metro.",
+          "points": [
+            "Metro 2033 pose la question des Sombres",
+            "Last Light décide si les Rangers conservent le D6 et un avenir viable",
+            "Exodus transforme l'embranchement restant le plus important en la survie et le leadership d'Artyom"
           ]
         }
-      ]
+      ],
+      "ctaLabel": "Comparer les fins de Metro 2039"
     },
-    "controllerSupport": {
-      "title": "Prise en charge de la manette de Lucid Blocks",
-      "subtitle": "Jeu complet à la manette",
-      "native": {
-        "title": "Paramètres dans le jeu",
-        "description": "Utilisez les menus de liaisons/paramètres du jeu pour ajuster les commandes."
-      },
-      "mod": {
-        "title": "Mod de prise en charge de la manette",
-        "description": "Ajoute une prise en charge complète de la manette/du contrôleur et un curseur d'interface utilisateur pour la navigation dans les menus."
-      },
-      "features": [
-        "Commandes de jeu complètes : mouvement, caméra, combat, interactions et capacités mappés à la manette",
-        "Navigation avec le curseur de l'interface utilisateur : un curseur de cercle blanc apparaît dans les menus ; appuyez sur A pour cliquer et faire glisser les curseurs",
-        "Navigation dans l'inventaire : maintenez Select enfoncé pour ouvrir l'inventaire ; utilisez le stick droit pour naviguer tout en le maintenant enfoncé",
-        "Menus déroulants : le stick droit fait défiler les recettes de fabrication, les paramètres et autres zones d'interface utilisateur déroulantes",
-        "Défilement de la barre d'accès rapide : la croix directionnelle gauche/droite fait défiler 4 emplacements de la barre d'accès rapide",
-        "Commutation d'entrée transparente : détecte automatiquement le clavier/la souris par rapport à la manette"
-      ]
-    },
-    "playerCount": {
-      "title": "Nombre de joueurs et tendance de Lucid Blocks",
-      "subtitle": "Instantané de popularité en direct",
-      "stats": {
-        "now": {
-          "value": "6 047",
-          "label": "Joueurs en ce moment"
-        },
-        "peak24h": {
-          "value": "13 859",
-          "label": "Pic sur 24 heures"
-        },
-        "allTimePeak": {
-          "value": "15 272",
-          "label": "Pic de tous les temps"
-        }
-      },
-      "milestones": [
+    "lucidBlocksCrashFixAndTroubleshooting": {
+      "title": "Le développeur de Metro 2039 expliqué",
+      "displayType": "cardList",
+      "eyebrow": "Studio et créateurs",
+      "subtitle": "L'intérêt des recherches autour de Metro 2039 suscite déjà des questions sur 4A Games, Deep Silver, Dmitry Glukhovsky et la structure du studio. Ce module apporte aux utilisateurs une réponse claire sur l'identité des créateurs du jeu et l'organisation de l'équipe.",
+      "intro": "Une grande partie du trafic de recherche Metro inclut désormais des questions sur les développeurs : 4A Games est-elle toujours la véritable équipe Metro, quel est le rôle de Deep Silver, quelle est la place de Dmitry et quel est le lien entre Reburn et l'ancienne structure de 4A Games. Ce module y répond directement à partir des pages officielles actuelles et des mises à jour 2025 de 4A Games.",
+      "items": [
         {
-          "date": "30 janvier 2026",
-          "title": "Démo sortie sur Steam",
-          "detail": "La démo publique est devenue disponible sur PC (Steam)."
+          "icon": "Clock",
+          "title": "Statut officiel actuel",
+          "tag": "Fenêtre de révélation",
+          "summary": "Metro 2039 dispose déjà d'une page officielle en ligne et d'une présentation programmée.",
+          "details": [
+            "La page officielle de Deep Silver pour Metro 2039 est en ligne dès maintenant.",
+            "La page annonce la révélation pour le 16 avril 2026 à 10h PDT / 19h CEST / 20h EET.",
+            "Elle oriente également les utilisateurs vers la chaîne YouTube officielle de Xbox pour les notifications d'événements."
+          ]
         },
         {
-          "date": "8 février 2026",
-          "title": "Pic de tous les temps atteint",
-          "detail": "La démo a atteint son plus grand nombre de joueurs simultanés enregistré."
+          "icon": "Package",
+          "title": "Éditeur, développeur, créateur",
+          "tag": "Crédits officiels",
+          "summary": "Les crédits officiels répondent d'abord à la question la plus simple : qui l'édite, qui le développe et sur quoi il est basé.",
+          "details": [
+            "Édité par Deep Silver, une division de PLAION.",
+            "Développé par 4A Games.",
+            "Basé sur la trilogie littéraire Metro de Dmitry Glukhovsky."
+          ]
+        },
+        {
+          "icon": "Check",
+          "title": "La même équipe Metro, pas un changement de nom",
+          "tag": "Identité du studio",
+          "summary": "La mise à jour de février 2025 de 4A Games a été rédigée pour dissiper la confusion autour de l'équipe Metro.",
+          "details": [
+            "4A Games affirme être l'équipe qui a créé et construit les jeux Metro.",
+            "Le studio déclare qu'il continue de créer le prochain Metro avec Dmitry Glukhovsky.",
+            "4A Games se décrit explicitement comme étant composée des mêmes fondateurs, dirigeants et développeurs d'origine, plutôt que comme un remplaçant ayant changé de nom."
+          ]
+        },
+        {
+          "icon": "Users",
+          "title": "Où travaille 4A Games aujourd'hui",
+          "tag": "Empreinte du studio",
+          "summary": "Metro 2039 est conçu par un studio présent dans deux pays, avec l'Ukraine toujours au centre.",
+          "details": [
+            "4A Games indique avoir désormais plus de 200 employés répartis dans deux pays.",
+            "Environ 150 de ces développeurs restent en Ukraine.",
+            "L'équipe travaille depuis Kiev, Sliema à Malte et à distance."
+          ]
+        },
+        {
+          "icon": "ExternalLink",
+          "title": "Le lien entre 4A Games et Reburn",
+          "tag": "Histoire de l'équipe",
+          "summary": "L'ancienne scission de nom de 4A Games est l'une des plus grandes sources de confusion en ligne, et 4A Games l'a abordée directement.",
+          "details": [
+            "En 2014, les fondateurs originaux ont formé 4A Games Limited et ont créé un siège à Malte.",
+            "Cette équipe dirigée depuis Malte a continué à travailler en étroite collaboration avec 4A Games Ukraine sur Metro Exodus.",
+            "Après Exodus, 4A Games Ukraine a poursuivi son propre projet et s'est ensuite renommée Reburn, tandis que 4A Games Limited a continué Metro."
+          ]
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Ce qui façonne le prochain Metro",
+          "tag": "Direction narrative",
+          "summary": "La mise à jour d'anniversaire de mars 2025 de 4A Games explique pourquoi le prochain Metro semble plus sombre et plus politiquement engagé.",
+          "details": [
+            "4A Games affirme que l'invasion à grande échelle de 2022 a changé la façon dont elle souhaitait raconter la prochaine histoire de Metro.",
+            "Le studio déclare que le prochain jeu est façonné par l'expérience vécue de la guerre.",
+            "4A Games précise également que les thèmes anti-guerre, politiques et émotionnels de Metro se poursuivent grâce à sa collaboration avec Dmitry Glukhovsky."
+          ]
         }
-      ]
+      ],
+      "ctaLabel": "Rencontrez l'équipe de Metro 2039"
     }
   },
   "faq": {
-    "title": "Foire aux",
-    "titleHighlight": "Questions",
-    "subtitle": "Tout ce que vous devez savoir sur Lucid Blocks",
+    "title": "Metro 2039",
+    "titleHighlight": "FAQ",
+    "subtitle": "Réponses rapides aux questions les plus fréquentes sur Metro 2039",
     "questions": [
       {
-        "question": "Comment télécharger la démo de Lucid Blocks ?",
-        "answer": "Visitez la page du magasin Steam et cliquez sur \"Télécharger la démo\". La démo est gratuite et nécessite 2,62 Gio à télécharger, 4,88 Gio d'espace disque."
+        "question": "Quand sortira Metro 2039 ?",
+        "answer": "Metro 2039 est annoncé, la révélation complète est prévue pour le 16 avril 2026, et la date de sortie finale reste à déterminer."
       },
       {
-        "question": "Puis-je jouer à Lucid Blocks en solo ou ai-je besoin d'amis ?",
-        "answer": "Lucid Blocks prend en charge le jeu en solo et en coopération avec jusqu'à 6 joueurs. Le solo est plus difficile mais possible."
+        "question": "Où puis-je regarder la révélation de Metro 2039 ?",
+        "answer": "Regardez la révélation de Metro 2039 via la première YouTube de Xbox First Look et la page officielle du jeu de Deep Silver."
       },
       {
-        "question": "Quelles sont les tâches du Haut-Gnome dans Lucid Blocks ?",
-        "answer": "Le Haut-Gnome est votre patron qui vous assigne des objectifs comme \"casser la télévision\", \"inonder les toilettes\" ou \"voler des objets spécifiques\". Effectuez-les pour obtenir des récompenses supplémentaires."
+        "question": "De quoi parle Metro 2039 ?",
+        "answer": "Metro 2039 poursuit la saga post-apocalyptique de Metro avec une histoire marquée par la guerre et l'anti-tyrannie, ancrée dans la survie, la politique et le coût humain."
       },
       {
-        "question": "Comment installer des mods pour Lucid Blocks ?",
-        "answer": "Installez BepInEx 5, lancez le jeu une fois, puis placez les DLL des mods dans le dossier BepInEx/plugins/. Tous les joueurs ont besoin des mêmes mods pour le multijoueur."
+        "question": "Quelles plateformes pour Metro 2039 sont suivies ?",
+        "answer": "Le suivi des plateformes de Metro 2039 se concentre sur PC, Xbox Series X|S et PlayStation 5, ainsi que sur la couverture des boutiques et de la localisation."
       },
       {
-        "question": "Lucid Blocks prend-il en charge les manettes ?",
-        "answer": "Oui ! Utilisez les paramètres du jeu pour la prise en charge de base de la manette, ou installez le Mod de manette de Nexus Mods pour une navigation complète dans l'interface utilisateur."
+        "question": "Quels jeux Metro 2039 devrais-je faire en premier ?",
+        "answer": "Jouez à Metro 2033 Redux, Metro: Last Light Redux et Metro Exodus dans l'ordre avant Metro 2039 pour une meilleure compréhension de l'histoire."
       },
       {
-        "question": "Quel est le nombre de joueurs pour Lucid Blocks ?",
-        "answer": "En février 2026, Lucid Blocks compte en moyenne plus de 6 000 joueurs simultanés, avec un pic de 15 272 le 8 février 2026."
+        "question": "Quels livres Metro 2039 devrais-je lire en premier ?",
+        "answer": "Lisez Metro 2033, Metro 2034 et Metro 2035 dans cet ordre pour comprendre le contexte littéraire derrière Metro 2039."
       }
     ]
   },
   "cta": {
-    "title": "Prêt à commencer à braquer ?",
-    "description": "Rejoignez la communauté Lucid Blocks sur Discord pour des groupes de coopération, des mises à jour et des discussions sur les mods !",
-    "joinCommunity": "Rejoindre Discord",
-    "joinGame": "Obtenir la démo sur Steam"
+    "title": "Suivez les chaînes officielles de Metro 2039",
+    "description": "Regardez la révélation officielle, rejoignez la communauté Metro sur Discord et restez au courant des dernières mises à jour de Metro 2039 alors que Deep Silver et 4A Games partagent plus de détails.",
+    "joinCommunity": "Rejoignez le Discord officiel de Metro",
+    "joinGame": "Visitez le site officiel de Metro 2039"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Votre centre de ressources complet pour les braquages furtifs, les stratégies de coopération, les mods et les guides communautaires de Lucid Blocks.",
+    "title": "Metro 2039",
+    "description": "Suivez les révélations de bandes-annonces de Metro 2039, les mises à jour de sortie, les indices sur l'histoire, les factions, les personnages et les liens communautaires officiels dans un hub respectueux des spoilers.",
     "resources": "Ressources",
-    "community": "Communauté",
+    "community": "Chaînes Officielles",
     "legal": "Légal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Communauté Steam",
-    "steamStore": "Magasin Steam",
+    "discord": "Discord Officiel",
+    "twitter": "Site Officiel",
+    "steamCommunity": "Reddit",
+    "steamStore": "YouTube",
     "about": "À propos",
     "privacy": "Politique de confidentialité",
     "terms": "Conditions d'utilisation",
-    "copyrightNotice": "Droits d'auteur",
-    "copyright": "© 2026 Lucid Blocks Wiki. Non affilié aux développeurs de Lucid Blocks.",
-    "disclaimer": "Site web de ressources non officiel créé par des fans."
+    "copyrightNotice": "Droit d'auteur",
+    "copyright": "© 2026 hub de fans Metro 2039. Non affilié à Deep Silver ou 4A Games.",
+    "disclaimer": "Site de ressources non officiel créé par des fans. Toutes les marques et ressources du jeu appartiennent à leurs propriétaires respectifs."
   },
   "pages": {
-    "guides": {
-      "title": "Guides Lucid Blocks",
-      "description": "Guides de jeu complets, des bases pour débutants aux stratégies avancées d'Apotheosis. Maîtrisez la survie et l'artisanat.",
-      "metaTitle": "Guides Lucid Blocks - Stratégies de débutant à avancé",
-      "metaDescription": "Guides complets de Lucid Blocks couvrant les conseils pour débutants, le système Apotheosis, les stratégies de survie et les tactiques d'experts pour maîtriser ce bac à sable surréaliste.",
-      "categoryLabel": "GUIDES DE JEU",
-      "whatIs": "Que sont les Guides ?",
-      "whatIsDescription": "Guides complets couvrant les mécaniques de jeu, les stratégies de survie et le système d'artisanat Apotheosis. Apprenez tout, des premiers pas aux techniques avancées.",
-      "why": "Pourquoi lire les guides ?",
+    "guide": {
+      "title": "Guide Metro 2039",
+      "description": "Explications essentielles sur Metro 2039, conseils pour suivre les révélations et parcours de lecture rapide pour les nouveaux abonnés.",
+      "metaTitle": "Guide Metro 2039 - Explications essentielles et hub de démarrage",
+      "metaDescription": "Consultez le hub du Guide Metro 2039 pour des explications, le contexte des révélations et des articles pratiques pour les nouveaux fans et les habitués.",
+      "categoryLabel": "COMMENCER ICI",
+      "whatIs": "Qu'est-ce que la page Guide Metro 2039 ?",
+      "whatIsDescription": "Le Guide Metro 2039 est le hub d'orientation qui répond aux questions fondamentales, explique le contexte actuel des révélations et propose le chemin le plus rapide vers une couverture approfondie.",
+      "why": "Pourquoi lire la page Guide Metro 2039 ?",
       "whySteps": {
-        "step1Title": "Apprendre les mécaniques de base",
-        "step1Description": "Comprenez le système Apotheosis et évitez les erreurs courantes de débutant",
-        "step2Title": "Progression rapide",
-        "step2Description": "Suivez des parcours éprouvés pour survivre et prospérer dans ce monde surréaliste",
-        "step3Title": "Maîtriser les stratégies",
-        "step3Description": "Développez des tactiques avancées pour l'exploration et l'artisanat"
+        "step1Title": "Comprendre rapidement les bases",
+        "step1Description": "Obtenez le contexte clé de Metro 2039 en quelques minutes avant d'approfondir des sujets détaillés.",
+        "step2Title": "Suivre le bon ordre de lecture",
+        "step2Description": "Passez des explications générales aux détails sur la sortie, l'histoire et les plateformes sans recherche supplémentaire.",
+        "step3Title": "Rester prêt pour les nouvelles mises à jour",
+        "step3Description": "Utilisez la couverture du guide comme base pour que chaque nouvelle annonce de Metro 2039 soit plus facile à analyser."
       },
-      "featured": "En vedette et essentiels",
-      "all": "Tous les guides"
+      "featured": "En vedette et essentiel",
+      "all": "Tous les articles du Guide Metro 2039"
     },
-    "crafting": {
-      "title": "Artisanat Lucid Blocks",
-      "description": "Maîtrisez le système de fusion Apotheosis avec les mécaniques d'essence, les recettes et les stratégies d'artisanat pour des objets puissants.",
-      "metaTitle": "Artisanat Lucid Blocks - Système Apotheosis et recettes",
-      "metaDescription": "Maîtrisez le système d'artisanat Apotheosis de Lucid Blocks. Apprenez les mécaniques d'essence, les recettes de fusion et les stratégies pour créer des outils et des armes puissants.",
-      "categoryLabel": "SYSTÈME D'ARTISANAT",
-      "whatIs": "Qu'est-ce que l'artisanat ?",
-      "whatIsDescription": "Le système Apotheosis est une mécanique de fusion unique basée sur l'essence où vous combinez jusqu'à six objets pour découvrir de nouvelles recettes. Pas de menus d'artisanat fixes : l'expérimentation est la clé.",
-      "why": "Pourquoi maîtriser l'artisanat ?",
+    "release": {
+      "title": "Sortie de Metro 2039",
+      "description": "Suivez le calendrier des révélations de Metro 2039, les signaux de dates, les fenêtres d'événements et les changements d'étapes clés via les chaînes officielles.",
+      "metaTitle": "Sortie de Metro 2039 - Suivi de date, calendrier des révélations et étapes clés",
+      "metaDescription": "Suivez les mises à jour de la sortie de Metro 2039 avec le calendrier des révélations, le suivi des dates, les fenêtres d'événements et la couverture des étapes de lancement dans une seule chronologie.",
+      "categoryLabel": "SUIVI DE SORTIE",
+      "whatIs": "Qu'est-ce que la page Sortie de Metro 2039 ?",
+      "whatIsDescription": "La page Sortie de Metro 2039 regroupe la couverture liée au calendrier, y compris les créneaux de révélation, les fenêtres d'annonce et les mises à jour de la séquence de lancement.",
+      "why": "Pourquoi utiliser la page Sortie de Metro 2039 ?",
       "whySteps": {
-        "step1Title": "Débloquer des objets puissants",
-        "step1Description": "Découvrez des outils, des armes et des équipements de mobilité essentiels grâce à la fusion",
-        "step2Title": "Comprendre les essences",
-        "step2Description": "Apprenez comment les essences d'objets se combinent pour créer des résultats prévisibles",
-        "step3Title": "Optimiser les ressources",
-        "step3Description": "Utilisez les mécaniques de dilution pour maximiser le rendement à partir de matériaux bon marché"
+        "step1Title": "Suivre chaque signal de calendrier",
+        "step1Description": "Consultez les changements de dates et d'heures en un seul endroit au lieu de vérifier plusieurs flux.",
+        "step2Title": "Associer les événements aux annonces",
+        "step2Description": "Reliez les présentations, les segments de premier aperçu et les publications officielles à la chronologie de Metro 2039.",
+        "step3Title": "Planifier en fonction des étapes clés",
+        "step3Description": "Utilisez la couverture de la sortie pour savoir quand consulter les bandes-annonces, les pages de plateformes et les actualités de suivi."
       },
-      "featured": "En vedette et essentiels",
-      "all": "Tous les guides d'artisanat"
+      "featured": "En vedette et essentiel",
+      "all": "Tous les articles sur la sortie de Metro 2039"
     },
-    "items": {
-      "title": "Objets Lucid Blocks",
-      "description": "Guides détaillés sur les objets couvrant les outils, les armes, l'équipement de mobilité et les solutions de stockage avec recettes d'artisanat et conseils d'utilisation.",
-      "metaTitle": "Objets Lucid Blocks - Guide des outils, armes et équipements",
-      "metaDescription": "Base de données complète des objets pour Lucid Blocks, incluant les outils, les armes, l'équipement de mobilité et le stockage. Apprenez à fabriquer et utiliser chaque objet efficacement.",
-      "categoryLabel": "OBJETS ET ÉQUIPEMENT",
-      "whatIs": "Que sont les objets ?",
-      "whatIsDescription": "Guides complets pour les outils, les armes, l'équipement de mobilité et les objets fonctionnels. Apprenez les recettes d'artisanat, les stratégies d'utilisation et les combinaisons optimales.",
-      "why": "Pourquoi consulter les guides d'objets ?",
+    "platforms": {
+      "title": "Plateformes Metro 2039",
+      "description": "Couverture de la disponibilité des plateformes pour Metro 2039 sur Xbox, PlayStation, les boutiques PC et notes sur le déploiement linguistique.",
+      "metaTitle": "Plateformes Metro 2039 - Xbox, PlayStation, Steam et disponibilité",
+      "metaDescription": "Explorez la couverture des plateformes Metro 2039 pour les cibles matérielles, l'état des boutiques et les détails du déploiement par région ou langue.",
+      "categoryLabel": "ÉTAT DES PLATEFORMES",
+      "whatIs": "Qu'est-ce que les plateformes Metro 2039 ?",
+      "whatIsDescription": "Les plateformes Metro 2039 est la catégorie indiquant où le jeu apparaît, quelles boutiques sont actives et comment la disponibilité diffère selon l'écosystème.",
+      "why": "Pourquoi vérifier les plateformes Metro 2039 ?",
       "whySteps": {
-        "step1Title": "Apprendre les recettes d'artisanat",
-        "step1Description": "Découvrez comment fabriquer des outils et des armes essentiels en utilisant Apotheosis",
-        "step2Title": "Optimiser l'équipement",
-        "step2Description": "Choisissez les meilleurs objets pour votre style de jeu et votre stade de progression",
-        "step3Title": "Améliorer la survie",
-        "step3Description": "Équipez-vous de matériel de mobilité et d'armes pour naviguer dans ce monde dangereux"
+        "step1Title": "Confirmer où jouer",
+        "step1Description": "Consultez le support actuel des plateformes et l'activité des boutiques sans passer d'une page à l'autre.",
+        "step2Title": "Suivre les changements des boutiques",
+        "step2Description": "Surveillez les mises à jour des fiches, les signaux de listes de souhaits et l'évolution de la disponibilité régionale au fil du temps.",
+        "step3Title": "Choisir votre meilleure version",
+        "step3Description": "Comparez tôt le contexte des plateformes pour que les décisions de configuration de Metro 2039 soient simples."
       },
-      "featured": "En vedette et essentiels",
-      "all": "Tous les objets"
+      "featured": "En vedette et essentiel",
+      "all": "Tous les articles sur les plateformes Metro 2039"
     },
-    "biomes": {
-      "title": "Biomes Lucid Blocks",
-      "description": "Explorez les régions du monde, les caractéristiques environnementales, l'emplacement des ressources et les conseils de survie pour chaque biome.",
-      "metaTitle": "Biomes Lucid Blocks - Régions du monde et exploration",
-      "metaDescription": "Explorez les biomes de Lucid Blocks, y compris les Tiamana Leylines, Fog Meadow et les régions surréalistes. Trouvez des ressources, évitez les dangers et naviguez dans le monde infini.",
-      "categoryLabel": "RÉGIONS DU MONDE",
-      "whatIs": "Que sont les biomes ?",
-      "whatIsDescription": "Guides des différentes régions du monde, des caractéristiques environnementales, de la distribution des ressources et des zones de danger. Apprenez à quoi vous attendre et comment vous préparer pour chaque zone.",
-      "why": "Pourquoi explorer les biomes ?",
+    "leaks": {
+      "title": "Fuites Metro 2039",
+      "description": "Pages de veille sur les fuites de Metro 2039 pour les discussions sur les captures d'écran, le suivi des rapports de gameplay et les chronologies des cycles de rumeurs.",
+      "metaTitle": "Fuites Metro 2039 - Discussions sur les captures d'écran et veille sur les rapports de gameplay",
+      "metaDescription": "Suivez la couverture des fuites de Metro 2039 avec le suivi des cycles de rumeurs, les résumés des discussions sur les captures d'écran et les chronologies des rapports de gameplay.",
+      "categoryLabel": "VEILLE SUR LES FUITES",
+      "whatIs": "Qu'est-ce que les fuites Metro 2039 ?",
+      "whatIsDescription": "Les fuites Metro 2039 rassemblent des sujets basés sur les discussions, tels que les rapports de gameplay, les séries de captures d'écran et les pics de discussion liés aux cycles de révélation.",
+      "why": "Pourquoi lire la couverture des fuites de Metro 2039 ?",
       "whySteps": {
-        "step1Title": "Trouver des ressources",
-        "step1Description": "Localisez des matériaux rares et des essences spécifiques à chaque région",
-        "step2Title": "Éviter les dangers",
-        "step2Description": "Comprenez les dangers environnementaux et les créatures hostiles",
-        "step3Title": "Planifier l'exploration",
-        "step3Description": "Préparez les bons outils et équipements pour chaque type de biome"
+        "step1Title": "Suivre l'élan des rumeurs",
+        "step1Description": "Voyez quels sujets de fuites attirent l'attention avant les grandes annonces officielles.",
+        "step2Title": "Organiser les rapports fragmentés",
+        "step2Description": "Utilisez une seule chronologie pour suivre les discussions liées aux captures d'écran et au gameplay à travers les cycles.",
+        "step3Title": "Relier aux actualités officielles",
+        "step3Description": "Comparez les récits de la phase de fuite avec la couverture ultérieure des annonces de Metro 2039."
       },
-      "featured": "En vedette et essentiels",
-      "all": "Tous les biomes"
+      "featured": "En vedette et essentiel",
+      "all": "Tous les articles sur les fuites de Metro 2039"
     },
-    "building": {
-      "title": "Construction Lucid Blocks",
-      "description": "Maîtrisez les dimensions personnelles Qualia, la construction de bases, la gestion du stockage et les techniques de construction créative.",
-      "metaTitle": "Construction Lucid Blocks - Qualia et construction de base",
-      "metaDescription": "Maîtrisez la construction dans Lucid Blocks avec les dimensions personnelles Qualia, la construction de bases, les solutions de stockage et les techniques de construction créative.",
-      "categoryLabel": "CONSTRUCTION ET BASES",
-      "whatIs": "Qu'est-ce que la construction ?",
-      "whatIsDescription": "Guides sur le système de dimension personnelle Qualia, la construction de bases, la gestion du stockage et la construction créative. Apprenez à créer votre havre de paix dans ce monde surréaliste.",
-      "why": "Pourquoi construire des bases ?",
+    "story": {
+      "title": "Histoire de Metro 2039",
+      "description": "Couverture de l'histoire de Metro 2039 avec les arcs de personnages, les indices sur l'univers et la direction narrative liée à l'univers Metro.",
+      "metaTitle": "Histoire de Metro 2039 - Personnages, indices sur l'univers et direction narrative",
+      "metaDescription": "Lisez la couverture de l'histoire de Metro 2039 pour le contexte du lore, les arcs de personnages, les indices sur l'état du monde et la direction narrative avant le lancement.",
+      "categoryLabel": "COUVERTURE DE L'HISTOIRE",
+      "whatIs": "Qu'est-ce que l'histoire de Metro 2039 ?",
+      "whatIsDescription": "L'histoire de Metro 2039 se concentre sur les fils narratifs : contexte du protagoniste, relations entre les personnages, tensions mondiales et signaux de l'intrigue provenant des documents officiels.",
+      "why": "Pourquoi suivre l'histoire de Metro 2039 ?",
       "whySteps": {
-        "step1Title": "Créer des espaces sûrs",
-        "step1Description": "Établissez des bases sécurisées pour le stockage et les opérations d'artisanat",
-        "step2Title": "Gérer les ressources",
-        "step2Description": "Organisez les matériaux efficacement grâce aux solutions de stockage",
-        "step3Title": "Débloquer Qualia",
-        "step3Description": "Accédez à des dimensions de poche personnelles pour un confort ultime"
+        "step1Title": "Renouez avec le lore de Metro",
+        "step1Description": "Actualisez le contexte de l'état du monde pour que les nouveaux éléments de l'histoire de Metro 2039 soient clairs.",
+        "step2Title": "Suivez l'évolution des personnages",
+        "step2Description": "Suivez comment Artyom, ses alliés et ses rivaux sont positionnés à travers les documents de présentation.",
+        "step3Title": "Mieux interpréter les signaux narratifs",
+        "step3Description": "Utilisez le contexte de l'histoire pour interpréter plus rapidement les bandes-annonces, les interviews et les récapitulatifs d'événements."
       },
-      "featured": "En vedette et essentiels",
-      "all": "Tous les guides de construction"
+      "featured": "À la une et essentiels",
+      "all": "Tous les articles sur l'histoire de Metro 2039"
     },
-    "support": {
-      "title": "Support Lucid Blocks",
-      "description": "Support technique, compatibilité des plateformes, optimisation des performances et dépannage des problèmes courants.",
-      "metaTitle": "Support Lucid Blocks - Aide technique et correctifs",
-      "metaDescription": "Obtenez un support technique pour Lucid Blocks, incluant la configuration du Steam Deck, les correctifs de crash, l'optimisation des performances et les guides de compatibilité des plateformes.",
-      "categoryLabel": "SUPPORT TECHNIQUE",
-      "whatIs": "Qu'est-ce que le support ?",
-      "whatIsDescription": "Guides techniques couvrant la compatibilité des plateformes, l'optimisation des performances, les correctifs de crash et les problèmes courants. Obtenez de l'aide pour le Steam Deck, les questions sur le multijoueur et les paramètres.",
-      "why": "Pourquoi consulter le support ?",
+    "series": {
+      "title": "Série Metro 2039",
+      "description": "Couverture de l'ensemble de la série Metro reliant Metro 2039 à Metro 2033, Last Light, Exodus et au contexte des livres associés.",
+      "metaTitle": "Série Metro 2039 - Liens chronologiques entre jeux et livres",
+      "metaDescription": "Explorez la couverture de la série Metro 2039 pour relier les anciens jeux Metro, les références aux livres et le contexte chronologique de la franchise.",
+      "categoryLabel": "CONTEXTE DE LA SÉRIE",
+      "whatIs": "Qu'est-ce que la série Metro 2039 ?",
+      "whatIsDescription": "La série Metro 2039 fait le pont entre le nouveau titre et les jeux précédents ainsi que les références de l'époque des romans, offrant aux lecteurs un contexte complet de la franchise.",
+      "why": "Pourquoi utiliser la couverture de la série Metro 2039 ?",
       "whySteps": {
-        "step1Title": "Résoudre les problèmes techniques",
-        "step1Description": "Résolvez les plantages, les problèmes de performance et les problèmes de compatibilité",
-        "step2Title": "Optimiser les performances",
-        "step2Description": "Configurez les paramètres pour la meilleure expérience sur votre plateforme",
-        "step3Title": "Compatibilité des plateformes",
-        "step3Description": "Apprenez-en plus sur le Steam Deck, le support des manettes et les configurations requises"
+        "step1Title": "Consultez la chronologie de la franchise",
+        "step1Description": "Reliez Metro 2039 aux étapes précédentes, de Metro 2033 à Metro Exodus.",
+        "step2Title": "Associez le contexte des livres et des jeux",
+        "step2Description": "Comprenez où les références aux romans et les événements des jeux s'alignent au sein de l'univers étendu de Metro.",
+        "step3Title": "Rattrapez votre retard efficacement",
+        "step3Description": "Utilisez les guides de la série pour décider quoi lire ou rejouer avant la prochaine révélation majeure."
       },
-      "featured": "En vedette et essentiels",
-      "all": "Tous les articles de support"
+      "featured": "À la une et essentiels",
+      "all": "Tous les articles sur la série Metro 2039"
+    },
+    "developer": {
+      "title": "Développeur de Metro 2039",
+      "description": "Couverture du développeur de Metro 2039 pour 4A Games, les mises à jour d'édition de Deep Silver et les communications liées à la production.",
+      "metaTitle": "Développeur de Metro 2039 - Mises à jour de 4A Games et Deep Silver",
+      "metaDescription": "Suivez la couverture du développeur de Metro 2039 pour les déclarations du studio, les mises à jour de l'éditeur et le contexte de production de 4A Games et Deep Silver.",
+      "categoryLabel": "SUIVI DU STUDIO",
+      "whatIs": "Qu'est-ce que le développeur de Metro 2039 ?",
+      "whatIsDescription": "Le développeur de Metro 2039 suit qui conçoit et édite le jeu, ainsi que le rythme de communication des canaux du studio et de l'éditeur.",
+      "why": "Pourquoi suivre la couverture du développeur de Metro 2039 ?",
+      "whySteps": {
+        "step1Title": "Suivez les communications du studio",
+        "step1Description": "Découvrez ce que 4A Games et Deep Silver disent sur les canaux officiels.",
+        "step2Title": "Comprenez le contexte de production",
+        "step2Description": "Reliez les déclarations sur la feuille de route et le rythme des révélations aux progrès globaux de Metro 2039.",
+        "step3Title": "Suivez les signaux au niveau de l'équipe",
+        "step3Description": "Utilisez les mises à jour axées sur le développeur pour anticiper la direction des prochaines annonces."
+      },
+      "featured": "À la une et essentiels",
+      "all": "Tous les articles sur le développeur de Metro 2039"
     }
   }
 }
