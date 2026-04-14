@@ -33,27 +33,27 @@
     "readMore": "Read More"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Officially Revealed Post-Apocalyptic FPS",
+    "title": "Metro 2039",
+    "description": "Follow Metro 2039 announcement news, trailer breakdowns, release tracking, story clues, factions, characters, and platform coverage for the next mainline Metro game.",
+    "getFreeCodesCTA": "Watch Metro 2039 Trailer",
+    "playOnSteamCTA": "Visit Metro 2039 Official Site",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "Apr 16, 2026",
+        "label": "Reveal Date"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "68K+",
+        "label": "Announcement Views"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "13.6K+",
+        "label": "Discord Members"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "73K+",
+        "label": "Reddit Members"
       }
     }
   },
@@ -784,27 +784,27 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Follow Metro 2039 Official Channels",
+    "description": "Watch the official reveal, join the Metro community on Discord, and keep up with fresh Metro 2039 updates as Deep Silver and 4A Games share more details.",
+    "joinCommunity": "Join Metro Official Discord",
+    "joinGame": "Visit Metro 2039 Official Site"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Metro 2039",
+    "description": "Track Metro 2039 trailer reveals, release updates, story clues, factions, characters, and official community links in one spoiler-aware hub.",
     "resources": "Resources",
-    "community": "Community",
+    "community": "Official Channels",
     "legal": "Legal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "discord": "Official Discord",
+    "twitter": "Official Site",
+    "steamCommunity": "Reddit",
+    "steamStore": "YouTube",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
-    "disclaimer": "Unofficial fan-made resource website."
+    "copyright": "© 2026 Metro 2039 fan hub. Not affiliated with Deep Silver or 4A Games.",
+    "disclaimer": "Unofficial fan-made resource website. All trademarks and game assets belong to their respective owners."
   },
   "pages": {
     "guides": {

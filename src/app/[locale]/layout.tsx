@@ -1,12 +1,13 @@
 import type { Metadata } from 'next'
 import { NextIntlClientProvider } from 'next-intl'
-import { getMessages, getTranslations } from 'next-intl/server'
+import { getMessages } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 import { routing, type Locale } from '@/i18n/routing'
 import { buildLanguageAlternates } from '@/lib/i18n-utils'
 import { getNavPreviewData } from '@/lib/nav-preview'
 import type { Language } from '@/lib/content'
 import { getWikiLinks } from '@/lib/wiki-links'
+import { getSiteUrl, HERO_IMAGE, SITE_NAME } from '@/lib/site-config'
 import { Geist, Geist_Mono } from 'next/font/google'
 import Script from 'next/script'
 import ClientBody from '../ClientBody'
@@ -36,19 +37,15 @@ export function generateStaticParams() {
 // 生成元数据
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
 	const { locale } = await params
-	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
-
-	// 获取 SEO 翻译
-	const t = await getTranslations('seo.home')
-
-	// 将 keywords 字符串分割为数组
-	const keywordsString = t('keywords')
-	const keywords = keywordsString.split(',').map(k => k.trim())
+	const siteUrl = getSiteUrl()
+	const heroImageUrl = new URL('/images/hero.webp', siteUrl).toString()
 
 	return {
-		title: t('title'),
-		description: t('description'),
-		keywords: keywords,
+		metadataBase: new URL(siteUrl),
+		title: SITE_NAME,
+		description:
+			'Metro 2039 fan hub for announcement news, trailer coverage, release tracking, lore clues, factions, and official links.',
+		keywords: ['Metro 2039', 'trailer', 'release date', 'story', 'factions', 'characters'],
 		robots: {
 			index: true,
 			follow: true,
@@ -64,24 +61,25 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 			type: 'website',
 			locale: locale,
 			url: locale === 'en' ? siteUrl : `${siteUrl}/${locale}`,
-			siteName: 'Lucid Blocks Wiki',
-			title: t('ogTitle'),
-			description: t('ogDescription'),
+			siteName: SITE_NAME,
+			title: SITE_NAME,
+			description:
+				'Metro 2039 fan hub for announcement news, trailer coverage, release tracking, lore clues, factions, and official links.',
 			images: [
 				{
-					url: `${siteUrl}/images/hero.webp`,
-					width: 1920,
-					height: 1080,
-					alt: 'Lucid Blocks - Surreal Voxel Sandbox',
+					url: heroImageUrl,
+					width: HERO_IMAGE.width,
+					height: HERO_IMAGE.height,
+					alt: HERO_IMAGE.alt,
 				},
 			],
 		},
 		twitter: {
 			card: 'summary_large_image',
-			title: t('twitterTitle'),
-			description: t('twitterDescription'),
-			images: [`${siteUrl}/images/hero.webp`],
-			creator: '@lucidblocks',
+			title: SITE_NAME,
+			description:
+				'Metro 2039 fan hub for announcement news, trailer coverage, release tracking, lore clues, factions, and official links.',
+			images: [heroImageUrl],
 		},
 		icons: {
 			icon: [

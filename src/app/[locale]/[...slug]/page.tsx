@@ -18,6 +18,14 @@ import { ListStructuredData } from '@/components/content/ListStructuredData'
 import { routing, type Locale } from '@/i18n/routing'
 import { buildLanguageAlternates } from '@/lib/i18n-utils'
 import type { Metadata } from 'next'
+import {
+  getContentMetaDescription,
+  getContentMetaTitle,
+  getHeroImageUrl,
+  getSiteUrl,
+  HERO_IMAGE,
+  toAbsoluteUrl,
+} from '@/lib/site-config'
 
 interface PageProps {
   params: Promise<{ locale: string; slug: string[] }>
@@ -214,7 +222,8 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale, slug } = await params
   const contentType = slug[0]
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+  const siteUrl = getSiteUrl()
+  const heroImageUrl = getHeroImageUrl(siteUrl)
 
   if (!isValidContentType(contentType)) {
     return { title: 'Not Found' }
@@ -227,8 +236,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     const t = await getTranslations(`pages.${contentType}`)
 
     try {
-      const title = t('metaTitle')
-      const description = t('metaDescription')
+      const title = getContentMetaTitle(t('metaTitle'))
+      const description = getContentMetaDescription(t('title'), contentType)
       const path = `/${contentType}`
 
       return {
@@ -236,9 +245,25 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         description,
         alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
         openGraph: {
+          type: 'website',
           title,
           description,
           url: `${siteUrl}${locale === 'en' ? path : `/${locale}${path}`}`,
+          siteName: 'Metro 2039',
+          images: [
+            {
+              url: heroImageUrl,
+              width: HERO_IMAGE.width,
+              height: HERO_IMAGE.height,
+              alt: HERO_IMAGE.alt,
+            },
+          ],
+        },
+        twitter: {
+          card: 'summary_large_image',
+          title,
+          description,
+          images: [heroImageUrl],
         },
         robots: {
           index: true,
@@ -254,13 +279,35 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       }
     } catch {
       // 如果翻译不存在，使用默认值
-      const defaultTitle = `${contentType.charAt(0).toUpperCase() + contentType.slice(1)} - Lucid Blocks Wiki`
+      const defaultTitle = `${contentType.charAt(0).toUpperCase() + contentType.slice(1)} - Metro 2039`
       const path = `/${contentType}`
+      const description = `Browse all ${contentType} coverage for Metro 2039, including official links, release tracking, and story analysis.`
 
       return {
         title: defaultTitle,
-        description: `Browse all ${contentType} content for Lucid Blocks Wiki`,
+        description,
         alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
+        openGraph: {
+          type: 'website',
+          title: defaultTitle,
+          description,
+          url: `${siteUrl}${locale === 'en' ? path : `/${locale}${path}`}`,
+          siteName: 'Metro 2039',
+          images: [
+            {
+              url: heroImageUrl,
+              width: HERO_IMAGE.width,
+              height: HERO_IMAGE.height,
+              alt: HERO_IMAGE.alt,
+            },
+          ],
+        },
+        twitter: {
+          card: 'summary_large_image',
+          title: defaultTitle,
+          description,
+          images: [heroImageUrl],
+        },
         robots: {
           index: true,
           follow: true,
@@ -288,16 +335,34 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       )
 
       const fullPath = `/${slug.join('/')}`
+      const pageTitle = getContentMetaTitle(metadata.title)
+      const description = getContentMetaDescription(metadata.title, contentType)
+      const image = metadata.image ? toAbsoluteUrl(metadata.image, siteUrl) : heroImageUrl
 
       return {
-        title: `${metadata.title} - Lucid Blocks Wiki`,
-        description: metadata.description,
+        title: pageTitle,
+        description,
         alternates: buildLanguageAlternates(fullPath, locale as Locale, siteUrl),
         openGraph: {
-          title: metadata.title,
-          description: metadata.description,
-          images: metadata.image ? [metadata.image] : [],
+          type: 'article',
+          title: pageTitle,
+          description,
+          images: [
+            {
+              url: image,
+              width: HERO_IMAGE.width,
+              height: HERO_IMAGE.height,
+              alt: HERO_IMAGE.alt,
+            },
+          ],
           url: `${siteUrl}${locale === 'en' ? fullPath : `/${locale}${fullPath}`}`,
+          siteName: 'Metro 2039',
+        },
+        twitter: {
+          card: 'summary_large_image',
+          title: pageTitle,
+          description,
+          images: [image],
         },
         robots: {
           index: true,
@@ -323,16 +388,34 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
           )
 
           const fullPath = `/${slug.join('/')}`
+          const pageTitle = getContentMetaTitle(metadata.title)
+          const description = getContentMetaDescription(metadata.title, contentType)
+          const image = metadata.image ? toAbsoluteUrl(metadata.image, siteUrl) : heroImageUrl
 
           return {
-            title: `${metadata.title} - Lucid Blocks Wiki`,
-            description: metadata.description,
+            title: pageTitle,
+            description,
             alternates: buildLanguageAlternates(fullPath, locale as Locale, siteUrl),
             openGraph: {
-              title: metadata.title,
-              description: metadata.description,
-              images: metadata.image ? [metadata.image] : [],
+              type: 'article',
+              title: pageTitle,
+              description,
+              images: [
+                {
+                  url: image,
+                  width: HERO_IMAGE.width,
+                  height: HERO_IMAGE.height,
+                  alt: HERO_IMAGE.alt,
+                },
+              ],
               url: `${siteUrl}${locale === 'en' ? fullPath : `/${locale}${fullPath}`}`,
+              siteName: 'Metro 2039',
+            },
+            twitter: {
+              card: 'summary_large_image',
+              title: pageTitle,
+              description,
+              images: [image],
             },
             robots: {
               index: true,

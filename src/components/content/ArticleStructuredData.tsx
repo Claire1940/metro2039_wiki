@@ -1,4 +1,12 @@
 import type { ContentFrontmatter, ContentType } from '@/lib/content'
+import {
+	getContentMetaDescription,
+	getContentMetaTitle,
+	getHeroImageUrl,
+	getSiteUrl,
+	rewriteLegacyThemeText,
+	toAbsoluteUrl,
+} from '@/lib/site-config'
 
 interface ArticleStructuredDataProps {
 	frontmatter: ContentFrontmatter
@@ -13,11 +21,16 @@ export function ArticleStructuredData({
 	locale,
 	slug,
 }: ArticleStructuredDataProps) {
-	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+	const siteUrl = getSiteUrl()
 	const articleUrl =
 		locale === 'en'
 			? `${siteUrl}/${contentType}/${slug}`
 			: `${siteUrl}/${locale}/${contentType}/${slug}`
+	const articleTitle = getContentMetaTitle(frontmatter.title)
+	const articleDescription = getContentMetaDescription(frontmatter.title, contentType)
+	const articleImage = frontmatter.image
+		? toAbsoluteUrl(frontmatter.image, siteUrl)
+		: getHeroImageUrl(siteUrl)
 
 	const breadcrumbData = {
 		'@context': 'https://schema.org',
@@ -38,7 +51,7 @@ export function ArticleStructuredData({
 			{
 				'@type': 'ListItem',
 				position: 3,
-				name: frontmatter.title,
+				name: rewriteLegacyThemeText(frontmatter.title),
 				item: articleUrl,
 			},
 		],
@@ -47,26 +60,30 @@ export function ArticleStructuredData({
 	const structuredData = {
 		'@context': 'https://schema.org',
 		'@type': 'Article',
-		headline: frontmatter.title,
-		description: frontmatter.description,
-		image: frontmatter.image || `${siteUrl}/default-article-image.jpg`,
+		headline: articleTitle,
+		description: articleDescription,
+		image: articleImage,
 		datePublished: frontmatter.date,
 		dateModified: ('lastModified' in frontmatter && frontmatter.lastModified) || frontmatter.date,
 		author: {
 			'@type': 'Organization',
-			name: 'Lucid Blocks Wiki Team',
+			name: 'Metro 2039 Editorial Team',
 		},
 		publisher: {
 			'@type': 'Organization',
-			name: 'Lucid Blocks Wiki',
+			name: 'Metro 2039',
 			logo: {
 				'@type': 'ImageObject',
-				url: `${siteUrl}/images/hero.webp`,
+				url: `${siteUrl}/android-chrome-512x512.png`,
 			},
 		},
 		mainEntityOfPage: {
 			'@type': 'WebPage',
 			'@id': articleUrl,
+		},
+		isPartOf: {
+			'@type': 'WebSite',
+			'@id': `${siteUrl}/#website`,
 		},
 	}
 
