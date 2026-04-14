@@ -18,42 +18,42 @@ const MODULE_FIELDS: Record<string, { field: string; nameKey: string }> = {
   lucidBlocksApotheosisCrafting: { field: 'cards', nameKey: 'name' },
   lucidBlocksToolsAndWeapons: { field: 'items', nameKey: 'name' },
   lucidBlocksStorageAndInventory: { field: 'solutions', nameKey: 'name' },
-  lucidBlocksQualiaAndBaseBuilding: { field: 'cards', nameKey: 'name' },
-  lucidBlocksWorldRegions: { field: 'regions', nameKey: 'name' },
-  lucidBlocksCreaturesAndEnemies: { field: 'creatures', nameKey: 'name' },
+  lucidBlocksQualiaAndBaseBuilding: { field: 'items', nameKey: 'headline' },
+  lucidBlocksWorldRegions: { field: 'steps', nameKey: 'title' },
+  lucidBlocksCreaturesAndEnemies: { field: 'rows', nameKey: 'platform' },
   lucidBlocksMobilityGear: { field: 'items', nameKey: 'name' },
-  lucidBlocksFarmingAndGrowth: { field: 'sections', nameKey: 'name' },
-  lucidBlocksBestEarlyUnlocks: { field: 'priorities', nameKey: 'name' },
-  lucidBlocksAchievementTracker: { field: 'groups', nameKey: 'name' },
-  lucidBlocksSingleplayerAndPlatformFAQ: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSteamDeckAndController: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSettingsAndAccessibility: { field: 'settings', nameKey: 'name' },
-  lucidBlocksUpdatesAndPatchNotes: { field: 'entries', nameKey: 'title' },
-  lucidBlocksCrashFixAndTroubleshooting: { field: 'steps', nameKey: 'title' },
+  lucidBlocksFarmingAndGrowth: { field: 'items', nameKey: 'title' },
+  lucidBlocksBestEarlyUnlocks: { field: 'items', nameKey: 'title' },
+  lucidBlocksAchievementTracker: { field: 'items', nameKey: 'title' },
+  lucidBlocksSingleplayerAndPlatformFAQ: { field: 'items', nameKey: 'title' },
+  lucidBlocksSteamDeckAndController: { field: 'items', nameKey: 'title' },
+  lucidBlocksSettingsAndAccessibility: { field: 'items', nameKey: 'heading' },
+  lucidBlocksUpdatesAndPatchNotes: { field: 'items', nameKey: 'heading' },
+  lucidBlocksCrashFixAndTroubleshooting: { field: 'items', nameKey: 'title' },
 }
 
 // Extra semantic keywords per module to boost matching for h2 titles
 // These supplement the module title text when matching against articles
 const MODULE_EXTRA_KEYWORDS: Record<string, string[]> = {
-  lucidBlocksBeginnerGuide: ['guide', 'mastering', 'progression', 'crafting', 'starter'],
-  lucidBlocksApotheosisCrafting: ['apotheosis', 'fusion', 'essence'],
-  lucidBlocksToolsAndWeapons: ['crafting recipes', 'frost pick', 'osmium', 'azrael', 'faith wand'],
-  lucidBlocksStorageAndInventory: ['chest', 'cache cube', 'cabinet', 'storage'],
-  lucidBlocksQualiaAndBaseBuilding: ['qualia', 'clonaqualia', 'personal dimensions'],
-  lucidBlocksWorldRegions: ['tiamana', 'leyline', 'biomes', 'regions'],
-  lucidBlocksCreaturesAndEnemies: ['survival', 'combat', 'surreal creatures'],
-  lucidBlocksMobilityGear: ['bee glider', 'hookshot', 'glider', 'movement'],
-  lucidBlocksFarmingAndGrowth: ['seed', 'farming', 'growth', 'material', 'progression', 'crafting'],
-  lucidBlocksBestEarlyUnlocks: ['early', 'osmium', 'frost pick', 'starter', 'progression'],
-  lucidBlocksAchievementTracker: ['achievement', 'tiamana', 'leyline'],
-  lucidBlocksSingleplayerAndPlatformFAQ: ['multiplayer', 'platform', 'co op'],
-  lucidBlocksSteamDeckAndController: ['steam deck', 'controller', 'proton'],
-  lucidBlocksSettingsAndAccessibility: ['full screen', 'controls', 'display'],
-  lucidBlocksUpdatesAndPatchNotes: ['update', 'patch', 'fix'],
-  lucidBlocksCrashFixAndTroubleshooting: ['crash', 'vulkan', 'troubleshooting', 'full screen', 'controls', 'gameplay'],
+  lucidBlocksBeginnerGuide: ['release date', 'announcement', 'reveal date', 'premiere time', 'launch window'],
+  lucidBlocksApotheosisCrafting: ['trailer', 'teaser', 'xbox first look', 'youtube', 'official hub'],
+  lucidBlocksToolsAndWeapons: ['story', 'mainline saga', 'moscow', 'war tone', 'dmitry glukhovsky'],
+  lucidBlocksStorageAndInventory: ['gameplay', 'combat', 'stealth', 'survival', 'single player'],
+  lucidBlocksQualiaAndBaseBuilding: ['latest news', 'official teaser page', 'xbox first look', 'press coverage', 'countdown'],
+  lucidBlocksWorldRegions: ['livestream', 'how to watch', 'broadcast time', 'xbox youtube', 'first look'],
+  lucidBlocksCreaturesAndEnemies: ['platform status', 'steam', 'xbox', 'playstation 5', 'ps5'],
+  lucidBlocksMobilityGear: ['characters', 'returning faces', 'artyom', 'anna', 'miller'],
+  lucidBlocksFarmingAndGrowth: ['story recap', 'metro 2033', 'metro last light', 'metro exodus', 'core trilogy'],
+  lucidBlocksBestEarlyUnlocks: ['series timeline', 'last war', 'metro awakening', 'artyom', 'moscow'],
+  lucidBlocksAchievementTracker: ['game order', 'metro 2033 redux', 'last light redux', 'metro exodus', 'optional vr prequel'],
+  lucidBlocksSingleplayerAndPlatformFAQ: ['books order', 'metro 2033', 'metro 2034', 'metro 2035', 'read order'],
+  lucidBlocksSteamDeckAndController: ['factions', 'hanza', 'polis', 'spartan order', 'red line', 'fourth reich'],
+  lucidBlocksSettingsAndAccessibility: ['setting explained', 'gas masks', 'stations', 'city states', 'surface'],
+  lucidBlocksUpdatesAndPatchNotes: ['endings explained', 'ranger', 'enlightened', 'redemption', 'eternal voyage'],
+  lucidBlocksCrashFixAndTroubleshooting: ['developer explained', '4a games', 'deep silver', 'dmitry glukhovsky', 'reburn'],
 }
 
-const FILLER_WORDS = ['lucid', 'blocks', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
+const FILLER_WORDS = ['metro', '2039', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
 
 function normalize(text: string): string {
   return text
@@ -77,9 +77,9 @@ function matchScore(queryText: string, article: ArticleWithType, extraKeywords?:
 
   let score = 0
 
-  // Exact phrase match in title (stripped of "Lucid Blocks")
-  const strippedQuery = normalizedQuery.replace(/lucid blocks?\s*/g, '').trim()
-  const strippedTitle = normalizedTitle.replace(/lucid blocks?\s*/g, '').trim()
+  // Exact phrase match in title (stripped of "Metro 2039")
+  const strippedQuery = normalizedQuery.replace(/metro\s*2039\s*/g, '').trim()
+  const strippedTitle = normalizedTitle.replace(/metro\s*2039\s*/g, '').trim()
   if (strippedQuery.length > 3 && strippedTitle.includes(strippedQuery)) {
     score += 100
   }
