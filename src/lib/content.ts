@@ -76,12 +76,30 @@ export interface ContentData {
   frontmatter: ContentFrontmatter
 }
 
+function parseExportConstMetadata(source: string): Record<string, unknown> | null {
+  const match = source.match(/export\s+const\s+metadata\s*=\s*(\{[\s\S]*?\})\s*;?\s*\n/)
+  if (!match) return null
+  try {
+    const objText = match[1]
+    const jsonish = objText
+      .replace(/(\n\s*)([A-Za-z_][A-Za-z0-9_]*)\s*:/g, '$1"$2":')
+      .replace(/,(\s*\})/g, '$1')
+    return JSON.parse(jsonish)
+  } catch {
+    return null
+  }
+}
+
 function readContentFrontmatter(filePath: string): ContentFrontmatter | null {
   if (!fs.existsSync(filePath)) return null
 
   const source = fs.readFileSync(filePath, 'utf8')
   const { data } = matter(source)
-
+  if (data && (data as ContentFrontmatter).title) {
+    return data as ContentFrontmatter
+  }
+  const jsMeta = parseExportConstMetadata(source)
+  if (jsMeta) return jsMeta as unknown as ContentFrontmatter
   return data as ContentFrontmatter
 }
 
