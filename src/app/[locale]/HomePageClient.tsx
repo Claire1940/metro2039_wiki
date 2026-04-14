@@ -95,9 +95,10 @@ export default function HomePageClient({
     'developer-explained',
   ]
 
-  // Accordion and deck states
+  // Accordion states
   const [storyRecapExpanded, setStoryRecapExpanded] = useState(0)
-  const [deckExpanded, setDeckExpanded] = useState<number | null>(null)
+  const [settingExpanded, setSettingExpanded] = useState(0)
+  const [endingsExpanded, setEndingsExpanded] = useState(0)
   const newsModule = t.modules.lucidBlocksQualiaAndBaseBuilding
   const livestreamModule = t.modules.lucidBlocksWorldRegions
   const platformsModule = t.modules.lucidBlocksCreaturesAndEnemies
@@ -106,7 +107,13 @@ export default function HomePageClient({
   const timelineModule = t.modules.lucidBlocksBestEarlyUnlocks
   const gameOrderModule = t.modules.lucidBlocksAchievementTracker
   const booksOrderModule = t.modules.lucidBlocksSingleplayerAndPlatformFAQ
+  const factionsModule = t.modules.lucidBlocksSteamDeckAndController
+  const settingModule = t.modules.lucidBlocksSettingsAndAccessibility
+  const endingsModule = t.modules.lucidBlocksUpdatesAndPatchNotes
+  const developerModule = t.modules.lucidBlocksCrashFixAndTroubleshooting
   const activeStoryRecapItem = storyRecapModule.items?.[storyRecapExpanded] ?? storyRecapModule.items?.[0]
+  const activeSettingItem = settingModule.items?.[settingExpanded] ?? settingModule.items?.[0]
+  const activeEndingsItem = endingsModule.items?.[endingsExpanded] ?? endingsModule.items?.[0]
 
   // Scroll reveal animation
   useEffect(() => {
@@ -858,27 +865,58 @@ export default function HomePageClient({
       <section id="factions" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <div className="flex items-center justify-center gap-3 mb-4">
-              <Gamepad2 className="w-8 h-8 text-[hsl(var(--nav-theme-light))]" />
-              <h2 className="text-4xl md:text-5xl font-bold">{t.modules.lucidBlocksSteamDeckAndController.title}</h2>
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-6">
+              <DynamicIcon name="Shield" className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{factionsModule.eyebrow}</span>
             </div>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksSteamDeckAndController.intro}</p>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{factionsModule.title}</h2>
+            <p className="text-lg md:text-xl text-[hsl(var(--nav-theme-light))] max-w-4xl mx-auto mb-4">
+              {factionsModule.subtitle}
+            </p>
+            <p className="text-muted-foreground text-lg max-w-4xl mx-auto">{factionsModule.intro}</p>
           </div>
-          <div className="scroll-reveal space-y-2">
-            {t.modules.lucidBlocksSteamDeckAndController.faqs.map((faq: any, index: number) => (
-              <div key={index} className="border border-border rounded-xl overflow-hidden">
-                <button
-                  onClick={() => setDeckExpanded(deckExpanded === index ? null : index)}
-                  className="w-full flex items-center justify-between p-5 text-left hover:bg-white/5 transition-colors"
-                >
-                  <span className="font-semibold">{faq.question}</span>
-                  <ChevronDown className={`w-5 h-5 flex-shrink-0 transition-transform ${deckExpanded === index ? "rotate-180" : ""}`} />
-                </button>
-                {deckExpanded === index && (
-                  <div className="px-5 pb-5 text-muted-foreground text-sm">{faq.answer}</div>
-                )}
-              </div>
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+            {factionsModule.items.map((item: any, index: number) => (
+              <article
+                key={index}
+                className={`rounded-2xl border border-border p-6 transition-colors hover:border-[hsl(var(--nav-theme)/0.5)] ${
+                  index === 0 ? 'bg-[hsl(var(--nav-theme)/0.08)]' : 'bg-white/5'
+                }`}
+              >
+                <div className="flex items-center justify-between gap-3 mb-4">
+                  <div className="w-11 h-11 rounded-lg bg-[hsl(var(--nav-theme)/0.13)] border border-[hsl(var(--nav-theme)/0.3)] flex items-center justify-center">
+                    <DynamicIcon
+                      name={item.icon}
+                      className="w-5 h-5 text-[hsl(var(--nav-theme-light))]"
+                    />
+                  </div>
+                  <span className="inline-flex rounded-full border border-[hsl(var(--nav-theme)/0.3)] bg-[hsl(var(--nav-theme)/0.12)] px-3 py-1 text-xs font-medium text-[hsl(var(--nav-theme-light))]">
+                    {item.tag}
+                  </span>
+                </div>
+                <h3 className="text-xl font-bold mb-3">{item.title}</h3>
+                <p className="text-sm text-muted-foreground mb-5">{item.summary}</p>
+                <ul className="space-y-2">
+                  {item.details.map((detail: string, detailIndex: number) => (
+                    <li key={detailIndex} className="flex items-start gap-2 text-sm text-muted-foreground">
+                      <Check className="w-4 h-4 mt-0.5 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                      <span>{detail}</span>
+                    </li>
+                  ))}
+                </ul>
+              </article>
             ))}
+          </div>
+          <div className="scroll-reveal mt-10 flex justify-center">
+            <a
+              href={externalLinks.heroSecondary}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-lg border border-[hsl(var(--nav-theme)/0.35)] bg-[hsl(var(--nav-theme)/0.12)] px-5 py-3 text-sm font-semibold text-[hsl(var(--nav-theme-light))] hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors"
+            >
+              {factionsModule.ctaLabel}
+              <ExternalLink className="w-4 h-4" />
+            </a>
           </div>
         </div>
       </section>
@@ -887,20 +925,67 @@ export default function HomePageClient({
       <section id="setting-explained" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.lucidBlocksSettingsAndAccessibility.title}</h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksSettingsAndAccessibility.intro}</p>
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-6">
+              <DynamicIcon name="Home" className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{settingModule.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{settingModule.title}</h2>
+            <p className="text-lg md:text-xl text-[hsl(var(--nav-theme-light))] max-w-4xl mx-auto mb-4">
+              {settingModule.subtitle}
+            </p>
+            <p className="text-muted-foreground text-lg max-w-4xl mx-auto">{settingModule.intro}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
-            {t.modules.lucidBlocksSettingsAndAccessibility.settings.map((s: any, index: number) => (
-              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <div className="flex items-center gap-3 mb-3">
-                  <Settings className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-                  <h3 className="font-bold">{s.name}</h3>
-                  <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">{s.type}</span>
+          <div className="scroll-reveal grid grid-cols-1 xl:grid-cols-[minmax(0,0.95fr)_minmax(0,1.25fr)] gap-5">
+            <div className="space-y-3">
+              {settingModule.items.map((item: any, index: number) => (
+                <button
+                  key={index}
+                  onClick={() => setSettingExpanded(index)}
+                  className={`w-full rounded-2xl border p-5 text-left transition-colors ${
+                    settingExpanded === index
+                      ? 'border-[hsl(var(--nav-theme)/0.45)] bg-[hsl(var(--nav-theme)/0.1)]'
+                      : 'border-border bg-white/5 hover:border-[hsl(var(--nav-theme)/0.35)]'
+                  }`}
+                >
+                  <div className="flex items-center justify-between gap-4 mb-3">
+                    <h3 className="text-lg font-bold">{item.heading}</h3>
+                    <ChevronDown
+                      className={`w-5 h-5 transition-transform ${
+                        settingExpanded === index
+                          ? 'rotate-180 text-[hsl(var(--nav-theme-light))]'
+                          : 'text-muted-foreground'
+                      }`}
+                    />
+                  </div>
+                  <p className="text-sm text-muted-foreground">{item.summary}</p>
+                </button>
+              ))}
+            </div>
+
+            {activeSettingItem && (
+              <article className="rounded-2xl border border-[hsl(var(--nav-theme)/0.35)] bg-[hsl(var(--nav-theme)/0.06)] p-6 md:p-7">
+                <p className="text-xs uppercase tracking-[0.18em] text-[hsl(var(--nav-theme-light))] mb-2">
+                  {activeSettingItem.summary}
+                </p>
+                <h3 className="text-2xl md:text-3xl font-bold mb-4">{activeSettingItem.heading}</h3>
+                <p className="text-sm md:text-base text-muted-foreground mb-6">
+                  {activeSettingItem.content}
+                </p>
+                <div className="rounded-xl border border-[hsl(var(--nav-theme)/0.3)] bg-white/5 p-5">
+                  <h4 className="font-semibold text-[hsl(var(--nav-theme-light))] mb-3">
+                    Metro 2039 World Rules
+                  </h4>
+                  <ul className="space-y-2">
+                    {activeSettingItem.points.map((point: string, pointIndex: number) => (
+                      <li key={pointIndex} className="flex items-start gap-2 text-sm text-muted-foreground">
+                        <Check className="w-4 h-4 mt-0.5 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                        <span>{point}</span>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
-                <p className="text-muted-foreground text-sm">{s.description}</p>
-              </div>
-            ))}
+              </article>
+            )}
           </div>
         </div>
       </section>
@@ -909,23 +994,67 @@ export default function HomePageClient({
       <section id="endings-explained" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.lucidBlocksUpdatesAndPatchNotes.title}</h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksUpdatesAndPatchNotes.intro}</p>
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-6">
+              <AlertTriangle className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{endingsModule.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{endingsModule.title}</h2>
+            <p className="text-lg md:text-xl text-[hsl(var(--nav-theme-light))] max-w-4xl mx-auto mb-4">
+              {endingsModule.subtitle}
+            </p>
+            <p className="text-muted-foreground text-lg max-w-4xl mx-auto">{endingsModule.intro}</p>
           </div>
-          <div className="scroll-reveal relative pl-6 border-l-2 border-[hsl(var(--nav-theme)/0.3)] space-y-8">
-            {t.modules.lucidBlocksUpdatesAndPatchNotes.entries.map((entry: any, index: number) => (
-              <div key={index} className="relative">
-                <div className="absolute -left-[1.4rem] w-4 h-4 rounded-full bg-[hsl(var(--nav-theme))] border-2 border-background" />
-                <div className="p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                  <div className="flex items-center gap-2 mb-2">
-                    <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">{entry.type}</span>
-                    <Clock className="w-4 h-4 text-muted-foreground" />
+          <div className="scroll-reveal grid grid-cols-1 xl:grid-cols-[minmax(0,0.95fr)_minmax(0,1.25fr)] gap-5">
+            <div className="space-y-3">
+              {endingsModule.items.map((item: any, index: number) => (
+                <button
+                  key={index}
+                  onClick={() => setEndingsExpanded(index)}
+                  className={`w-full rounded-2xl border p-5 text-left transition-colors ${
+                    endingsExpanded === index
+                      ? 'border-[hsl(var(--nav-theme)/0.45)] bg-[hsl(var(--nav-theme)/0.1)]'
+                      : 'border-border bg-white/5 hover:border-[hsl(var(--nav-theme)/0.35)]'
+                  }`}
+                >
+                  <div className="flex items-center justify-between gap-4 mb-3">
+                    <h3 className="text-lg font-bold">{item.heading}</h3>
+                    <ChevronDown
+                      className={`w-5 h-5 transition-transform ${
+                        endingsExpanded === index
+                          ? 'rotate-180 text-[hsl(var(--nav-theme-light))]'
+                          : 'text-muted-foreground'
+                      }`}
+                    />
                   </div>
-                  <h3 className="font-bold mb-1">{entry.title}</h3>
-                  <p className="text-muted-foreground text-sm">{entry.description}</p>
+                  <p className="text-sm text-muted-foreground">{item.summary}</p>
+                </button>
+              ))}
+            </div>
+
+            {activeEndingsItem && (
+              <article className="rounded-2xl border border-[hsl(var(--nav-theme)/0.35)] bg-[hsl(var(--nav-theme)/0.06)] p-6 md:p-7">
+                <p className="text-xs uppercase tracking-[0.18em] text-[hsl(var(--nav-theme-light))] mb-2">
+                  {activeEndingsItem.summary}
+                </p>
+                <h3 className="text-2xl md:text-3xl font-bold mb-4">{activeEndingsItem.heading}</h3>
+                <p className="text-sm md:text-base text-muted-foreground mb-6">
+                  {activeEndingsItem.content}
+                </p>
+                <div className="rounded-xl border border-[hsl(var(--nav-theme)/0.3)] bg-white/5 p-5">
+                  <h4 className="font-semibold text-[hsl(var(--nav-theme-light))] mb-3">
+                    Metro 2039 Canon Notes
+                  </h4>
+                  <ul className="space-y-2">
+                    {activeEndingsItem.points.map((point: string, pointIndex: number) => (
+                      <li key={pointIndex} className="flex items-start gap-2 text-sm text-muted-foreground">
+                        <Check className="w-4 h-4 mt-0.5 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                        <span>{point}</span>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
-              </div>
-            ))}
+              </article>
+            )}
           </div>
         </div>
       </section>
@@ -934,50 +1063,58 @@ export default function HomePageClient({
       <section id="developer-explained" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.lucidBlocksCrashFixAndTroubleshooting.title}</h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksCrashFixAndTroubleshooting.intro}</p>
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-6">
+              <Settings className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{developerModule.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{developerModule.title}</h2>
+            <p className="text-lg md:text-xl text-[hsl(var(--nav-theme-light))] max-w-4xl mx-auto mb-4">
+              {developerModule.subtitle}
+            </p>
+            <p className="text-muted-foreground text-lg max-w-4xl mx-auto">{developerModule.intro}</p>
           </div>
-          <div className="scroll-reveal space-y-4 mb-8">
-            {t.modules.lucidBlocksCrashFixAndTroubleshooting.steps.map((step: any, index: number) => (
-              <div key={index} className="flex gap-4 p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[hsl(var(--nav-theme)/0.2)] border-2 border-[hsl(var(--nav-theme)/0.5)] flex items-center justify-center">
-                  <span className="text-xl font-bold text-[hsl(var(--nav-theme-light))]">{index + 1}</span>
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+            {developerModule.items.map((item: any, index: number) => (
+              <article
+                key={index}
+                className={`rounded-2xl border border-border p-6 transition-colors hover:border-[hsl(var(--nav-theme)/0.5)] ${
+                  index === 0 ? 'bg-[hsl(var(--nav-theme)/0.08)]' : 'bg-white/5'
+                }`}
+              >
+                <div className="flex items-center justify-between gap-3 mb-4">
+                  <div className="w-11 h-11 rounded-lg bg-[hsl(var(--nav-theme)/0.13)] border border-[hsl(var(--nav-theme)/0.3)] flex items-center justify-center">
+                    <DynamicIcon
+                      name={item.icon}
+                      className="w-5 h-5 text-[hsl(var(--nav-theme-light))]"
+                    />
+                  </div>
+                  <span className="inline-flex rounded-full border border-[hsl(var(--nav-theme)/0.3)] bg-[hsl(var(--nav-theme)/0.12)] px-3 py-1 text-xs font-medium text-[hsl(var(--nav-theme-light))]">
+                    {item.tag}
+                  </span>
                 </div>
-                <div>
-                  <h3 className="text-xl font-bold mb-2">{step.title}</h3>
-                  <p className="text-muted-foreground">{step.description}</p>
-                </div>
-              </div>
+                <h3 className="text-xl font-bold mb-3">{item.title}</h3>
+                <p className="text-sm text-muted-foreground mb-5">{item.summary}</p>
+                <ul className="space-y-2">
+                  {item.details.map((detail: string, detailIndex: number) => (
+                    <li key={detailIndex} className="flex items-start gap-2 text-sm text-muted-foreground">
+                      <ArrowRight className="w-4 h-4 mt-0.5 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                      <span>{detail}</span>
+                    </li>
+                  ))}
+                </ul>
+              </article>
             ))}
           </div>
-          <div className="scroll-reveal p-6 bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.3)] rounded-xl">
-            <div className="flex items-start gap-3">
-              <AlertTriangle className="w-6 h-6 text-[hsl(var(--nav-theme-light))] flex-shrink-0 mt-1" />
-              <div>
-                <h3 className="font-bold text-[hsl(var(--nav-theme-light))] mb-2">
-                  {t.modules.lucidBlocksCrashFixAndTroubleshooting.supportTitle}
-                </h3>
-                <p className="text-sm text-muted-foreground mb-3">
-                  {t.modules.lucidBlocksCrashFixAndTroubleshooting.supportDescription}
-                </p>
-                <div className="flex flex-wrap gap-3">
-                  <a
-                    href={externalLinks.supportPrimary}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
-                    <MessageCircle className="w-4 h-4" /> {t.modules.lucidBlocksCrashFixAndTroubleshooting.supportPrimaryLabel} <ExternalLink className="w-3 h-3" />
-                  </a>
-                  <a
-                    href={externalLinks.supportSecondary}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
-                    {t.modules.lucidBlocksCrashFixAndTroubleshooting.supportSecondaryLabel} <ExternalLink className="w-3 h-3" />
-                  </a>
-                </div>
-              </div>
-            </div>
+          <div className="scroll-reveal mt-10 flex justify-center">
+            <a
+              href={externalLinks.heroSecondary}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-lg border border-[hsl(var(--nav-theme)/0.35)] bg-[hsl(var(--nav-theme)/0.12)] px-5 py-3 text-sm font-semibold text-[hsl(var(--nav-theme-light))] hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors"
+            >
+              {developerModule.ctaLabel}
+              <ExternalLink className="w-4 h-4" />
+            </a>
           </div>
         </div>
       </section>

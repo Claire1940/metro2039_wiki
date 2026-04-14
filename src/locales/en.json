@@ -122,22 +122,22 @@
       {
         "icon": "Shield",
         "title": "Metro 2039 Factions",
-        "description": "Spartans, Hanza, Red Line, Reich, and power blocs"
+        "description": "Major powers, station politics, and control lines across the Metro"
       },
       {
         "icon": "Home",
         "title": "Metro 2039 Setting Explained",
-        "description": "Moscow Metro life, surface hazards, and survival rules"
+        "description": "World rules for masks, stations, travel risk, and surface survival"
       },
       {
         "icon": "AlertTriangle",
         "title": "Metro 2039 Endings Explained",
-        "description": "How earlier Metro endings shape the new chapter"
+        "description": "Canonical endings from Metro 2033, Last Light, and Exodus"
       },
       {
         "icon": "Settings",
         "title": "Metro 2039 Developer Explained",
-        "description": "4A Games, Deep Silver, and the creative team behind Metro 2039"
+        "description": "Who is making Metro 2039 and how the studio is structured"
       }
     ]
   },
@@ -605,115 +605,275 @@
     },
     "lucidBlocksSteamDeckAndController": {
       "title": "Metro 2039 Factions",
-      "displayType": "accordion",
-      "intro": "Metro 2039 faction coverage should explain the powers that make Metro politics work: the Spartans, Hanza, Red Line, Reich, and the tunnel communities caught between them.",
-      "faqs": [
+      "displayType": "cardList",
+      "eyebrow": "World Politics",
+      "subtitle": "Metro politics is built around stations, supply lines, and armed blocs. These are the factions that give the series its long-running political identity.",
+      "intro": "For Metro 2039, factions are not background lore. They explain who controls trade, who controls violence, who protects knowledge, and why any return to Moscow politics immediately becomes a fight over lines, stations, and survival.",
+      "items": [
         {
-          "question": "Which Metro 2039 factions matter most?",
-          "answer": "The Spartan Rangers, Hanza, Red Line, and Reich are the four names that frame most Metro 2039 faction reading."
+          "icon": "Shield",
+          "title": "Hanza",
+          "tag": "Trade Power",
+          "summary": "The Hanseatic League is the Metro's commercial superpower and the closest thing the tunnels have to an economic center.",
+          "details": [
+            "Controls the Koltsevaya Ring Line, the key trade route of the Metro.",
+            "Trade from every station and faction passes through Hanza checkpoints.",
+            "Maintains roughly 4,000 to 5,000 soldiers and protects commerce more than ideology."
+          ]
         },
         {
-          "question": "Why do the Metro 2039 Spartans matter so much?",
-          "answer": "The Spartan Rangers connect Metro 2039 directly to Artyom, Anna, Miller, and the moral center of the later games."
+          "icon": "BookOpen",
+          "title": "Polis",
+          "tag": "Knowledge Hub",
+          "summary": "Polis is the intellectual heart of the Metro and one of the few places where pre-war culture and learning still feel alive.",
+          "details": [
+            "Centered on the Arbatskaya, Alexandrovsky Sad, Biblioteka Imeni Lenina, and Borovitskaya transfer point.",
+            "Ruled by a council rather than a single head of state.",
+            "Protected both by its small military force and by its status as the Metro's repository of knowledge."
+          ]
         },
         {
-          "question": "What does Metro 2039 need from Hanza?",
-          "answer": "Hanza represents trade, access, and elite influence inside the Metro, making it essential for any power-balance reading."
+          "icon": "Star",
+          "title": "Spartan Order",
+          "tag": "Elite Protectors",
+          "summary": "The Spartans are the Metro's most respected military order and Artyom's core faction.",
+          "details": [
+            "An elite paramilitary force closely tied to Polis.",
+            "Occupies the Sparta surface base and D6 after the events of Metro 2033.",
+            "Has about 250 members, with roughly 100 in the field at any given time."
+          ]
         },
         {
-          "question": "How does Metro 2039 frame Red Line and Reich?",
-          "answer": "Red Line and Reich matter because they turn ideology into everyday danger, which is core to Metro's political identity."
+          "icon": "Hammer",
+          "title": "Red Line",
+          "tag": "Mass Army",
+          "summary": "The Red Line is a Marxist-Leninist, neo-Stalinist state built on territory, manpower, and control.",
+          "details": [
+            "Led by General Secretary Maxim Moskvin.",
+            "Controls most of the Sokolnicheskaya Line.",
+            "Has around 15,000 citizens, with about 6,000 to 7,000 serving in its armed forces."
+          ]
         },
         {
-          "question": "Which Metro 2039 faction gives the fastest world overview?",
-          "answer": "Start with the Spartans for the mainline perspective, then add Hanza, Red Line, and Reich to understand how the Metro system strains under pressure."
+          "icon": "AlertTriangle",
+          "title": "Fourth Reich",
+          "tag": "Ideological State",
+          "summary": "The Reich is Metro's fascist bloc, defined by xenophobia, militarization, and constant conflict with the Red Line.",
+          "details": [
+            "Built around neo-Nazi and pre-war xenophobic ideology.",
+            "Centered on the Tverskaya-Chekhovskaya-Pushkinskaya station complex.",
+            "Fields an army of roughly 2,000 to 3,000 and stays in near-permanent struggle with the Red Line."
+          ]
+        },
+        {
+          "icon": "Eye",
+          "title": "Invisible Watchers",
+          "tag": "Shadow Rule",
+          "summary": "Metro 2035 reveals a hidden layer of power above the visible factions: the remnants of the old Russian state.",
+          "details": [
+            "Presented as hidden survivors of the Russian government.",
+            "Keep major faction leaders in line through threats, blackmail, and bribes.",
+            "Use controlled conflict and managed instability as tools of population control."
+          ]
         }
-      ]
+      ],
+      "ctaLabel": "Explore Metro 2039 Factions"
     },
     "lucidBlocksSettingsAndAccessibility": {
       "title": "Metro 2039 Setting Explained",
-      "displayType": "settingCards",
-      "intro": "Metro 2039 setting coverage should explain not just where the story happens, but how people live, survive, travel, and fight inside this world.",
-      "settings": [
+      "displayType": "accordion",
+      "eyebrow": "World Primer",
+      "subtitle": "New players do not need every lore detail first. They need the rules of the world: why people live underground, why masks matter, and why every journey feels like survival horror.",
+      "intro": "Metro is not just a post-apocalyptic backdrop. It is a system with clear survival rules: underground shelter, poisoned surface air, station politics, dangerous travel, and one central question that keeps pushing the series forward - whether humanity is meant to stay in the tunnels at all.",
+      "items": [
         {
-          "name": "Metro 2039 Moscow Metro",
-          "type": "Core Location",
-          "description": "The Moscow Metro remains the signature setting: a web of stations, tunnel politics, trade routes, and fortified communities."
+          "heading": "Why people live in the Metro",
+          "summary": "The tunnels are humanity's last functioning refuge.",
+          "content": "After the Last War devastated the world, only forty thousand people made it and took refuge in the Moscow Metro. Two decades later, the surface is still poisoned by nuclear fallout and mutant life, so the tunnels have become a full underground civilization.",
+          "points": [
+            "The Metro was designed to function as a giant air-raid shelter.",
+            "Stations evolved into homes, markets, and political communities.",
+            "The entire series starts from the idea that survival moved underground."
+          ]
         },
         {
-          "name": "Metro 2039 Surface World",
-          "type": "Above Ground",
-          "description": "The surface still represents radiation, exposure, and contested freedom, making every trip above ground a story event."
+          "heading": "Why gas masks matter",
+          "summary": "Masks are a survival rule, not just an iconic visual.",
+          "content": "On the surface of Moscow, dangerous radiation makes gas masks mandatory. In Metro, every trip above ground is limited by air, filters, and exposure, which turns exploration into a timed risk.",
+          "points": [
+            "The surface of Moscow is cloaked in dangerous radiation.",
+            "Artyom and the Rangers wear gas masks at all times on the surface.",
+            "Exposure above ground is one of the world's clearest danger systems."
+          ]
         },
         {
-          "name": "Metro 2039 Survival Rules",
-          "type": "Daily Life",
-          "description": "Scarce filters, hard choices, and constant danger define how Metro 2039 turns simple travel into survival storytelling."
+          "heading": "How stations become city-states",
+          "summary": "The Metro is a patchwork of local powers rather than one unified society.",
+          "content": "Each station develops its own leader, customs, and political identity. That is why the Metro feels less like one nation and more like a map of miniature states connected by tunnels, trade, fear, and armed borders.",
+          "points": [
+            "Every station has its own rules and internal culture.",
+            "Trade and travel link communities that do not share the same values.",
+            "Politics in the tunnels matter as much as monsters on the surface."
+          ]
         },
         {
-          "name": "Metro 2039 Masks, Radiation, and Hazards",
-          "type": "Threat Model",
-          "description": "Gas masks, contaminated zones, anomalies, and ruined infrastructure shape how the world punishes careless movement."
+          "heading": "What makes travel deadly",
+          "summary": "Moving between places is dangerous even when no war is happening.",
+          "content": "The tunnels are never safe transit routes. Radiation pockets, mental threats, bandits, and mutant predators make even ordinary movement a survival act, which is why guides, routes, and faction territory matter so much in Metro discussions.",
+          "points": [
+            "Radiation is not limited to the open surface.",
+            "Bandits and predators prey on travelers between stations.",
+            "Mental and supernatural-feeling threats are part of the series' atmosphere."
+          ]
+        },
+        {
+          "heading": "What the surface adds beyond Moscow",
+          "summary": "Exodus widens the world without making it safer.",
+          "content": "Once the series moves beyond Moscow, Metro becomes a broader survival journey across Russia. Exodus adds anomalies, sandstorms, wildlife, and resource scarcity to the old Metro formula, showing that leaving the tunnels changes the world but not the danger.",
+          "points": [
+            "Anomalies are dangerous electric spheres that follow repeatable paths.",
+            "Sandstorms can reduce visibility and turn open ground into a death trap.",
+            "Ammunition and supplies stay scarce even outside the Metro."
+          ]
+        },
+        {
+          "heading": "Why Artyom keeps looking outward",
+          "summary": "Artyom's defining belief is that life cannot end in the tunnels.",
+          "content": "In Metro 2035, Artyom keeps venturing above ground to scan the airwaves and search for other survivors. In Exodus, that belief becomes a journey across Russia, making the search for a livable future one of the strongest narrative bridges into Metro 2039.",
+          "points": [
+            "Artyom wants to take survivors back to the surface and find a new home.",
+            "He repeatedly risks radiation exposure to prove there is life beyond Moscow.",
+            "This outward drive is one of the core ideas that carries the series forward."
+          ]
         }
-      ]
+      ],
+      "ctaLabel": "Learn the Metro 2039 Setting"
     },
     "lucidBlocksUpdatesAndPatchNotes": {
       "title": "Metro 2039 Endings Explained",
-      "displayType": "timeline",
-      "intro": "Metro 2039 endings coverage works best when it connects the major endings from Metro 2033, Metro: Last Light, and Metro Exodus into one clean continuity guide.",
-      "entries": [
+      "displayType": "accordion",
+      "eyebrow": "Canon Guide",
+      "subtitle": "Metro endings are not bonus trivia. They shape how players understand Artyom, the Dark Ones, D6, Miller, and the future beyond Moscow.",
+      "intro": "Putting Metro 2033, Metro Last Light, and Metro Exodus side by side gives users a clean canon map before they dive into Metro 2039. This is the fastest way to understand which outcomes define the series and which legacy questions still matter most.",
+      "items": [
         {
-          "title": "Metro 2039 and Metro 2033 Endings",
-          "type": "Series Origin",
-          "description": "The Metro 2033 ending conversation introduces the moral weight and world-shaping choices that never leave the series."
+          "heading": "Metro 2033: Ranger vs Enlightened",
+          "summary": "The first major branch decides the fate of the Dark Ones.",
+          "content": "Metro 2033 has two endings. The canonical Ranger ending lets the missile strike destroy the Dark Ones. The alternate Enlightened ending appears if Artyom earns enough moral points and destroys the guidance system instead, realizing the Dark Ones wanted peace.",
+          "points": [
+            "Canonical path: Ranger",
+            "Alternate path: Enlightened",
+            "Core consequence: the Dark Ones are destroyed or spared"
+          ]
         },
         {
-          "title": "Metro 2039 and Metro: Last Light Endings",
-          "type": "Political Continuity",
-          "description": "Metro: Last Light sharpens how mercy, violence, and faction conflict feed directly into later Metro discussions."
+          "heading": "Metro Last Light: C'est la Vie vs Redemption",
+          "summary": "Last Light continues from the canonical outcome of Metro 2033 and then creates its own major branch.",
+          "content": "Metro Last Light begins after the path where Artyom destroyed the Dark Ones and joined the Rangers at D6. Its two endings are C'est la Vie, where Artyom detonates D6, and Redemption, where the Baby Dark One and the other Dark Ones save D6. Metro 2035 and Metro Exodus follow the Redemption line.",
+          "points": [
+            "Canonical path: Redemption",
+            "C'est la Vie ends with D6 destroyed",
+            "Redemption preserves D6 and the Rangers' forward continuity"
+          ]
         },
         {
-          "title": "Metro 2039 and Metro Exodus Endings",
-          "type": "Lead-In",
-          "description": "Metro Exodus provides the strongest immediate ending context because it points straight toward the emotional state of the next chapter."
+          "heading": "Metro Exodus: Your Destination vs Eternal Voyage",
+          "summary": "Exodus turns the ending question into Artyom's survival after the Novosibirsk mission.",
+          "content": "Exodus splits between Your Destination and Eternal Voyage. In Your Destination, Artyom lives, Anna is saved, and he becomes the new leader of both the Order and the new community at Lake Baikal. In Eternal Voyage, Anna is still saved, but Artyom dies of radiation poisoning after securing the cure.",
+          "points": [
+            "Your Destination: Artyom lives",
+            "Eternal Voyage: Artyom dies",
+            "Both endings revolve around the run for Anna's cure and the cost paid in Novosibirsk"
+          ]
         },
         {
-          "title": "Metro 2039 Ending Questions to Watch",
-          "type": "Next Chapter",
-          "description": "Metro 2039 will sit on top of the trilogy's ending history, making canon carryover one of the homepage's most useful reader guides."
+          "heading": "The legacy Metro 2039 inherits",
+          "summary": "The trilogy leaves three major inheritance lines for the next discussion.",
+          "content": "Taken together, the trilogy hands Metro 2039 three enduring legacy threads: the memory of the Dark Ones, the survival of D6 and the Spartan Order, and Artyom's fate after Lake Baikal. These are the questions players carry into every new Metro reveal, theory, and story recap.",
+          "points": [
+            "Metro 2033 frames the Dark Ones question",
+            "Last Light decides whether the Rangers keep D6 and a viable future",
+            "Exodus turns the biggest remaining branch into Artyom's survival and leadership"
+          ]
         }
-      ]
+      ],
+      "ctaLabel": "Compare Metro 2039 Endings"
     },
     "lucidBlocksCrashFixAndTroubleshooting": {
       "title": "Metro 2039 Developer Explained",
-      "displayType": "steps",
-      "intro": "Metro 2039 developer coverage should explain who is making the game, who is publishing it, and why the creative voice behind Metro still matters.",
-      "supportTitle": "Metro 2039 Official Channels",
-      "supportDescription": "Use the official Metro community and the official Metro 2039 game page to track new reveals, reminders, and announcement updates.",
-      "supportPrimaryLabel": "Metro Official Discord",
-      "supportSecondaryLabel": "Metro 2039 Official Site",
-      "steps": [
+      "displayType": "cardList",
+      "eyebrow": "Studio & Creators",
+      "subtitle": "Search interest around Metro 2039 is already spilling into questions about 4A Games, Deep Silver, Dmitry Glukhovsky, and the studio's structure. This module gives users a clean answer to who is making the game and how that team is organized.",
+      "intro": "A lot of Metro search traffic now includes developer-side questions: Is 4A still the real Metro team, what is Deep Silver's role, where does Dmitry fit in, and how does Reburn connect to the old 4A setup. This module answers those directly from the current official pages and 4A's 2025 updates.",
+      "items": [
         {
-          "title": "Metro 2039 Is Built by 4A Games",
-          "description": "4A Games remains the studio most closely tied to the Metro gameplay identity, world tone, and mainline series direction."
+          "icon": "Clock",
+          "title": "Current Official Status",
+          "tag": "Reveal Window",
+          "summary": "Metro 2039 already has a live official page and a scheduled showcase.",
+          "details": [
+            "Deep Silver's official Metro 2039 page is online now.",
+            "The page lists the reveal for April 16, 2026 at 10AM PDT / 7PM CEST / 8PM EET.",
+            "It also points users to the official Xbox YouTube channel for event notifications."
+          ]
         },
         {
-          "title": "Metro 2039 Is Published by Deep Silver",
-          "description": "Deep Silver runs the official Metro 2039 game hub, public reveal materials, and the current external launch messaging."
+          "icon": "Package",
+          "title": "Publisher, Developer, Creator",
+          "tag": "Official Credits",
+          "summary": "The official credits answer the simplest question first: who publishes it, who develops it, and what it is based on.",
+          "details": [
+            "Published by Deep Silver, a division of PLAION.",
+            "Developed by 4A Games.",
+            "Based on Dmitry Glukhovsky's Metro book trilogy."
+          ]
         },
         {
-          "title": "Metro 2039 Still Carries Dmitry Glukhovsky's Voice",
-          "description": "Dmitry Glukhovsky continues to shape the franchise, keeping the bridge between the original books and the games alive."
+          "icon": "Check",
+          "title": "Same Metro Team, Not a Rebrand",
+          "tag": "Studio Identity",
+          "summary": "4A's February 2025 update was written to clear up confusion around the Metro team.",
+          "details": [
+            "4A says it is the team that created and built the Metro games.",
+            "The studio says it is still making the next Metro with Dmitry Glukhovsky.",
+            "4A explicitly describes itself as the same core founders, leadership, and developers rather than a renamed replacement."
+          ]
         },
         {
-          "title": "Metro 2039 Draws From Wartime Experience",
-          "description": "4A Games openly connects the new story direction to lived wartime experience, which helps define Metro 2039's tone and themes."
+          "icon": "Users",
+          "title": "Where 4A Works Today",
+          "tag": "Studio Footprint",
+          "summary": "Metro 2039 is being built by a two-country studio with Ukraine still at its center.",
+          "details": [
+            "4A says it now has 200+ staff across two countries.",
+            "Roughly 150 of those developers remain in Ukraine.",
+            "The team works from Kyiv, Sliema in Malta, and remote locations."
+          ]
         },
         {
-          "title": "Metro 2039 Reveal Coverage Flows Through Official Channels",
-          "description": "The official site, Metro YouTube channel, and Metro Discord are the core channels for Metro 2039 rollout tracking."
+          "icon": "ExternalLink",
+          "title": "How 4A and Reburn Connect",
+          "tag": "Team History",
+          "summary": "The old 4A naming split is one of the biggest sources of online confusion, and 4A addressed it directly.",
+          "details": [
+            "In 2014, the original founders formed 4A Games Limited and created a Malta headquarters.",
+            "That Malta-led team continued working closely with 4A Games Ukraine on Metro Exodus.",
+            "After Exodus, 4A Games Ukraine pursued its own project and later renamed itself Reburn, while 4A Games Limited continued Metro."
+          ]
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "What Shapes the Next Metro",
+          "tag": "Story Direction",
+          "summary": "4A's March 2025 anniversary update explains why the next Metro sounds darker and more politically charged.",
+          "details": [
+            "4A says the full-scale invasion in 2022 changed how it wanted to tell the next Metro story.",
+            "The studio says the next game is being shaped by lived wartime experience.",
+            "4A also says Metro's anti-war, political, and emotional themes continue through its collaboration with Dmitry Glukhovsky."
+          ]
         }
-      ]
+      ],
+      "ctaLabel": "Meet the Metro 2039 Team"
     }
   },
   "faq": {
