@@ -1,12 +1,19 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Metro 2039 Wiki - Trailer, Release Date & Story",
+  "short_name": "Metro 2039",
+  "description": "Track Metro 2039 news, trailer breakdowns, release updates, story clues, factions, characters, and platform info in one fast, spoiler-aware hub.",
+  "id": "/",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "lang": "en",
+  "dir": "ltr",
+  "theme_color": "#fa900f",
+  "background_color": "#0b0907",
+  "categories": ["games", "entertainment", "news", "reference"],
+  "prefer_related_applications": false,
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -19,6 +26,12 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
+    },
+    {
+      "src": "/source-1024.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any"
     },
     {
       "src": "/favicon-16x16.png",
@@ -34,6 +47,15 @@
       "src": "/apple-touch-icon.png",
       "sizes": "180x180",
       "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/hero.webp",
+      "sizes": "1024x576",
+      "type": "image/webp",
+      "form_factor": "wide",
+      "label": "Metro 2039 official reveal artwork"
     }
   ]
 }
