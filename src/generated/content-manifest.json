@@ -1,0 +1,1914 @@
+{
+  "de": {
+    "community": [
+      {
+        "slug": "Metro-2039-discussion",
+        "file": "Metro-2039-discussion"
+      },
+      {
+        "slug": "Metro-2039-forum",
+        "file": "Metro-2039-forum"
+      },
+      {
+        "slug": "Metro-2039-reddit",
+        "file": "Metro-2039-reddit"
+      },
+      {
+        "slug": "metro-2039-dlc-content",
+        "file": "metro-2039-dlc-content"
+      },
+      {
+        "slug": "metro-2039-multiplayer-co-op",
+        "file": "metro-2039-multiplayer-co-op"
+      },
+      {
+        "slug": "metro-2039-open-world",
+        "file": "metro-2039-open-world"
+      },
+      {
+        "slug": "metro-2039-review-scores",
+        "file": "metro-2039-review-scores"
+      }
+    ],
+    "developer": [
+      {
+        "slug": "Metro-2039-4a-games",
+        "file": "Metro-2039-4a-games"
+      },
+      {
+        "slug": "Metro-2039-developer",
+        "file": "Metro-2039-developer"
+      },
+      {
+        "slug": "metro-2039-4a-games",
+        "file": "metro-2039-4a-games"
+      },
+      {
+        "slug": "metro-2039-deep-silver",
+        "file": "metro-2039-deep-silver"
+      },
+      {
+        "slug": "metro-2039-developer",
+        "file": "metro-2039-developer"
+      },
+      {
+        "slug": "metro-2039-game-engine-unreal-5",
+        "file": "metro-2039-game-engine-unreal-5"
+      },
+      {
+        "slug": "metro-2039-system-requirements",
+        "file": "metro-2039-system-requirements"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Metro-2039-everything-we-know",
+        "file": "Metro-2039-everything-we-know"
+      },
+      {
+        "slug": "Metro-2039-explained",
+        "file": "Metro-2039-explained"
+      },
+      {
+        "slug": "Metro-2039-how-to-watch",
+        "file": "Metro-2039-how-to-watch"
+      },
+      {
+        "slug": "Metro-2039-what-is-it",
+        "file": "Metro-2039-what-is-it"
+      },
+      {
+        "slug": "how-much-will-metro-2039-cost",
+        "file": "how-much-will-metro-2039-cost"
+      },
+      {
+        "slug": "is-metro-2039-a-sequel",
+        "file": "is-metro-2039-a-sequel"
+      },
+      {
+        "slug": "is-metro-2039-coop",
+        "file": "is-metro-2039-coop"
+      },
+      {
+        "slug": "metro-2039-4a-engine",
+        "file": "metro-2039-4a-engine"
+      },
+      {
+        "slug": "metro-2039-artjom",
+        "file": "metro-2039-artjom"
+      },
+      {
+        "slug": "metro-2039-coop",
+        "file": "metro-2039-coop?"
+      },
+      {
+        "slug": "metro-2039-difficulty",
+        "file": "metro-2039-difficulty"
+      },
+      {
+        "slug": "metro-2039-editions",
+        "file": "metro-2039-editions"
+      },
+      {
+        "slug": "metro-2039-enemies",
+        "file": "metro-2039-enemies"
+      },
+      {
+        "slug": "metro-2039-everything-we-know",
+        "file": "metro-2039-everything-we-know"
+      },
+      {
+        "slug": "metro-2039-explained",
+        "file": "metro-2039-explained"
+      },
+      {
+        "slug": "metro-2039-fan-kit",
+        "file": "metro-2039-fan-kit"
+      },
+      {
+        "slug": "metro-2039-game-wiki",
+        "file": "metro-2039-game-wiki"
+      },
+      {
+        "slug": "metro-2039-gameplay-screenshot",
+        "file": "metro-2039-gameplay-screenshot"
+      },
+      {
+        "slug": "metro-2039-how-to-watch",
+        "file": "metro-2039-how-to-watch"
+      },
+      {
+        "slug": "metro-2039-hunter",
+        "file": "metro-2039-hunter"
+      },
+      {
+        "slug": "metro-2039-leak-gameplay",
+        "file": "metro-2039-leak-gameplay"
+      },
+      {
+        "slug": "metro-2039-leaked-build",
+        "file": "metro-2039-leaked-build"
+      },
+      {
+        "slug": "metro-2039-leaked-gameplay",
+        "file": "metro-2039-leaked-gameplay"
+      },
+      {
+        "slug": "metro-2039-leaked",
+        "file": "metro-2039-leaked"
+      },
+      {
+        "slug": "metro-2039-leaks",
+        "file": "metro-2039-leaks"
+      },
+      {
+        "slug": "metro-2039-multiplayer",
+        "file": "metro-2039-multiplayer"
+      },
+      {
+        "slug": "metro-2039-new-mutants",
+        "file": "metro-2039-new-mutants"
+      },
+      {
+        "slug": "metro-2039-official-site",
+        "file": "metro-2039-official-site"
+      },
+      {
+        "slug": "metro-2039-pre-order",
+        "file": "metro-2039-pre-order"
+      },
+      {
+        "slug": "metro-2039-screenshot",
+        "file": "metro-2039-screenshot"
+      },
+      {
+        "slug": "metro-2039-spec",
+        "file": "metro-2039-spec"
+      },
+      {
+        "slug": "metro-2039-special-edition",
+        "file": "metro-2039-special-edition"
+      },
+      {
+        "slug": "metro-2039-stealth-mechanics",
+        "file": "metro-2039-stealth-mechanics"
+      },
+      {
+        "slug": "metro-2039-story-details",
+        "file": "metro-2039-story-details"
+      },
+      {
+        "slug": "metro-2039-unreal-engine-5",
+        "file": "metro-2039-unreal-engine-5"
+      },
+      {
+        "slug": "metro-2039-unreal-engine",
+        "file": "metro-2039-unreal-engine"
+      },
+      {
+        "slug": "metro-2039-weapons-list",
+        "file": "metro-2039-weapons-list"
+      },
+      {
+        "slug": "metro-2039-website",
+        "file": "metro-2039-website"
+      },
+      {
+        "slug": "metro-2039-what-is-it",
+        "file": "metro-2039-what-is-it"
+      },
+      {
+        "slug": "metro-2039-wikia",
+        "file": "metro-2039-wikia"
+      },
+      {
+        "slug": "metro-4-leak-build",
+        "file": "metro-4-leak-build"
+      },
+      {
+        "slug": "metro-game-engine",
+        "file": "metro-game-engine"
+      },
+      {
+        "slug": "what-engine-does-metro-2039-use",
+        "file": "what-engine-does-metro-2039-use"
+      },
+      {
+        "slug": "what-engine-will-metro-2039-use",
+        "file": "what-engine-will-metro-2039-use"
+      },
+      {
+        "slug": "will-metro-2039-be-coop",
+        "file": "will-metro-2039-be-coop"
+      },
+      {
+        "slug": "will-metro-2039-have-multiplayer",
+        "file": "will-metro-2039-have-multiplayer"
+      }
+    ],
+    "leaks": [
+      {
+        "slug": "Metro-2039-gameplay-leak",
+        "file": "Metro-2039-gameplay-leak"
+      },
+      {
+        "slug": "Metro-2039-gameplay",
+        "file": "Metro-2039-gameplay"
+      },
+      {
+        "slug": "Metro-2039-leak",
+        "file": "Metro-2039-leak"
+      },
+      {
+        "slug": "Metro-2039-leaked-details",
+        "file": "Metro-2039-leaked-details"
+      },
+      {
+        "slug": "Metro-2039-screenshots",
+        "file": "Metro-2039-screenshots"
+      },
+      {
+        "slug": "metro-2039-cutscene",
+        "file": "metro-2039-cutscene"
+      },
+      {
+        "slug": "metro-2039-gameplay-leak",
+        "file": "metro-2039-gameplay-leak"
+      },
+      {
+        "slug": "metro-2039-gameplay",
+        "file": "metro-2039-gameplay"
+      },
+      {
+        "slug": "metro-2039-leak",
+        "file": "metro-2039-leak"
+      },
+      {
+        "slug": "metro-2039-leaked-details",
+        "file": "metro-2039-leaked-details"
+      },
+      {
+        "slug": "metro-2039-screenshots",
+        "file": "metro-2039-screenshots"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "Metro-2039-ps5",
+        "file": "Metro-2039-ps5"
+      },
+      {
+        "slug": "Metro-2039-steam",
+        "file": "Metro-2039-steam"
+      },
+      {
+        "slug": "metro-2039-official-website",
+        "file": "metro-2039-official-website"
+      },
+      {
+        "slug": "metro-2039-ps5",
+        "file": "metro-2039-ps5"
+      },
+      {
+        "slug": "metro-2039-steam",
+        "file": "metro-2039-steam"
+      },
+      {
+        "slug": "metro-2039-xbox",
+        "file": "metro-2039-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Metro-2039-announced",
+        "file": "Metro-2039-announced"
+      },
+      {
+        "slug": "Metro-2039-release-date",
+        "file": "Metro-2039-release-date"
+      },
+      {
+        "slug": "Metro-2039-reveal-date",
+        "file": "Metro-2039-reveal-date"
+      },
+      {
+        "slug": "Metro-2039-state-of-play",
+        "file": "Metro-2039-state-of-play"
+      },
+      {
+        "slug": "Metro-2039-trailer",
+        "file": "Metro-2039-trailer"
+      },
+      {
+        "slug": "Metro-2039-xbox-first-look",
+        "file": "Metro-2039-xbox-first-look"
+      },
+      {
+        "slug": "metro-2039-announced",
+        "file": "metro-2039-announced"
+      },
+      {
+        "slug": "metro-2039-pre-order-bonus",
+        "file": "metro-2039-pre-order-bonus"
+      },
+      {
+        "slug": "metro-2039-preorder-bonus",
+        "file": "metro-2039-preorder-bonus"
+      },
+      {
+        "slug": "metro-2039-release-date-platforms",
+        "file": "metro-2039-release-date-platforms"
+      },
+      {
+        "slug": "metro-2039-release-date",
+        "file": "metro-2039-release-date"
+      },
+      {
+        "slug": "metro-2039-reveal-date",
+        "file": "metro-2039-reveal-date"
+      },
+      {
+        "slug": "metro-2039-reveal-time",
+        "file": "metro-2039-reveal-time"
+      },
+      {
+        "slug": "metro-2039-state-of-play",
+        "file": "metro-2039-state-of-play"
+      },
+      {
+        "slug": "metro-2039-trailer",
+        "file": "metro-2039-trailer"
+      },
+      {
+        "slug": "metro-2039-xbox-first-look",
+        "file": "metro-2039-xbox-first-look"
+      }
+    ],
+    "series": [
+      {
+        "slug": "Metro-2039-metro-2033",
+        "file": "Metro-2039-metro-2033"
+      },
+      {
+        "slug": "Metro-2039-metro-2034",
+        "file": "Metro-2039-metro-2034"
+      },
+      {
+        "slug": "Metro-2039-metro-exodus",
+        "file": "Metro-2039-metro-exodus"
+      },
+      {
+        "slug": "Metro-2039-metro-last-light",
+        "file": "Metro-2039-metro-last-light"
+      },
+      {
+        "slug": "Metro-2039-series",
+        "file": "Metro-2039-series"
+      },
+      {
+        "slug": "metro-2039-books",
+        "file": "metro-2039-books"
+      },
+      {
+        "slug": "metro-2039-metro-2033",
+        "file": "metro-2039-metro-2033"
+      },
+      {
+        "slug": "metro-2039-metro-2034",
+        "file": "metro-2039-metro-2034"
+      },
+      {
+        "slug": "metro-2039-metro-exodus",
+        "file": "metro-2039-metro-exodus"
+      },
+      {
+        "slug": "metro-2039-metro-last-light",
+        "file": "metro-2039-metro-last-light"
+      },
+      {
+        "slug": "metro-2039-series",
+        "file": "metro-2039-series"
+      }
+    ],
+    "story": [
+      {
+        "slug": "Metro-2039-characters",
+        "file": "Metro-2039-characters"
+      },
+      {
+        "slug": "Metro-2039-main-character",
+        "file": "Metro-2039-main-character"
+      },
+      {
+        "slug": "metro-2039-artyom",
+        "file": "metro-2039-artyom"
+      },
+      {
+        "slug": "metro-2039-book",
+        "file": "metro-2039-book"
+      },
+      {
+        "slug": "metro-2039-characters",
+        "file": "metro-2039-characters"
+      },
+      {
+        "slug": "metro-2039-confirmed-factions",
+        "file": "metro-2039-confirmed-factions"
+      },
+      {
+        "slug": "metro-2039-lore-connections-metro-series",
+        "file": "metro-2039-lore-connections-metro-series"
+      },
+      {
+        "slug": "metro-2039-lore-explained",
+        "file": "metro-2039-lore-explained"
+      },
+      {
+        "slug": "metro-2039-main-character",
+        "file": "metro-2039-main-character"
+      },
+      {
+        "slug": "metro-2039-morality-system",
+        "file": "metro-2039-morality-system"
+      },
+      {
+        "slug": "metro-2039-story",
+        "file": "metro-2039-story"
+      }
+    ]
+  },
+  "en": {
+    "community": [
+      {
+        "slug": "Metro-2039-discussion",
+        "file": "Metro-2039-discussion"
+      },
+      {
+        "slug": "Metro-2039-forum",
+        "file": "Metro-2039-forum"
+      },
+      {
+        "slug": "Metro-2039-reddit",
+        "file": "Metro-2039-reddit"
+      },
+      {
+        "slug": "metro-2039-dlc-content",
+        "file": "metro-2039-dlc-content"
+      },
+      {
+        "slug": "metro-2039-multiplayer-co-op",
+        "file": "metro-2039-multiplayer-co-op"
+      },
+      {
+        "slug": "metro-2039-open-world",
+        "file": "metro-2039-open-world"
+      },
+      {
+        "slug": "metro-2039-review-scores",
+        "file": "metro-2039-review-scores"
+      }
+    ],
+    "developer": [
+      {
+        "slug": "Metro-2039-4a-games",
+        "file": "Metro-2039-4a-games"
+      },
+      {
+        "slug": "Metro-2039-developer",
+        "file": "Metro-2039-developer"
+      },
+      {
+        "slug": "metro-2039-4a-games",
+        "file": "metro-2039-4a-games"
+      },
+      {
+        "slug": "metro-2039-deep-silver",
+        "file": "metro-2039-deep-silver"
+      },
+      {
+        "slug": "metro-2039-developer",
+        "file": "metro-2039-developer"
+      },
+      {
+        "slug": "metro-2039-game-engine-unreal-5",
+        "file": "metro-2039-game-engine-unreal-5"
+      },
+      {
+        "slug": "metro-2039-system-requirements",
+        "file": "metro-2039-system-requirements"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Metro-2039-everything-we-know",
+        "file": "Metro-2039-everything-we-know"
+      },
+      {
+        "slug": "Metro-2039-explained",
+        "file": "Metro-2039-explained"
+      },
+      {
+        "slug": "Metro-2039-how-to-watch",
+        "file": "Metro-2039-how-to-watch"
+      },
+      {
+        "slug": "Metro-2039-what-is-it",
+        "file": "Metro-2039-what-is-it"
+      },
+      {
+        "slug": "how-much-will-metro-2039-cost",
+        "file": "how-much-will-metro-2039-cost"
+      },
+      {
+        "slug": "is-metro-2039-a-sequel",
+        "file": "is-metro-2039-a-sequel"
+      },
+      {
+        "slug": "is-metro-2039-coop",
+        "file": "is-metro-2039-coop"
+      },
+      {
+        "slug": "metro-2039-4a-engine",
+        "file": "metro-2039-4a-engine"
+      },
+      {
+        "slug": "metro-2039-artjom",
+        "file": "metro-2039-artjom"
+      },
+      {
+        "slug": "metro-2039-coop",
+        "file": "metro-2039-coop?"
+      },
+      {
+        "slug": "metro-2039-difficulty",
+        "file": "metro-2039-difficulty"
+      },
+      {
+        "slug": "metro-2039-editions",
+        "file": "metro-2039-editions"
+      },
+      {
+        "slug": "metro-2039-enemies",
+        "file": "metro-2039-enemies"
+      },
+      {
+        "slug": "metro-2039-everything-we-know",
+        "file": "metro-2039-everything-we-know"
+      },
+      {
+        "slug": "metro-2039-explained",
+        "file": "metro-2039-explained"
+      },
+      {
+        "slug": "metro-2039-fan-kit",
+        "file": "metro-2039-fan-kit"
+      },
+      {
+        "slug": "metro-2039-game-wiki",
+        "file": "metro-2039-game-wiki"
+      },
+      {
+        "slug": "metro-2039-gameplay-screenshot",
+        "file": "metro-2039-gameplay-screenshot"
+      },
+      {
+        "slug": "metro-2039-how-to-watch",
+        "file": "metro-2039-how-to-watch"
+      },
+      {
+        "slug": "metro-2039-hunter",
+        "file": "metro-2039-hunter"
+      },
+      {
+        "slug": "metro-2039-leak-gameplay",
+        "file": "metro-2039-leak-gameplay"
+      },
+      {
+        "slug": "metro-2039-leaked-build",
+        "file": "metro-2039-leaked-build"
+      },
+      {
+        "slug": "metro-2039-leaked-gameplay",
+        "file": "metro-2039-leaked-gameplay"
+      },
+      {
+        "slug": "metro-2039-leaked",
+        "file": "metro-2039-leaked"
+      },
+      {
+        "slug": "metro-2039-leaks",
+        "file": "metro-2039-leaks"
+      },
+      {
+        "slug": "metro-2039-multiplayer",
+        "file": "metro-2039-multiplayer"
+      },
+      {
+        "slug": "metro-2039-new-mutants",
+        "file": "metro-2039-new-mutants"
+      },
+      {
+        "slug": "metro-2039-official-site",
+        "file": "metro-2039-official-site"
+      },
+      {
+        "slug": "metro-2039-pre-order",
+        "file": "metro-2039-pre-order"
+      },
+      {
+        "slug": "metro-2039-screenshot",
+        "file": "metro-2039-screenshot"
+      },
+      {
+        "slug": "metro-2039-spec",
+        "file": "metro-2039-spec"
+      },
+      {
+        "slug": "metro-2039-special-edition",
+        "file": "metro-2039-special-edition"
+      },
+      {
+        "slug": "metro-2039-stealth-mechanics",
+        "file": "metro-2039-stealth-mechanics"
+      },
+      {
+        "slug": "metro-2039-story-details",
+        "file": "metro-2039-story-details"
+      },
+      {
+        "slug": "metro-2039-unreal-engine-5",
+        "file": "metro-2039-unreal-engine-5"
+      },
+      {
+        "slug": "metro-2039-unreal-engine",
+        "file": "metro-2039-unreal-engine"
+      },
+      {
+        "slug": "metro-2039-weapons-list",
+        "file": "metro-2039-weapons-list"
+      },
+      {
+        "slug": "metro-2039-website",
+        "file": "metro-2039-website"
+      },
+      {
+        "slug": "metro-2039-what-is-it",
+        "file": "metro-2039-what-is-it"
+      },
+      {
+        "slug": "metro-2039-wikia",
+        "file": "metro-2039-wikia"
+      },
+      {
+        "slug": "metro-4-leak-build",
+        "file": "metro-4-leak-build"
+      },
+      {
+        "slug": "metro-game-engine",
+        "file": "metro-game-engine"
+      },
+      {
+        "slug": "what-engine-does-metro-2039-use",
+        "file": "what-engine-does-metro-2039-use"
+      },
+      {
+        "slug": "what-engine-will-metro-2039-use",
+        "file": "what-engine-will-metro-2039-use"
+      },
+      {
+        "slug": "will-metro-2039-be-coop",
+        "file": "will-metro-2039-be-coop"
+      },
+      {
+        "slug": "will-metro-2039-have-multiplayer",
+        "file": "will-metro-2039-have-multiplayer"
+      }
+    ],
+    "leaks": [
+      {
+        "slug": "Metro-2039-gameplay-leak",
+        "file": "Metro-2039-gameplay-leak"
+      },
+      {
+        "slug": "Metro-2039-gameplay",
+        "file": "Metro-2039-gameplay"
+      },
+      {
+        "slug": "Metro-2039-leak",
+        "file": "Metro-2039-leak"
+      },
+      {
+        "slug": "Metro-2039-leaked-details",
+        "file": "Metro-2039-leaked-details"
+      },
+      {
+        "slug": "Metro-2039-screenshots",
+        "file": "Metro-2039-screenshots"
+      },
+      {
+        "slug": "metro-2039-cutscene",
+        "file": "metro-2039-cutscene"
+      },
+      {
+        "slug": "metro-2039-gameplay-leak",
+        "file": "metro-2039-gameplay-leak"
+      },
+      {
+        "slug": "metro-2039-gameplay",
+        "file": "metro-2039-gameplay"
+      },
+      {
+        "slug": "metro-2039-leak",
+        "file": "metro-2039-leak"
+      },
+      {
+        "slug": "metro-2039-leaked-details",
+        "file": "metro-2039-leaked-details"
+      },
+      {
+        "slug": "metro-2039-screenshots",
+        "file": "metro-2039-screenshots"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "Metro-2039-ps5",
+        "file": "Metro-2039-ps5"
+      },
+      {
+        "slug": "Metro-2039-steam",
+        "file": "Metro-2039-steam"
+      },
+      {
+        "slug": "metro-2039-official-website",
+        "file": "metro-2039-official-website"
+      },
+      {
+        "slug": "metro-2039-ps5",
+        "file": "metro-2039-ps5"
+      },
+      {
+        "slug": "metro-2039-steam",
+        "file": "metro-2039-steam"
+      },
+      {
+        "slug": "metro-2039-xbox",
+        "file": "metro-2039-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Metro-2039-announced",
+        "file": "Metro-2039-announced"
+      },
+      {
+        "slug": "Metro-2039-release-date",
+        "file": "Metro-2039-release-date"
+      },
+      {
+        "slug": "Metro-2039-reveal-date",
+        "file": "Metro-2039-reveal-date"
+      },
+      {
+        "slug": "Metro-2039-state-of-play",
+        "file": "Metro-2039-state-of-play"
+      },
+      {
+        "slug": "Metro-2039-trailer",
+        "file": "Metro-2039-trailer"
+      },
+      {
+        "slug": "Metro-2039-xbox-first-look",
+        "file": "Metro-2039-xbox-first-look"
+      },
+      {
+        "slug": "metro-2039-announced",
+        "file": "metro-2039-announced"
+      },
+      {
+        "slug": "metro-2039-pre-order-bonus",
+        "file": "metro-2039-pre-order-bonus"
+      },
+      {
+        "slug": "metro-2039-preorder-bonus",
+        "file": "metro-2039-preorder-bonus"
+      },
+      {
+        "slug": "metro-2039-release-date-platforms",
+        "file": "metro-2039-release-date-platforms"
+      },
+      {
+        "slug": "metro-2039-release-date",
+        "file": "metro-2039-release-date"
+      },
+      {
+        "slug": "metro-2039-reveal-date",
+        "file": "metro-2039-reveal-date"
+      },
+      {
+        "slug": "metro-2039-reveal-time",
+        "file": "metro-2039-reveal-time"
+      },
+      {
+        "slug": "metro-2039-state-of-play",
+        "file": "metro-2039-state-of-play"
+      },
+      {
+        "slug": "metro-2039-trailer",
+        "file": "metro-2039-trailer"
+      },
+      {
+        "slug": "metro-2039-xbox-first-look",
+        "file": "metro-2039-xbox-first-look"
+      }
+    ],
+    "series": [
+      {
+        "slug": "Metro-2039-metro-2033",
+        "file": "Metro-2039-metro-2033"
+      },
+      {
+        "slug": "Metro-2039-metro-2034",
+        "file": "Metro-2039-metro-2034"
+      },
+      {
+        "slug": "Metro-2039-metro-exodus",
+        "file": "Metro-2039-metro-exodus"
+      },
+      {
+        "slug": "Metro-2039-metro-last-light",
+        "file": "Metro-2039-metro-last-light"
+      },
+      {
+        "slug": "Metro-2039-series",
+        "file": "Metro-2039-series"
+      },
+      {
+        "slug": "metro-2039-books",
+        "file": "metro-2039-books"
+      },
+      {
+        "slug": "metro-2039-metro-2033",
+        "file": "metro-2039-metro-2033"
+      },
+      {
+        "slug": "metro-2039-metro-2034",
+        "file": "metro-2039-metro-2034"
+      },
+      {
+        "slug": "metro-2039-metro-exodus",
+        "file": "metro-2039-metro-exodus"
+      },
+      {
+        "slug": "metro-2039-metro-last-light",
+        "file": "metro-2039-metro-last-light"
+      },
+      {
+        "slug": "metro-2039-series",
+        "file": "metro-2039-series"
+      }
+    ],
+    "story": [
+      {
+        "slug": "Metro-2039-characters",
+        "file": "Metro-2039-characters"
+      },
+      {
+        "slug": "Metro-2039-main-character",
+        "file": "Metro-2039-main-character"
+      },
+      {
+        "slug": "metro-2039-artyom",
+        "file": "metro-2039-artyom"
+      },
+      {
+        "slug": "metro-2039-book",
+        "file": "metro-2039-book"
+      },
+      {
+        "slug": "metro-2039-characters",
+        "file": "metro-2039-characters"
+      },
+      {
+        "slug": "metro-2039-confirmed-factions",
+        "file": "metro-2039-confirmed-factions"
+      },
+      {
+        "slug": "metro-2039-lore-connections-metro-series",
+        "file": "metro-2039-lore-connections-metro-series"
+      },
+      {
+        "slug": "metro-2039-lore-explained",
+        "file": "metro-2039-lore-explained"
+      },
+      {
+        "slug": "metro-2039-main-character",
+        "file": "metro-2039-main-character"
+      },
+      {
+        "slug": "metro-2039-morality-system",
+        "file": "metro-2039-morality-system"
+      },
+      {
+        "slug": "metro-2039-story",
+        "file": "metro-2039-story"
+      }
+    ]
+  },
+  "fr": {
+    "community": [
+      {
+        "slug": "Metro-2039-discussion",
+        "file": "Metro-2039-discussion"
+      },
+      {
+        "slug": "Metro-2039-forum",
+        "file": "Metro-2039-forum"
+      },
+      {
+        "slug": "Metro-2039-reddit",
+        "file": "Metro-2039-reddit"
+      },
+      {
+        "slug": "metro-2039-dlc-content",
+        "file": "metro-2039-dlc-content"
+      },
+      {
+        "slug": "metro-2039-multiplayer-co-op",
+        "file": "metro-2039-multiplayer-co-op"
+      },
+      {
+        "slug": "metro-2039-open-world",
+        "file": "metro-2039-open-world"
+      },
+      {
+        "slug": "metro-2039-review-scores",
+        "file": "metro-2039-review-scores"
+      }
+    ],
+    "developer": [
+      {
+        "slug": "Metro-2039-4a-games",
+        "file": "Metro-2039-4a-games"
+      },
+      {
+        "slug": "Metro-2039-developer",
+        "file": "Metro-2039-developer"
+      },
+      {
+        "slug": "metro-2039-4a-games",
+        "file": "metro-2039-4a-games"
+      },
+      {
+        "slug": "metro-2039-deep-silver",
+        "file": "metro-2039-deep-silver"
+      },
+      {
+        "slug": "metro-2039-developer",
+        "file": "metro-2039-developer"
+      },
+      {
+        "slug": "metro-2039-game-engine-unreal-5",
+        "file": "metro-2039-game-engine-unreal-5"
+      },
+      {
+        "slug": "metro-2039-system-requirements",
+        "file": "metro-2039-system-requirements"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Metro-2039-everything-we-know",
+        "file": "Metro-2039-everything-we-know"
+      },
+      {
+        "slug": "Metro-2039-explained",
+        "file": "Metro-2039-explained"
+      },
+      {
+        "slug": "Metro-2039-how-to-watch",
+        "file": "Metro-2039-how-to-watch"
+      },
+      {
+        "slug": "Metro-2039-what-is-it",
+        "file": "Metro-2039-what-is-it"
+      },
+      {
+        "slug": "how-much-will-metro-2039-cost",
+        "file": "how-much-will-metro-2039-cost"
+      },
+      {
+        "slug": "is-metro-2039-a-sequel",
+        "file": "is-metro-2039-a-sequel"
+      },
+      {
+        "slug": "is-metro-2039-coop",
+        "file": "is-metro-2039-coop"
+      },
+      {
+        "slug": "metro-2039-4a-engine",
+        "file": "metro-2039-4a-engine"
+      },
+      {
+        "slug": "metro-2039-artjom",
+        "file": "metro-2039-artjom"
+      },
+      {
+        "slug": "metro-2039-coop",
+        "file": "metro-2039-coop?"
+      },
+      {
+        "slug": "metro-2039-difficulty",
+        "file": "metro-2039-difficulty"
+      },
+      {
+        "slug": "metro-2039-editions",
+        "file": "metro-2039-editions"
+      },
+      {
+        "slug": "metro-2039-enemies",
+        "file": "metro-2039-enemies"
+      },
+      {
+        "slug": "metro-2039-everything-we-know",
+        "file": "metro-2039-everything-we-know"
+      },
+      {
+        "slug": "metro-2039-explained",
+        "file": "metro-2039-explained"
+      },
+      {
+        "slug": "metro-2039-fan-kit",
+        "file": "metro-2039-fan-kit"
+      },
+      {
+        "slug": "metro-2039-game-wiki",
+        "file": "metro-2039-game-wiki"
+      },
+      {
+        "slug": "metro-2039-gameplay-screenshot",
+        "file": "metro-2039-gameplay-screenshot"
+      },
+      {
+        "slug": "metro-2039-how-to-watch",
+        "file": "metro-2039-how-to-watch"
+      },
+      {
+        "slug": "metro-2039-hunter",
+        "file": "metro-2039-hunter"
+      },
+      {
+        "slug": "metro-2039-leak-gameplay",
+        "file": "metro-2039-leak-gameplay"
+      },
+      {
+        "slug": "metro-2039-leaked-build",
+        "file": "metro-2039-leaked-build"
+      },
+      {
+        "slug": "metro-2039-leaked-gameplay",
+        "file": "metro-2039-leaked-gameplay"
+      },
+      {
+        "slug": "metro-2039-leaked",
+        "file": "metro-2039-leaked"
+      },
+      {
+        "slug": "metro-2039-leaks",
+        "file": "metro-2039-leaks"
+      },
+      {
+        "slug": "metro-2039-multiplayer",
+        "file": "metro-2039-multiplayer"
+      },
+      {
+        "slug": "metro-2039-new-mutants",
+        "file": "metro-2039-new-mutants"
+      },
+      {
+        "slug": "metro-2039-official-site",
+        "file": "metro-2039-official-site"
+      },
+      {
+        "slug": "metro-2039-pre-order",
+        "file": "metro-2039-pre-order"
+      },
+      {
+        "slug": "metro-2039-screenshot",
+        "file": "metro-2039-screenshot"
+      },
+      {
+        "slug": "metro-2039-spec",
+        "file": "metro-2039-spec"
+      },
+      {
+        "slug": "metro-2039-special-edition",
+        "file": "metro-2039-special-edition"
+      },
+      {
+        "slug": "metro-2039-stealth-mechanics",
+        "file": "metro-2039-stealth-mechanics"
+      },
+      {
+        "slug": "metro-2039-story-details",
+        "file": "metro-2039-story-details"
+      },
+      {
+        "slug": "metro-2039-unreal-engine-5",
+        "file": "metro-2039-unreal-engine-5"
+      },
+      {
+        "slug": "metro-2039-unreal-engine",
+        "file": "metro-2039-unreal-engine"
+      },
+      {
+        "slug": "metro-2039-weapons-list",
+        "file": "metro-2039-weapons-list"
+      },
+      {
+        "slug": "metro-2039-website",
+        "file": "metro-2039-website"
+      },
+      {
+        "slug": "metro-2039-what-is-it",
+        "file": "metro-2039-what-is-it"
+      },
+      {
+        "slug": "metro-2039-wikia",
+        "file": "metro-2039-wikia"
+      },
+      {
+        "slug": "metro-4-leak-build",
+        "file": "metro-4-leak-build"
+      },
+      {
+        "slug": "metro-game-engine",
+        "file": "metro-game-engine"
+      },
+      {
+        "slug": "what-engine-does-metro-2039-use",
+        "file": "what-engine-does-metro-2039-use"
+      },
+      {
+        "slug": "what-engine-will-metro-2039-use",
+        "file": "what-engine-will-metro-2039-use"
+      },
+      {
+        "slug": "will-metro-2039-be-coop",
+        "file": "will-metro-2039-be-coop"
+      },
+      {
+        "slug": "will-metro-2039-have-multiplayer",
+        "file": "will-metro-2039-have-multiplayer"
+      }
+    ],
+    "leaks": [
+      {
+        "slug": "Metro-2039-gameplay-leak",
+        "file": "Metro-2039-gameplay-leak"
+      },
+      {
+        "slug": "Metro-2039-gameplay",
+        "file": "Metro-2039-gameplay"
+      },
+      {
+        "slug": "Metro-2039-leak",
+        "file": "Metro-2039-leak"
+      },
+      {
+        "slug": "Metro-2039-leaked-details",
+        "file": "Metro-2039-leaked-details"
+      },
+      {
+        "slug": "Metro-2039-screenshots",
+        "file": "Metro-2039-screenshots"
+      },
+      {
+        "slug": "metro-2039-cutscene",
+        "file": "metro-2039-cutscene"
+      },
+      {
+        "slug": "metro-2039-gameplay-leak",
+        "file": "metro-2039-gameplay-leak"
+      },
+      {
+        "slug": "metro-2039-gameplay",
+        "file": "metro-2039-gameplay"
+      },
+      {
+        "slug": "metro-2039-leak",
+        "file": "metro-2039-leak"
+      },
+      {
+        "slug": "metro-2039-leaked-details",
+        "file": "metro-2039-leaked-details"
+      },
+      {
+        "slug": "metro-2039-screenshots",
+        "file": "metro-2039-screenshots"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "Metro-2039-ps5",
+        "file": "Metro-2039-ps5"
+      },
+      {
+        "slug": "Metro-2039-steam",
+        "file": "Metro-2039-steam"
+      },
+      {
+        "slug": "metro-2039-official-website",
+        "file": "metro-2039-official-website"
+      },
+      {
+        "slug": "metro-2039-ps5",
+        "file": "metro-2039-ps5"
+      },
+      {
+        "slug": "metro-2039-steam",
+        "file": "metro-2039-steam"
+      },
+      {
+        "slug": "metro-2039-xbox",
+        "file": "metro-2039-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Metro-2039-announced",
+        "file": "Metro-2039-announced"
+      },
+      {
+        "slug": "Metro-2039-release-date",
+        "file": "Metro-2039-release-date"
+      },
+      {
+        "slug": "Metro-2039-reveal-date",
+        "file": "Metro-2039-reveal-date"
+      },
+      {
+        "slug": "Metro-2039-state-of-play",
+        "file": "Metro-2039-state-of-play"
+      },
+      {
+        "slug": "Metro-2039-trailer",
+        "file": "Metro-2039-trailer"
+      },
+      {
+        "slug": "Metro-2039-xbox-first-look",
+        "file": "Metro-2039-xbox-first-look"
+      },
+      {
+        "slug": "metro-2039-announced",
+        "file": "metro-2039-announced"
+      },
+      {
+        "slug": "metro-2039-pre-order-bonus",
+        "file": "metro-2039-pre-order-bonus"
+      },
+      {
+        "slug": "metro-2039-preorder-bonus",
+        "file": "metro-2039-preorder-bonus"
+      },
+      {
+        "slug": "metro-2039-release-date-platforms",
+        "file": "metro-2039-release-date-platforms"
+      },
+      {
+        "slug": "metro-2039-release-date",
+        "file": "metro-2039-release-date"
+      },
+      {
+        "slug": "metro-2039-reveal-date",
+        "file": "metro-2039-reveal-date"
+      },
+      {
+        "slug": "metro-2039-reveal-time",
+        "file": "metro-2039-reveal-time"
+      },
+      {
+        "slug": "metro-2039-state-of-play",
+        "file": "metro-2039-state-of-play"
+      },
+      {
+        "slug": "metro-2039-trailer",
+        "file": "metro-2039-trailer"
+      },
+      {
+        "slug": "metro-2039-xbox-first-look",
+        "file": "metro-2039-xbox-first-look"
+      }
+    ],
+    "series": [
+      {
+        "slug": "Metro-2039-metro-2033",
+        "file": "Metro-2039-metro-2033"
+      },
+      {
+        "slug": "Metro-2039-metro-2034",
+        "file": "Metro-2039-metro-2034"
+      },
+      {
+        "slug": "Metro-2039-metro-exodus",
+        "file": "Metro-2039-metro-exodus"
+      },
+      {
+        "slug": "Metro-2039-metro-last-light",
+        "file": "Metro-2039-metro-last-light"
+      },
+      {
+        "slug": "Metro-2039-series",
+        "file": "Metro-2039-series"
+      },
+      {
+        "slug": "metro-2039-books",
+        "file": "metro-2039-books"
+      },
+      {
+        "slug": "metro-2039-metro-2033",
+        "file": "metro-2039-metro-2033"
+      },
+      {
+        "slug": "metro-2039-metro-2034",
+        "file": "metro-2039-metro-2034"
+      },
+      {
+        "slug": "metro-2039-metro-exodus",
+        "file": "metro-2039-metro-exodus"
+      },
+      {
+        "slug": "metro-2039-metro-last-light",
+        "file": "metro-2039-metro-last-light"
+      },
+      {
+        "slug": "metro-2039-series",
+        "file": "metro-2039-series"
+      }
+    ],
+    "story": [
+      {
+        "slug": "Metro-2039-characters",
+        "file": "Metro-2039-characters"
+      },
+      {
+        "slug": "Metro-2039-main-character",
+        "file": "Metro-2039-main-character"
+      },
+      {
+        "slug": "metro-2039-artyom",
+        "file": "metro-2039-artyom"
+      },
+      {
+        "slug": "metro-2039-book",
+        "file": "metro-2039-book"
+      },
+      {
+        "slug": "metro-2039-characters",
+        "file": "metro-2039-characters"
+      },
+      {
+        "slug": "metro-2039-confirmed-factions",
+        "file": "metro-2039-confirmed-factions"
+      },
+      {
+        "slug": "metro-2039-lore-connections-metro-series",
+        "file": "metro-2039-lore-connections-metro-series"
+      },
+      {
+        "slug": "metro-2039-lore-explained",
+        "file": "metro-2039-lore-explained"
+      },
+      {
+        "slug": "metro-2039-main-character",
+        "file": "metro-2039-main-character"
+      },
+      {
+        "slug": "metro-2039-morality-system",
+        "file": "metro-2039-morality-system"
+      },
+      {
+        "slug": "metro-2039-story",
+        "file": "metro-2039-story"
+      }
+    ]
+  },
+  "pl": {
+    "community": [
+      {
+        "slug": "Metro-2039-discussion",
+        "file": "Metro-2039-discussion"
+      },
+      {
+        "slug": "Metro-2039-forum",
+        "file": "Metro-2039-forum"
+      },
+      {
+        "slug": "Metro-2039-reddit",
+        "file": "Metro-2039-reddit"
+      },
+      {
+        "slug": "metro-2039-dlc-content",
+        "file": "metro-2039-dlc-content"
+      },
+      {
+        "slug": "metro-2039-multiplayer-co-op",
+        "file": "metro-2039-multiplayer-co-op"
+      },
+      {
+        "slug": "metro-2039-open-world",
+        "file": "metro-2039-open-world"
+      },
+      {
+        "slug": "metro-2039-review-scores",
+        "file": "metro-2039-review-scores"
+      }
+    ],
+    "developer": [
+      {
+        "slug": "Metro-2039-4a-games",
+        "file": "Metro-2039-4a-games"
+      },
+      {
+        "slug": "Metro-2039-developer",
+        "file": "Metro-2039-developer"
+      },
+      {
+        "slug": "metro-2039-4a-games",
+        "file": "metro-2039-4a-games"
+      },
+      {
+        "slug": "metro-2039-deep-silver",
+        "file": "metro-2039-deep-silver"
+      },
+      {
+        "slug": "metro-2039-developer",
+        "file": "metro-2039-developer"
+      },
+      {
+        "slug": "metro-2039-game-engine-unreal-5",
+        "file": "metro-2039-game-engine-unreal-5"
+      },
+      {
+        "slug": "metro-2039-system-requirements",
+        "file": "metro-2039-system-requirements"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Metro-2039-everything-we-know",
+        "file": "Metro-2039-everything-we-know"
+      },
+      {
+        "slug": "Metro-2039-explained",
+        "file": "Metro-2039-explained"
+      },
+      {
+        "slug": "Metro-2039-how-to-watch",
+        "file": "Metro-2039-how-to-watch"
+      },
+      {
+        "slug": "Metro-2039-what-is-it",
+        "file": "Metro-2039-what-is-it"
+      },
+      {
+        "slug": "how-much-will-metro-2039-cost",
+        "file": "how-much-will-metro-2039-cost"
+      },
+      {
+        "slug": "is-metro-2039-a-sequel",
+        "file": "is-metro-2039-a-sequel"
+      },
+      {
+        "slug": "is-metro-2039-coop",
+        "file": "is-metro-2039-coop"
+      },
+      {
+        "slug": "metro-2039-4a-engine",
+        "file": "metro-2039-4a-engine"
+      },
+      {
+        "slug": "metro-2039-artjom",
+        "file": "metro-2039-artjom"
+      },
+      {
+        "slug": "metro-2039-coop",
+        "file": "metro-2039-coop?"
+      },
+      {
+        "slug": "metro-2039-difficulty",
+        "file": "metro-2039-difficulty"
+      },
+      {
+        "slug": "metro-2039-editions",
+        "file": "metro-2039-editions"
+      },
+      {
+        "slug": "metro-2039-enemies",
+        "file": "metro-2039-enemies"
+      },
+      {
+        "slug": "metro-2039-everything-we-know",
+        "file": "metro-2039-everything-we-know"
+      },
+      {
+        "slug": "metro-2039-explained",
+        "file": "metro-2039-explained"
+      },
+      {
+        "slug": "metro-2039-fan-kit",
+        "file": "metro-2039-fan-kit"
+      },
+      {
+        "slug": "metro-2039-game-wiki",
+        "file": "metro-2039-game-wiki"
+      },
+      {
+        "slug": "metro-2039-gameplay-screenshot",
+        "file": "metro-2039-gameplay-screenshot"
+      },
+      {
+        "slug": "metro-2039-how-to-watch",
+        "file": "metro-2039-how-to-watch"
+      },
+      {
+        "slug": "metro-2039-hunter",
+        "file": "metro-2039-hunter"
+      },
+      {
+        "slug": "metro-2039-leak-gameplay",
+        "file": "metro-2039-leak-gameplay"
+      },
+      {
+        "slug": "metro-2039-leaked-build",
+        "file": "metro-2039-leaked-build"
+      },
+      {
+        "slug": "metro-2039-leaked-gameplay",
+        "file": "metro-2039-leaked-gameplay"
+      },
+      {
+        "slug": "metro-2039-leaked",
+        "file": "metro-2039-leaked"
+      },
+      {
+        "slug": "metro-2039-leaks",
+        "file": "metro-2039-leaks"
+      },
+      {
+        "slug": "metro-2039-multiplayer",
+        "file": "metro-2039-multiplayer"
+      },
+      {
+        "slug": "metro-2039-new-mutants",
+        "file": "metro-2039-new-mutants"
+      },
+      {
+        "slug": "metro-2039-official-site",
+        "file": "metro-2039-official-site"
+      },
+      {
+        "slug": "metro-2039-pre-order",
+        "file": "metro-2039-pre-order"
+      },
+      {
+        "slug": "metro-2039-screenshot",
+        "file": "metro-2039-screenshot"
+      },
+      {
+        "slug": "metro-2039-spec",
+        "file": "metro-2039-spec"
+      },
+      {
+        "slug": "metro-2039-special-edition",
+        "file": "metro-2039-special-edition"
+      },
+      {
+        "slug": "metro-2039-stealth-mechanics",
+        "file": "metro-2039-stealth-mechanics"
+      },
+      {
+        "slug": "metro-2039-story-details",
+        "file": "metro-2039-story-details"
+      },
+      {
+        "slug": "metro-2039-unreal-engine-5",
+        "file": "metro-2039-unreal-engine-5"
+      },
+      {
+        "slug": "metro-2039-unreal-engine",
+        "file": "metro-2039-unreal-engine"
+      },
+      {
+        "slug": "metro-2039-weapons-list",
+        "file": "metro-2039-weapons-list"
+      },
+      {
+        "slug": "metro-2039-website",
+        "file": "metro-2039-website"
+      },
+      {
+        "slug": "metro-2039-what-is-it",
+        "file": "metro-2039-what-is-it"
+      },
+      {
+        "slug": "metro-2039-wikia",
+        "file": "metro-2039-wikia"
+      },
+      {
+        "slug": "metro-4-leak-build",
+        "file": "metro-4-leak-build"
+      },
+      {
+        "slug": "metro-game-engine",
+        "file": "metro-game-engine"
+      },
+      {
+        "slug": "what-engine-does-metro-2039-use",
+        "file": "what-engine-does-metro-2039-use"
+      },
+      {
+        "slug": "what-engine-will-metro-2039-use",
+        "file": "what-engine-will-metro-2039-use"
+      },
+      {
+        "slug": "will-metro-2039-be-coop",
+        "file": "will-metro-2039-be-coop"
+      },
+      {
+        "slug": "will-metro-2039-have-multiplayer",
+        "file": "will-metro-2039-have-multiplayer"
+      }
+    ],
+    "leaks": [
+      {
+        "slug": "Metro-2039-gameplay-leak",
+        "file": "Metro-2039-gameplay-leak"
+      },
+      {
+        "slug": "Metro-2039-gameplay",
+        "file": "Metro-2039-gameplay"
+      },
+      {
+        "slug": "Metro-2039-leak",
+        "file": "Metro-2039-leak"
+      },
+      {
+        "slug": "Metro-2039-leaked-details",
+        "file": "Metro-2039-leaked-details"
+      },
+      {
+        "slug": "Metro-2039-screenshots",
+        "file": "Metro-2039-screenshots"
+      },
+      {
+        "slug": "metro-2039-cutscene",
+        "file": "metro-2039-cutscene"
+      },
+      {
+        "slug": "metro-2039-gameplay-leak",
+        "file": "metro-2039-gameplay-leak"
+      },
+      {
+        "slug": "metro-2039-gameplay",
+        "file": "metro-2039-gameplay"
+      },
+      {
+        "slug": "metro-2039-leak",
+        "file": "metro-2039-leak"
+      },
+      {
+        "slug": "metro-2039-leaked-details",
+        "file": "metro-2039-leaked-details"
+      },
+      {
+        "slug": "metro-2039-screenshots",
+        "file": "metro-2039-screenshots"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "Metro-2039-ps5",
+        "file": "Metro-2039-ps5"
+      },
+      {
+        "slug": "Metro-2039-steam",
+        "file": "Metro-2039-steam"
+      },
+      {
+        "slug": "metro-2039-official-website",
+        "file": "metro-2039-official-website"
+      },
+      {
+        "slug": "metro-2039-ps5",
+        "file": "metro-2039-ps5"
+      },
+      {
+        "slug": "metro-2039-steam",
+        "file": "metro-2039-steam"
+      },
+      {
+        "slug": "metro-2039-xbox",
+        "file": "metro-2039-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Metro-2039-announced",
+        "file": "Metro-2039-announced"
+      },
+      {
+        "slug": "Metro-2039-release-date",
+        "file": "Metro-2039-release-date"
+      },
+      {
+        "slug": "Metro-2039-reveal-date",
+        "file": "Metro-2039-reveal-date"
+      },
+      {
+        "slug": "Metro-2039-state-of-play",
+        "file": "Metro-2039-state-of-play"
+      },
+      {
+        "slug": "Metro-2039-trailer",
+        "file": "Metro-2039-trailer"
+      },
+      {
+        "slug": "Metro-2039-xbox-first-look",
+        "file": "Metro-2039-xbox-first-look"
+      },
+      {
+        "slug": "metro-2039-announced",
+        "file": "metro-2039-announced"
+      },
+      {
+        "slug": "metro-2039-pre-order-bonus",
+        "file": "metro-2039-pre-order-bonus"
+      },
+      {
+        "slug": "metro-2039-preorder-bonus",
+        "file": "metro-2039-preorder-bonus"
+      },
+      {
+        "slug": "metro-2039-release-date-platforms",
+        "file": "metro-2039-release-date-platforms"
+      },
+      {
+        "slug": "metro-2039-release-date",
+        "file": "metro-2039-release-date"
+      },
+      {
+        "slug": "metro-2039-reveal-date",
+        "file": "metro-2039-reveal-date"
+      },
+      {
+        "slug": "metro-2039-reveal-time",
+        "file": "metro-2039-reveal-time"
+      },
+      {
+        "slug": "metro-2039-state-of-play",
+        "file": "metro-2039-state-of-play"
+      },
+      {
+        "slug": "metro-2039-trailer",
+        "file": "metro-2039-trailer"
+      },
+      {
+        "slug": "metro-2039-xbox-first-look",
+        "file": "metro-2039-xbox-first-look"
+      }
+    ],
+    "series": [
+      {
+        "slug": "Metro-2039-metro-2033",
+        "file": "Metro-2039-metro-2033"
+      },
+      {
+        "slug": "Metro-2039-metro-2034",
+        "file": "Metro-2039-metro-2034"
+      },
+      {
+        "slug": "Metro-2039-metro-exodus",
+        "file": "Metro-2039-metro-exodus"
+      },
+      {
+        "slug": "Metro-2039-metro-last-light",
+        "file": "Metro-2039-metro-last-light"
+      },
+      {
+        "slug": "Metro-2039-series",
+        "file": "Metro-2039-series"
+      },
+      {
+        "slug": "metro-2039-books",
+        "file": "metro-2039-books"
+      },
+      {
+        "slug": "metro-2039-metro-2033",
+        "file": "metro-2039-metro-2033"
+      },
+      {
+        "slug": "metro-2039-metro-2034",
+        "file": "metro-2039-metro-2034"
+      },
+      {
+        "slug": "metro-2039-metro-exodus",
+        "file": "metro-2039-metro-exodus"
+      },
+      {
+        "slug": "metro-2039-metro-last-light",
+        "file": "metro-2039-metro-last-light"
+      },
+      {
+        "slug": "metro-2039-series",
+        "file": "metro-2039-series"
+      }
+    ],
+    "story": [
+      {
+        "slug": "Metro-2039-characters",
+        "file": "Metro-2039-characters"
+      },
+      {
+        "slug": "Metro-2039-main-character",
+        "file": "Metro-2039-main-character"
+      },
+      {
+        "slug": "metro-2039-artyom",
+        "file": "metro-2039-artyom"
+      },
+      {
+        "slug": "metro-2039-book",
+        "file": "metro-2039-book"
+      },
+      {
+        "slug": "metro-2039-characters",
+        "file": "metro-2039-characters"
+      },
+      {
+        "slug": "metro-2039-confirmed-factions",
+        "file": "metro-2039-confirmed-factions"
+      },
+      {
+        "slug": "metro-2039-lore-connections-metro-series",
+        "file": "metro-2039-lore-connections-metro-series"
+      },
+      {
+        "slug": "metro-2039-lore-explained",
+        "file": "metro-2039-lore-explained"
+      },
+      {
+        "slug": "metro-2039-main-character",
+        "file": "metro-2039-main-character"
+      },
+      {
+        "slug": "metro-2039-morality-system",
+        "file": "metro-2039-morality-system"
+      },
+      {
+        "slug": "metro-2039-story",
+        "file": "metro-2039-story"
+      }
+    ]
+  }
+}
